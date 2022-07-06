@@ -44,6 +44,8 @@ body:
             description: The version of Minecraft you were using when the bug occured
             options:
                 - "1.16"
+                - "1.18"
+                - "1.19"
         validations:
             required: true
     -   type: dropdown
@@ -52,6 +54,7 @@ body:
             description: The version of Minecraft you were using when the bug occured
             options:
                 - "Forge"
+                - "Fabric"
         validations:
             required: true
     -   type: input
