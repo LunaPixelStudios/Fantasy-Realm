@@ -1,1 +1,1 @@
-https://www.curseforge.com/minecraft/modpacks/stay-true
+https://www.curseforge.com/minecraft/modpacks/the-sequel
