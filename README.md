@@ -1,1 +1,1 @@
-https://www.curseforge.com/minecraft/modpacks/the-sequel
+https://www.curseforge.com/minecraft/modpacks/fantasy-realm
