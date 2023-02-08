@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a bug report to help us improve Stay True
+description: Create a bug report to help us improve Fantasy Realm
 labels: [ "bug" ]
 body:
     -   type: textarea
