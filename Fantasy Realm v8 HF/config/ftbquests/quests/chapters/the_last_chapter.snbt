@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	group: "47EF6B1E1AEB6949"
+	id: "53FAF0A851398EA6"
+	filename: "the_last_chapter"
+	default_quest_shape: ""
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "theabyss:abyssbookitem"
+		}
+	}
+	title: " The Abyss"
+	order_index: 3
+	quests: [
+		{
+			size: 2.0d
+			x: 0.5d
+			id: "42CDDCDE36FD0351"
+			y: 1.0d
+			shape: "diamond"
+			title: "Enter &k&4I&r&3The Abyss&r&k&4I"
+			rewards: [
+				{
+					id: "4BAA63EB449AF173"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "404FA585CEE4143D"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "goblintraders:powerful_strength"
+						}
+					}
+				}
+			]
+			subtitle: "Defeat &5The Void Worm&r quests to get the portal blocks for &3The Abyss."
+			tasks: [{
+				type: "dimension"
+				id: "163E6695206A258E"
+				dimension: "theabyss:the_abyss"
+				icon: "theabyss:unstable_obsidian"
+				title: "Enter The Abyss"
+			}]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "66F13D8BD1F9E7D1"
+				entity: "theabyss:elder"
+				icon: "theabyss:elder_eye"
+				title: "Kill an Elder"
+			}]
+			id: "7A7BC9ED0BE5D709"
+			x: 0.5d
+			y: 3.0d
+			title: "Defeat an &bElder"
+			rewards: [{
+				id: "699263045024E07C"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Read the &3Abyss Chapter Two&r guide book for more info."
+			dependencies: ["42CDDCDE36FD0351"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "64716D2C45D2FF0A"
+				entity: "theabyss:magician"
+				icon: "theabyss:glitch_block"
+				title: "Kill the Magician"
+			}]
+			id: "0040EE8193E308E6"
+			x: -1.5d
+			y: 1.0d
+			title: "Defeat the &9Magician"
+			rewards: [{
+				id: "2D94FF37C5B6126B"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Read the &3Abyss Chapter Two&r guide book for more info."
+			dependencies: ["42CDDCDE36FD0351"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "712E7AD054C2C639"
+				entity: "theabyss:crystal_golem"
+				icon: "theabyss:crystal_hand"
+				title: "Kill a Crystal Golem"
+			}]
+			id: "2D4662A47AF18D0B"
+			x: 2.5d
+			y: 1.0d
+			title: "Defeat the &dCrystal Golem"
+			rewards: [{
+				id: "3763FC11FD5479DA"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Read the &3Abyss Chapter Two&r guide book for more info."
+			dependencies: ["42CDDCDE36FD0351"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "2D429080BD38C906"
+				entity: "theabyss:night_blade_boss_clone"
+				icon: {
+					id: "theabyss:abyss_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Kill Nightblade"
+			}]
+			id: "13D10E10EC9B37CE"
+			x: 0.5d
+			y: -1.0d
+			title: "Defeat &9Nightblade"
+			rewards: [
+				{
+					id: "022465347EBE44B1"
+					type: "item"
+					item: "theabyss:slime_stage_4"
+					count: 10
+				}
+				{
+					id: "6906BA256DD1ECD8"
+					type: "item"
+					item: {
+						id: "theabyss:totem_of_abyss"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60B56B2BFD0211C0"
+					type: "item"
+					item: "theabyss:incorythe_gem"
+					count: 10
+				}
+				{
+					id: "4FDA0BB77FB87186"
+					type: "item"
+					item: "theabyss:unorithe_ingot"
+					count: 2
+				}
+				{
+					id: "48ECDCD5C8AA905D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "To summon &9Nightblade&r, all &8Brick Stone Pillars &rin the &6Nightblade Summoning Structure &rneed to be lit up, using the &bSoul Heart&r. Then, place the &2Eye Of Abyss&r on the &7Night Altar&r. "
+			dependencies: ["42CDDCDE36FD0351"]
+		}
+	]
+}

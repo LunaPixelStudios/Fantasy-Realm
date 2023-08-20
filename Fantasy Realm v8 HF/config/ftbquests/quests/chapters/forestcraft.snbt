@@ -1,0 +1,669 @@
+{
+	default_hide_dependency_lines: false
+	group: "1E5E40F7A856E564"
+	id: "7254ED5DEF93412B"
+	filename: "forestcraft"
+	default_quest_shape: ""
+	icon: "forestcraft:guidebook"
+	title: " ForestCraft"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "6289BABDFCE6F872"
+				type: "item"
+				item: "forestcraft:terror_bringer_feather"
+			}]
+			id: "3897E4165B472919"
+			x: -4.0d
+			y: -1.5d
+			title: "Ow, my ears!"
+			rewards: [{
+				id: "1151A3D3AD9EA6BC"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Kill a Terror Bringer for its feathers"
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "00CC9310EE840E01"
+				type: "item"
+				item: {
+					id: "forestcraft:seven_league_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "04D94B21CFCCE34E"
+			x: -2.5d
+			y: -1.5d
+			title: "Gotta go (kinda) fast!"
+			rewards: [{
+				id: "28AB1EE0C97FA79D"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Craft Seven League Boots"
+			dependencies: ["3897E4165B472919"]
+		}
+		{
+			tasks: [{
+				id: "43B0028AC9A912CB"
+				type: "item"
+				item: {
+					id: "forestcraft:sky_walkers"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "25DC90F426ABEB49"
+					type: "choice"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "6D27E885349D868B"
+					type: "random"
+					icon: "minecraft:iron_ingot"
+					table_id: 7661356219169517173L
+				}
+			]
+			id: "200C094F90351B12"
+			x: -1.0d
+			y: -1.5d
+			title: "Now we're getting somewhere..."
+			subtitle: "Craft Sky Walkers"
+			dependencies: ["04D94B21CFCCE34E"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				id: "64A67A5BB692C9AB"
+				type: "item"
+				item: {
+					id: "forestcraft:tough_netherite_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "0AE89AD9F198039A"
+			x: 0.5d
+			y: -1.5d
+			title: "Now that's what I'm talking about!"
+			rewards: [
+				{
+					id: "0011CABC8F8E82D0"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "27CA505C7F1E92D2"
+					type: "random"
+					table_id: 2645938118790146101L
+				}
+			]
+			subtitle: "Craft Tough Netherite Boots"
+			dependencies: ["200C094F90351B12"]
+		}
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "forestcraft:forestcraft/air_sucker"
+				criterion: ""
+				id: "1DA41B17EE6B4D18"
+				icon: "forestcraft:air_sucker_tentacle"
+				title: "Kill an Air Sucker"
+			}]
+			subtitle: "Found at the bottom of oceans"
+			id: "70057D5691C762D1"
+			y: 1.5d
+			x: -1.0d
+			rewards: [{
+				id: "6FFBE129C033D0A6"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "459DBB846EF5E1B3"
+				icon: "forestcraft:ancient_scale"
+				entity: "forestcraft:eater_of_the_depths"
+			}]
+			icon: "forestcraft:ancient_scale"
+			id: "5A0658E4338AE236"
+			x: -4.0d
+			y: 1.5d
+			title: "Kill the Eater of the Depths"
+			rewards: [{
+				id: "1E283244E94EF523"
+				type: "choice"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Found at the bottom of oceans"
+		}
+		{
+			tasks: [
+				{
+					id: "6373B32C80094A5A"
+					type: "item"
+					item: {
+						id: "forestcraft:leviathan"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E098AEE16D52C55"
+					type: "item"
+					item: {
+						id: "forestcraft:sea_scale_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C38C13BE7C2475E"
+					type: "item"
+					item: {
+						id: "forestcraft:sea_scale_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5094E37993E91AB0"
+					type: "item"
+					item: {
+						id: "forestcraft:sea_scale_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5056808AC8576E39"
+					type: "item"
+					item: {
+						id: "forestcraft:sea_scale_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "34ECF023740D866B"
+			x: -2.5d
+			y: 1.5d
+			title: "Obtain the Sea Scale gear set"
+			rewards: [
+				{
+					id: "1C1DB7D2B4F7D5AF"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "7ADDEDCA62944701"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+			]
+			subtitle: "Obtained by killing the Eater of the Depths"
+			dependencies: ["5A0658E4338AE236"]
+		}
+		{
+			tasks: [{
+				id: "5EEFD70379457447"
+				type: "item"
+				item: "forestcraft:sky_fragment"
+			}]
+			id: "4DB40E817581237A"
+			x: 3.5d
+			y: -1.5d
+			title: "The sky is falling!"
+			rewards: [{
+				id: "5C72458F41790BA6"
+				type: "random"
+				icon: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: { }
+					}
+				}
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Pick up a sky fragment"
+		}
+		{
+			tasks: [{
+				id: "1D772033283D04DD"
+				type: "item"
+				item: {
+					id: "forestcraft:chicken_wings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "11A8DF11C89A9686"
+			x: 3.5d
+			y: 0.0d
+			title: "Better than nothin'"
+			rewards: [{
+				id: "00F70F0EAEBAB3F2"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Craft Chicken Wings. The worst wings."
+			dependencies: ["4DB40E817581237A"]
+		}
+		{
+			tasks: [{
+				id: "26F32B9B466BE8BB"
+				type: "item"
+				item: {
+					id: "forestcraft:scale_wings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "2CF85DE20ACE8465"
+			x: 3.5d
+			y: 1.5d
+			title: "Craft Scale Wings"
+			rewards: [{
+				id: "62958C167624CEEC"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Grants fall damage immunity. 5th best wings."
+			dependencies: ["4DB40E817581237A"]
+		}
+		{
+			tasks: [{
+				id: "36FFDF6EDAD3A1E6"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "222A70D48E9C359E"
+			x: 5.0d
+			y: -1.5d
+			title: "Obtain an Elytra"
+			rewards: [
+				{
+					id: "6A686142D2F6B63A"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "67182F3C79AE16C0"
+					type: "random"
+					table_id: 2645938118790146101L
+				}
+			]
+			subtitle: "Found in End Ships"
+		}
+		{
+			tasks: [{
+				id: "0E047AD2E57BDC1C"
+				type: "item"
+				item: {
+					id: "forestcraft:angel_wings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "359EA288EEA6EE80"
+			x: 5.0d
+			y: 0.0d
+			title: "Craft Angel Wings"
+			rewards: [{
+				id: "17DE21A16DB436B1"
+				type: "random"
+				table_id: 2645938118790146101L
+			}]
+			subtitle: "Grants fall damage immunity. 4th best wings."
+			dependencies: [
+				"222A70D48E9C359E"
+				"4DB40E817581237A"
+			]
+		}
+		{
+			tasks: [{
+				id: "0FD03E543EB661BF"
+				type: "item"
+				item: {
+					id: "forestcraft:flesh_wings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "41EB362D6C2A3CE8"
+			x: 6.5d
+			y: -1.5d
+			title: "Obtain Flesh Wings"
+			rewards: [{
+				id: "713FDCE90907EBD8"
+				type: "choice"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Craftable. 2nd best wings."
+			dependencies: [
+				"222A70D48E9C359E"
+				"69641CDAF6EE4C68"
+			]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "7AB01F6A3F1E7EF0"
+				entity: "forestcraft:cosmic_fiend"
+				icon: "forestcraft:cosmic_fiend_spawn_egg"
+				title: "Kill the Cosmic Fiend"
+			}]
+			x: 2.0d
+			id: "04DB714F47DD2DC0"
+			disable_toast: true
+			y: 0.0d
+			subtitle: "Needs to be spawned at an altitude of 150 during night."
+			dependencies: ["0C4D4A2905B12FCB"]
+		}
+		{
+			tasks: [{
+				id: "44BFB6A279C39E20"
+				type: "item"
+				item: "forestcraft:cosmic_beacon"
+			}]
+			id: "0C4D4A2905B12FCB"
+			x: 2.0d
+			y: 1.5d
+			title: "Craft a Cosmic Beacon"
+			rewards: [{
+				id: "37198A7162EF59B3"
+				type: "random"
+				table_id: 2645938118790146101L
+			}]
+			subtitle: "Used to summon the Cosmic Fiend. Needs to be at an altitude of 150 during night."
+			dependencies: ["1E7EF04230D1092F"]
+		}
+		{
+			tasks: [{
+				id: "3005C4F469507AB3"
+				type: "item"
+				item: "forestcraft:demon_food"
+			}]
+			id: "04F9E9EED1F27573"
+			x: -4.0d
+			y: 0.0d
+			title: "Craft a Demon Heart"
+			subtitle: "Summons the Nether Scourge"
+			dependencies: ["1E7EF04230D1092F"]
+		}
+		{
+			tasks: [{
+				id: "089400FE05EE5E1F"
+				type: "item"
+				item: {
+					id: "forestcraft:bee_wings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "17BC8242EAE947E7"
+			x: 5.0d
+			y: 1.5d
+			title: "Obtain Bee Wings"
+			rewards: [{
+				id: "23331678BC9CE95A"
+				type: "choice"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Dropped by the Queen Bee. 3rd best wings."
+			dependencies: ["2CBC508F41B75925"]
+		}
+		{
+			tasks: [{
+				id: "5D81B7F018859965"
+				type: "item"
+				item: {
+					id: "forestcraft:cosmic_tentacles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "412435FA83037E8D"
+			x: 2.0d
+			y: -1.5d
+			rewards: [{
+				id: "09B3EE0A332BC2DB"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Obtained by killing the Cosmic Fiend. The best wings."
+			dependencies: [
+				"4DB40E817581237A"
+				"04DB714F47DD2DC0"
+			]
+		}
+		{
+			tasks: [{
+				id: "2CF2D08147AAFC4F"
+				type: "item"
+				item: {
+					id: "forestcraft:iron_watering_can"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "7BA314DFD621BF27"
+			x: -2.5d
+			y: 0.0d
+			title: "Craft a Watering Can"
+			rewards: [{
+				id: "5528DEBE6938A43C"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Can be used on dirt and dry farmland to accelerate the transformation process."
+		}
+		{
+			tasks: [{
+				id: "38D5A82EF86DC829"
+				type: "item"
+				item: "forestcraft:elegant_balloon"
+			}]
+			id: "5B7786B53E48B571"
+			x: -1.0d
+			y: 0.0d
+			title: "Craft an Elegant Balloon"
+			rewards: [{
+				id: "42F166F9B213B316"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "When held, gives you jump boost and slow fall."
+		}
+		{
+			tasks: [
+				{
+					id: "2EB7CDE6B8B0AC1D"
+					type: "item"
+					item: "forestcraft:kick"
+				}
+				{
+					id: "7CF7330EF54D4470"
+					type: "item"
+					item: "forestcraft:snare"
+				}
+				{
+					id: "342FD1B8D2E641D3"
+					type: "item"
+					item: "forestcraft:basedrum"
+				}
+				{
+					id: "6AD017D36F73D722"
+					type: "item"
+					item: "forestcraft:harp"
+				}
+				{
+					id: "4C38C7B1C22185B4"
+					type: "item"
+					item: "forestcraft:electro_guitar"
+				}
+				{
+					id: "6BE6E03EFFC48B35"
+					type: "item"
+					item: "forestcraft:waterphone"
+				}
+				{
+					id: "2892E0AE5314520A"
+					type: "item"
+					item: "forestcraft:tubular_bells"
+				}
+				{
+					id: "0F5CE1C194774077"
+					type: "item"
+					item: "forestcraft:chimes"
+				}
+				{
+					id: "73EB3609359072CD"
+					type: "item"
+					item: "forestcraft:iron_xylophone"
+				}
+				{
+					id: "6FC3D89B91DB90EC"
+					type: "item"
+					item: "forestcraft:xylophone"
+				}
+				{
+					id: "408DCDAE2AC964A8"
+					type: "item"
+					item: "forestcraft:banjo"
+				}
+				{
+					id: "5FFA3B09CB4F2F8A"
+					type: "item"
+					item: "forestcraft:didgeridoo"
+				}
+				{
+					id: "1DFBB42B1C9D0C9D"
+					type: "item"
+					item: "forestcraft:guitar"
+				}
+				{
+					id: "74E2A5E23AFD1226"
+					type: "item"
+					item: "forestcraft:synthesizer"
+				}
+				{
+					id: "6A4654CAA8DE6F95"
+					type: "item"
+					item: "forestcraft:bell"
+				}
+				{
+					id: "2A0297E9DDA449BC"
+					type: "item"
+					item: "forestcraft:pipe"
+				}
+				{
+					id: "3C5F02E84C0517A4"
+					type: "item"
+					item: "forestcraft:bass_guitar"
+				}
+				{
+					id: "589F84686FFB4D20"
+					type: "item"
+					item: "forestcraft:cow_bell"
+				}
+				{
+					id: "0CD254DF38EEE868"
+					type: "item"
+					item: "forestcraft:bit_machine"
+				}
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "iceandfire:textures/tinkers/weezer.png"
+				}
+			}
+			id: "3F4F82C3B89C56A7"
+			x: 0.5d
+			y: 1.5d
+			title: "Start a band"
+			rewards: [{
+				id: "002975F7814CA56A"
+				type: "random"
+				table_id: 2645938118790146101L
+			}]
+			subtitle: "Craft all music-related items"
+		}
+		{
+			tasks: [{
+				id: "64F96F7F0DE8B99C"
+				type: "item"
+				item: "forestcraft:shishtauk"
+			}]
+			id: "6E45798E026EBAF6"
+			x: 0.5d
+			y: 0.0d
+			title: "Craft a Shish-Tauk"
+			rewards: [
+				{
+					id: "3CCF101148AACD7B"
+					type: "item"
+					item: "forestcraft:pomidor_seeds"
+					count: 3
+				}
+				{
+					id: "21404D6E02F4852C"
+					type: "item"
+					item: "forestcraft:weird_cucumber_seeds"
+					count: 3
+				}
+			]
+			subtitle: "A good food source if you have several farms."
+		}
+	]
+}

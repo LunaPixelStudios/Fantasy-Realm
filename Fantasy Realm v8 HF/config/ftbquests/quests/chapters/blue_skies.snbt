@@ -1,0 +1,467 @@
+{
+	default_hide_dependency_lines: false
+	group: "47EF6B1E1AEB6949"
+	id: "5B8E04DB21ABB117"
+	filename: "blue_skies"
+	default_quest_shape: ""
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "blue_skies:textures/gui/journal/icons/summoner.png"
+		}
+	}
+	title: " Blue Skies"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				type: "observation"
+				id: "19A546A4146C606E"
+				observe_type: 0
+				title: "Create an Everbright Portal"
+				icon: "blue_skies:everbright_portal"
+				to_observe: "blue_skies:everbright_portal"
+				timer: 0L
+			}]
+			id: "0A00DA03272FF80E"
+			x: -4.5d
+			y: -1.0d
+			title: "Create an Everbright Portal"
+			rewards: [{
+				id: "5BAA45CE08FE1941"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "The portal to the Everbright is created by lighting a Turqouise Stone Brick portal with a Zeal lighter. Zeal lighters are bought from the Gatekeeper and the portal itself is hidden inside of his home."
+			dependencies: ["39877A9BE7CD03D2"]
+		}
+		{
+			tasks: [{
+				type: "observation"
+				id: "05AB5DB6B615F2EB"
+				observe_type: 0
+				title: "Create an Everdawn Portal"
+				icon: "blue_skies:everdawn_portal"
+				to_observe: "blue_skies:everdawn_portal"
+				timer: 0L
+			}]
+			id: "32544222A9CC4950"
+			x: -0.5d
+			y: -1.0d
+			title: "Create an Everdawn Portal"
+			rewards: [{
+				id: "7732097374DF0416"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "The portal to the Everdawn is created by lighting a Lunar Stone Brick portal with a Zeal lighter. Zeal lighters are bought from the Gatekeeper and the portal itself is hidden inside of his home."
+			dependencies: ["39877A9BE7CD03D2"]
+		}
+		{
+			tasks: [{
+				id: "7AC8F93DB3774AFC"
+				type: "item"
+				title: "Obtain a Blue Journal"
+				item: "blue_skies:blue_journal"
+			}]
+			icon: "blue_skies:multi_portal_item"
+			id: "39877A9BE7CD03D2"
+			x: -2.5d
+			y: -1.0d
+			rewards: [
+				{
+					id: "79B5E6015A877FD9"
+					type: "item"
+					item: "minecraft:book"
+				}
+				{
+					id: "7BF8277E94284A75"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
+			subtitle: "Obtain a Blue Journal from the Gatekeeper, which spawns in Plains, Mountains, and Snowy biomes. Will unlock more trades as you progress through the mod. "
+		}
+		{
+			tasks: [
+				{
+					id: "0A462B4F5ADDB9DD"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C57582D57A1E17F"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0528CD5322B8D370"
+					type: "item"
+					item: {
+						id: "blue_skies:pyrope_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "02FD4D3B62F198B1"
+			x: -2.5d
+			y: 1.5d
+			title: "Craft a set of Pyrope tools"
+			rewards: [
+				{
+					id: "660ABED3C2F38A3C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1C78AB61C5D758FF"
+					type: "item"
+					item: "blue_skies:aquite_gem"
+					count: 3
+				}
+			]
+			subtitle: "Overworld gear is not effective. You'll need to make new tools and armor. "
+			dependencies: [
+				"0A00DA03272FF80E"
+				"32544222A9CC4950"
+			]
+		}
+		{
+			tasks: [{
+				id: "769BF9F1E6A5DC4B"
+				type: "item"
+				item: "blue_skies:star_emitter"
+			}]
+			rewards: [{
+				id: "0034EBB31F0BBF00"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 3
+			}]
+			id: "38EDF683E805E3C4"
+			x: -2.5d
+			y: -3.5d
+			title: "Craft a Star Emitter"
+			subtitle: "Used to turn a villager into a Stargazer."
+			dependencies: [
+				"0A00DA03272FF80E"
+				"32544222A9CC4950"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "217619D7AEDC827B"
+				type: "item"
+				item: "blue_skies:astrolabe"
+			}]
+			id: "7E3217909CE96E4D"
+			x: -2.5d
+			y: -5.0d
+			title: "Trade for an Astrolabe"
+			rewards: [
+				{
+					id: "4836227EE7EE969C"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 12
+				}
+				{
+					id: "0C6DDB916411B4BD"
+					type: "item"
+					item: "blue_skies:falsite_ingot"
+					count: 6
+				}
+				{
+					id: "630494741DCD7E07"
+					type: "item"
+					item: "blue_skies:ventium_ingot"
+					count: 3
+				}
+			]
+			subtitle: "Allows you to teleport to Star Emitters."
+			dependencies: ["38EDF683E805E3C4"]
+		}
+		{
+			tasks: [{
+				id: "639E44D5900B9182"
+				type: "item"
+				item: "blue_skies:tool_box"
+			}]
+			id: "39B5EBDF7A563B10"
+			x: -4.0d
+			y: 3.5d
+			title: "Craft a Tool Box"
+			rewards: [
+				{
+					id: "4FED0C648718BA7B"
+					type: "item"
+					item: "blue_skies:falsite_ingot"
+				}
+				{
+					id: "482243A3DD5C958B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Used to add durability to tools with Falsite. Can also be used to switch out sticks on tools. Different sticks on different tools will have different effects."
+			dependencies: ["02FD4D3B62F198B1"]
+		}
+		{
+			tasks: [{
+				id: "39BD3D7E27AA2FE6"
+				type: "item"
+				item: "blue_skies:warding_pearl"
+			}]
+			id: "2E7925144A93028A"
+			x: -1.0d
+			y: 3.5d
+			rewards: [
+				{
+					id: "7A3F87725801C752"
+					type: "item"
+					item: "blue_skies:ventium_ingot"
+				}
+				{
+					id: "0E8F122483202989"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Prevents hostiles from spawning in a large radius. Emits no light."
+			dependencies: ["02FD4D3B62F198B1"]
+		}
+		{
+			tasks: [
+				{
+					id: "0F2C64CD0CB6B1C4"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "478081287DF74BBB"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "47CBE81F49D2CFB0"
+					type: "item"
+					item: {
+						id: "blue_skies:aquite_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "0F71B687E7626A68"
+			x: -2.5d
+			y: 3.5d
+			title: "Craft a set of Aquite tools"
+			rewards: [
+				{
+					id: "34FA675009AAE698"
+					type: "item"
+					item: "blue_skies:diopside_gem"
+				}
+				{
+					id: "572F6971AEA5D4C8"
+					type: "item"
+					item: "blue_skies:charoite"
+				}
+			]
+			subtitle: "Equivalent to Iron"
+			dependencies: ["02FD4D3B62F198B1"]
+		}
+		{
+			tasks: [
+				{
+					id: "606F93B8BAF4C8BF"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "08F90EE233B1BC8F"
+					type: "item"
+					item: {
+						id: "blue_skies:diopside_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "7F45CA9DF28784F2"
+			x: -3.5d
+			y: 5.0d
+			title: "Craft a set of Diopside tools"
+			rewards: [{
+				id: "0A59C79B843FDB8B"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "Slower but stronger than Chaorite. Diopside is found deep underground."
+			dependencies: ["0F71B687E7626A68"]
+		}
+		{
+			tasks: [
+				{
+					id: "33C1DED4CD1E7CD4"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "035F16A10DAF89F7"
+					type: "item"
+					item: {
+						id: "blue_skies:charoite_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "4CE7A5755E6A70EB"
+			x: -1.5d
+			y: 5.0d
+			title: "Craft a set of Chaorite tools"
+			rewards: [{
+				id: "18E35CFD85A8E664"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "Faster but weaker than Diopside. Chaorite is found deep underground."
+			dependencies: ["0F71B687E7626A68"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "10DD64CBF7D86F91"
+				entity: "blue_skies:summoner"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "blue_skies:textures/gui/journal/icons/summoner.png"
+					}
+				}
+				title: "Defeat the Summoner"
+			}]
+			id: "649A8378FBDC3ECF"
+			icon: "blue_skies:bright_blinding_keystone"
+			disable_toast: true
+			x: -6.5d
+			y: -1.0d
+			title: "Defeat the Summoner"
+			subtitle: "Found in the Blinding Dungeon. Diopside or Chaorite gear and a Moonstone shield is recommended. Requires four Blinding Dungeon Keys to summon, which can be found in chests within the dungeon or bought from the Gatekeeper after interacting with the key block at the top."
+			dependencies: ["0A00DA03272FF80E"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "1A79FE3858D2F50A"
+				entity: "blue_skies:alchemist"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "blue_skies:textures/gui/journal/icons/alchemist.png"
+					}
+				}
+				title: "Defeat the Alchemist"
+			}]
+			icon: "blue_skies:dawn_blinding_keystone"
+			disable_toast: true
+			id: "0347D9C4F4DAF733"
+			x: 1.5d
+			y: -1.0d
+			subtitle: "Found in the Blinding Dungeon. Diopside or Chaorite gear and a Moonstone shield is recommended. Requires four Blinding Dungeon Keys to summon, which can be found in chests within the dungeon or bought from the Gatekeeper after interacting with the key block at the top. Drops an Arc which can be used to respawn the boss."
+			dependencies: ["32544222A9CC4950"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "58C98F01C1059F64"
+				entity: "blue_skies:starlit_crusher"
+				title: "Defeat the Starlit Crusher"
+			}]
+			icon: "blue_skies:nature_key"
+			disable_toast: true
+			id: "4528FED103CA0949"
+			x: -8.5d
+			y: -1.0d
+			subtitle: "Found in the Nature Dungeon. Diopside or Chaorite gear and a Moonstone shield is recommended. You will also need an axe from the dimension. Requires four Nature Dungeon Keys to summon, which spawn once per floor or bought from the Gatekeeper after interacting with the key block at the top. Drops an Arc which can be used to respawn the boss."
+			dependencies: ["649A8378FBDC3ECF"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "0B3978DC5E2ADFEE"
+				entity: "blue_skies:arachnarch"
+				title: "Defeat the Arachnarch"
+			}]
+			id: "50D5504DCA520736"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "blue_skies:textures/gui/journal/icons/arachnarch.png"
+				}
+			}
+			disable_toast: true
+			x: 3.5d
+			y: -1.0d
+			title: "Defeat the Arachnarch"
+			subtitle: "Found in the Poison Dungeon. Diopside or Chaorite gear and a Moonstone shield is recommended. Requires four Poison Dungeon Keys to summon, which can be found in chests within the dungeon or bought from the Gatekeeper after interacting with the key block at the bottom. Drops an Arc which can be used to respawn the boss."
+			dependencies: ["0347D9C4F4DAF733"]
+		}
+	]
+}

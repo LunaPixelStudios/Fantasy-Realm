@@ -1,0 +1,220 @@
+{
+	default_hide_dependency_lines: false
+	group: "5A43EA4A3BF38D32"
+	id: "427B16BA7783C223"
+	filename: "farmers_delight"
+	default_quest_shape: ""
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "farmersdelight:textures/item/hamburger.png"
+		}
+	}
+	title: " Farmer's Delight"
+	order_index: 4
+	quests: [
+		{
+			tasks: [{
+				id: "785816212AE5AE4E"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			id: "406429586D0D19CA"
+			x: -2.0d
+			y: 0.5d
+			title: "Obtain a Campfire"
+			rewards: [{
+				id: "38B8206DFD8D6277"
+				type: "random"
+				table_id: 8035482593293167064L
+			}]
+			subtitle: "Can cook up to 4 raw meats at once."
+		}
+		{
+			tasks: [{
+				id: "585CC0E3979BBF3A"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+			id: "7C2C7C59D4D78E9E"
+			x: -0.5d
+			y: 0.5d
+			title: "Craft a Cooking Pot"
+			rewards: [{
+				id: "30BFBD615565A5D6"
+				type: "random"
+				table_id: 8035482593293167064L
+			}]
+			subtitle: "Clicking a campfire with a cooking pot in hand will put the cooking pot over the campfire. Clicking the arrow in the menu will show all recipes.  Cooking pots can be broken and used as storage for up to 64 meal servings. "
+			dependencies: ["406429586D0D19CA"]
+		}
+		{
+			tasks: [{
+				id: "68876FCD4A956269"
+				type: "item"
+				item: "nethers_delight:mimicarnation"
+				consume_items: false
+			}]
+			id: "02D4F145EBCCEA34"
+			x: -0.5d
+			y: -1.0d
+			title: "Obtain a Mimicarnation"
+			rewards: [{
+				id: "2BCB05A4DAAACA37"
+				type: "random"
+				table_id: 8035482593293167064L
+			}]
+			subtitle: "Found in the nether. Can be used in a cooking pot to duplicate food items."
+			dependencies: ["7C2C7C59D4D78E9E"]
+		}
+		{
+			tasks: [{
+				id: "155F09EEB6F9E18A"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+			id: "1C9CBE9BBF50B069"
+			x: 2.5d
+			y: 1.5d
+			title: "Craft a Cutting Board"
+			rewards: [{
+				id: "55E406A9C264E288"
+				type: "random"
+				table_id: 8035482593293167064L
+			}]
+			subtitle: "Knives, pickaxes, axes, shovels, and shears can be used to break down items in the Cutting Board. You can also carve certain tools and weapons into the cutting board's surface for display by shift right-clicking."
+		}
+		{
+			tasks: [{
+				id: "547AC017C92CD5ED"
+				type: "item"
+				item: {
+					id: "farmersdelight:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "335D802D285C29DB"
+			x: 2.5d
+			y: 0.5d
+			title: "Craft an Iron Knife"
+			rewards: [{
+				id: "32E4053794325415"
+				type: "choice"
+				table_id: 8035482593293167064L
+			}]
+			subtitle: "Grants extra drops from killing animals and can be used to cut and portion meal ingredients."
+		}
+		{
+			tasks: [{
+				id: "7CCF6E35616CDBBE"
+				type: "item"
+				item: {
+					id: "farmersdelight:netherite_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "210218C915DAA687"
+			x: 4.0d
+			y: 0.5d
+			title: "Why?"
+			rewards: [
+				{
+					id: "00B9E5012C96D865"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "2C1A17BAC66412E4"
+					type: "choice"
+					table_id: 8035482593293167064L
+				}
+			]
+			subtitle: "Craft a Netherite Knife"
+			dependencies: ["335D802D285C29DB"]
+		}
+		{
+			tasks: [{
+				id: "58A4D525C5BE0AB0"
+				type: "item"
+				item: "farmersdelight:rope"
+			}]
+			id: "15EBFA508BFFBE6E"
+			x: 4.0d
+			y: 1.5d
+			title: "Craft a Rope"
+			rewards: [{
+				id: "5B67B335970DD508"
+				type: "random"
+				table_id: 8035482593293167064L
+			}]
+			subtitle: "Reverse scaffolding. Can be climbed. Useful for ravines."
+			dependencies: ["335D802D285C29DB"]
+		}
+		{
+			tasks: [{
+				id: "465B0E11E2564F58"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			id: "452399ECB130AAA0"
+			x: -0.5d
+			y: 2.0d
+			title: "Craft a Stove"
+			rewards: [{
+				id: "6D1845295BFEA4A3"
+				type: "random"
+				table_id: 8035482593293167064L
+			}]
+			subtitle: "Campfire but with 6 slots."
+			dependencies: ["7C2C7C59D4D78E9E"]
+		}
+		{
+			tasks: [{
+				id: "1B20F7428585C75C"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "0B33B3A2305DD4F8"
+			x: 1.0d
+			y: 0.5d
+			title: "Craft a Skillet"
+			rewards: [{
+				id: "5E56020123B8A1F0"
+				type: "random"
+				table_id: 8035482593293167064L
+			}]
+			subtitle: "Cooks 5x times faster than a campfire. When held near a heat source, will cook any raw meats held in the offhand. Can also be placed by shift clicking on a block. Will hold and cook up to 64 of one item, dropping them to the right side, which can be collected with a Hopper or Basket."
+			dependencies: ["7C2C7C59D4D78E9E"]
+		}
+		{
+			tasks: [{
+				id: "6B25A88281DD04B4"
+				type: "item"
+				item: "farmersdelight:basket"
+			}]
+			id: "6016B7C0E128B797"
+			x: 3.262244897959178d
+			y: 2.420748299319726d
+			title: "Craft a Basket"
+			rewards: [{
+				id: "3286084B5F8A145A"
+				type: "random"
+				table_id: 8035482593293167064L
+			}]
+			subtitle: "Can be placed in any direction and works upside down. Items which collide with the open face will be captured and stored. Has the size of a Chest. Hoppers can extract items from it. When waterlogged, will restrict the water to only flowing from its open side."
+		}
+	]
+}

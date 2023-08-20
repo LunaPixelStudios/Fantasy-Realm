@@ -1,0 +1,162 @@
+{
+	default_hide_dependency_lines: false
+	group: "5A43EA4A3BF38D32"
+	id: "1E189F07BD7F45F1"
+	filename: "decoration"
+	default_quest_shape: ""
+	icon: "adorn:white_sofa"
+	title: " Decoration"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "22FF914AB28718A5"
+				type: "item"
+				title: "Any #adorn:sofas"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "adorn:sofas"
+					}
+				}
+			}]
+			id: "434946ADB1007738"
+			x: 0.0d
+			y: 1.5d
+			title: "Craft a Sofa"
+			rewards: [{
+				id: "1FBED12CCE4902C6"
+				type: "item"
+				item: "abnormals_delight:cherry_cream_soda"
+			}]
+			subtitle: "The Adorn mod adds many similar furniture options."
+		}
+		{
+			tasks: [{
+				id: "483F5FA57A9CCAD2"
+				type: "item"
+				item: "chipped:botanist_workbench"
+			}]
+			id: "574B5A7C06F28CB1"
+			x: 0.0d
+			y: 0.0d
+			title: "Craft a &aBotanist's Workbench"
+			rewards: [{
+				id: "62E7DD30C5129096"
+				type: "item"
+				item: "minecraft:snow_block"
+				count: 16
+			}]
+			subtitle: "Used to turn natural blocks such as snow, ice, glass, and plants into their Chipped variants."
+		}
+		{
+			tasks: [{
+				id: "1B174F56A39D2868"
+				type: "item"
+				item: "chipped:glassblower"
+			}]
+			id: "38D9D8D0A291D5FD"
+			x: 1.5d
+			y: 0.0d
+			title: "Craft a &3Glass Blower"
+			rewards: [{
+				id: "623907332E75590E"
+				type: "item"
+				item: "minecraft:glass"
+				count: 32
+			}]
+			subtitle: "Used to turn glass into their Chipped variants."
+		}
+		{
+			tasks: [{
+				id: "092D5B8441F88F0A"
+				type: "item"
+				item: "chipped:carpenters_table"
+			}]
+			id: "3D7266C9E9FA21BA"
+			x: -1.5d
+			y: 0.0d
+			title: "Craft a &eCarpenter's Table"
+			rewards: [{
+				id: "2CEB5F29EEFACE7E"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 32
+			}]
+			subtitle: "Used to turn wooden blocks into their Chipped variants."
+		}
+		{
+			tasks: [{
+				id: "4322FDA627A3B129"
+				type: "item"
+				item: "chipped:mechanist_workbench"
+			}]
+			id: "2C40A99B16D6AF52"
+			x: 1.5d
+			y: 3.0d
+			title: "Craft a &cMechanist's Workbench"
+			rewards: [{
+				id: "655A8DB27864F844"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 4
+			}]
+			subtitle: "Used to turn redstone related items into their Chipped variants."
+		}
+		{
+			tasks: [{
+				id: "0216B32DBCD1C8F8"
+				type: "item"
+				item: "chipped:loom_table"
+			}]
+			id: "781B3E354F93214B"
+			x: -1.5d
+			y: 1.5d
+			title: "Craft a &9Loom"
+			rewards: [{
+				id: "3885016580E67F4C"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 8
+			}]
+			subtitle: "Used to turn wools into their Chipped variants."
+		}
+		{
+			tasks: [{
+				id: "01D1DF5BAFFC3DA5"
+				type: "item"
+				item: "chipped:mason_table"
+			}]
+			id: "0699672889B537CD"
+			x: 1.5d
+			y: 1.5d
+			title: "Craft a &7Mason's Table"
+			rewards: [{
+				id: "715A2436CF14376D"
+				type: "item"
+				item: "minecraft:stone"
+				count: 32
+			}]
+			subtitle: "Used to turn stones into their Chipped variants."
+		}
+		{
+			tasks: [{
+				id: "3E83F97B445BB8F2"
+				type: "item"
+				item: "chipped:alchemy_bench"
+			}]
+			id: "03C21FC6FAFD257F"
+			x: -1.5d
+			y: 3.0d
+			title: "Craft an &5Alchemy Bench"
+			rewards: [{
+				id: "6E6A5AC0B509E887"
+				type: "item"
+				item: "minecraft:lapis_block"
+				count: 4
+			}]
+			subtitle: "Used to turn condensed ingot blocks into their Chipped variants."
+		}
+	]
+}

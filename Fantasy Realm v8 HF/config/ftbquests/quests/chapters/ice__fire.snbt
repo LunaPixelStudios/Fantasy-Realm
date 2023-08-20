@@ -1,0 +1,980 @@
+{
+	default_hide_dependency_lines: false
+	group: "2F85EA47D6AE998C"
+	id: "36EFEB09324E4224"
+	filename: "ice__fire"
+	default_quest_shape: ""
+	icon: "iceandfire:dragonegg_red"
+	title: " Ice \\& Fire"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "022A4802F0C5E55B"
+				entity: "iceandfire:gorgon"
+				icon: {
+					id: "iceandfire:gorgon_head"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Defeat the Gorgon"
+			}]
+			dependencies: ["2278C01E15065385"]
+			subtitle: "Found inside of Gorgon Temples. Drops a one time use Gorgon Head which can be used to turn any mob, except the Ender Dragon, into stone. "
+			id: "665DED9551265639"
+			y: -3.0d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "7BAFB8D4CBD211EA"
+				type: "item"
+				item: {
+					id: "iceandfire:blindfold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "2278C01E15065385"
+			x: -5.0d
+			y: -3.0d
+			title: "Craft a Blindfold"
+			rewards: [{
+				id: "4F5BBDEE415406B5"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Protects you from the Gorgon turning you into stone."
+		}
+		{
+			tasks: [{
+				id: "70871BBCAF380307"
+				type: "item"
+				item: "iceandfire:manuscript"
+			}]
+			id: "25A4AF4FCBF514A1"
+			x: -3.5d
+			y: -1.0d
+			title: "Find a Manuscript"
+			rewards: [{
+				id: "3C4E652B107D1B00"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Found in Dragon Roosts, Dragon Caves, and Graveyards."
+		}
+		{
+			tasks: [{
+				id: "1E7094E210B29B32"
+				type: "item"
+				item: "iceandfire:bestiary"
+			}]
+			id: "0CA7009A7A6CBC2B"
+			x: -2.0d
+			y: -1.0d
+			title: "Craft a Bestiary"
+			rewards: [{
+				id: "3247EC7CEBD11927"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Contains information about various mobs."
+			dependencies: ["25A4AF4FCBF514A1"]
+		}
+		{
+			tasks: [{
+				id: "174E753107DF099D"
+				type: "item"
+				item: "iceandfire:lectern"
+			}]
+			id: "370C027F949A9AF0"
+			x: -5.0d
+			y: -1.0d
+			title: "Craft a Bestiary Lectern"
+			rewards: [{
+				id: "07C89567D8565976"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Used to add pages to the Bestiary."
+			dependencies: ["25A4AF4FCBF514A1"]
+		}
+		{
+			tasks: [{
+				id: "69EF8A5F6C7218B3"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+			}]
+			id: "7F523A68A1417140"
+			x: -2.0d
+			y: -3.0d
+			title: "Tame a Hippogryph"
+			rewards: [{
+				id: "2AE1C503EB77C529"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Hippogryphs can be found in Mountains and Deserts. They can be tamed by dropping Rabbit Feet nearby."
+		}
+		{
+			tasks: [{
+				id: "5314EFE5ACA7F57B"
+				type: "item"
+				item: "iceandfire:rotten_egg"
+			}]
+			id: "6A51EBB9D2723C4B"
+			x: -2.0d
+			y: -6.0d
+			title: "Obtain a Rotten Egg"
+			rewards: [{
+				id: "420A52E7644BE57E"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Rarely dropped by chickens instead of normal eggs. Has a chance to spawn a baby Cockatrice when thrown."
+		}
+		{
+			tasks: [{
+				id: "68DEBEF543BE1A3F"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/tame_cockatrice"
+				criterion: ""
+			}]
+			id: "0B244AC1A0F45A4C"
+			x: -2.0d
+			y: -4.5d
+			title: "Tame a Cockatrice"
+			rewards: [{
+				id: "67CEE0C11E7D80D4"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Cockatrices be tamed by either hatching them with a Rotten Egg or by finding one in a Savannah and staring directly at it's face for an extended period of time. Can be healed with seeds or rotten flesh."
+			dependencies: ["6A51EBB9D2723C4B"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "6D0BAA9FC1DAAF7B"
+				entity: "iceandfire:troll"
+				title: "Defeat a Troll"
+			}]
+			icon: {
+				id: "iceandfire:troll_weapon_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7CCD473B3759429F"
+			x: -3.5d
+			y: -4.5d
+			rewards: [{
+				id: "5463C6CC6A7BEC51"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Spawns underground in Forests, Mountains, and Snowy Tundras."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "1762BFDD49B46A0F"
+				entity: "iceandfire:cyclops"
+				title: "Defeat a Cyclops"
+			}]
+			x: -3.5d
+			id: "3CB96B97A6B6ED5F"
+			disable_toast: true
+			y: -6.0d
+			title: "Defeat a Cyclops"
+			subtitle: "Spawns in surface caves."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "6C505799EC50A4C6"
+				entity: "iceandfire:deathworm"
+				icon: "iceandfire:deathworm_egg"
+				title: "Defeat a Death Worm"
+			}]
+			icon: {
+				id: "iceandfire:deathworm_gauntlet_white"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E77B746EE090220"
+			x: -5.0d
+			y: -6.0d
+			rewards: [{
+				id: "1F75DBB1E9C844E8"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Spawns in Deserts. Drops Chitin which can be used to create armor."
+		}
+		{
+			tasks: [{
+				id: "056812813A6E594B"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/tame_deathworm"
+				criterion: ""
+			}]
+			id: "4734922E96B74B43"
+			x: -5.0d
+			y: -7.5d
+			title: "Obtain a Death Worm Egg"
+			rewards: [{
+				id: "51FB20358AC80BCE"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Hatches a tamed Baby Death Worm when thrown."
+			dependencies: ["3E77B746EE090220"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "35FC8FE44121171A"
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:hydra_heart"
+				title: "Defeat a Hydra"
+			}]
+			subtitle: "Spawns in Hydra Lairs in Swamp biomes. Fire damage is necessary to kill the Hydra."
+			id: "0B4CEDF490C4A1DD"
+			y: -4.5d
+			x: -5.0d
+			icon: "iceandfire:hydra_heart"
+		}
+		{
+			tasks: [{
+				id: "6E9AA789EBF83D5F"
+				type: "item"
+				item: "iceandfire:dragonbone"
+			}]
+			id: "7FA81B28CF9C9D6E"
+			x: -16.0d
+			y: -9.0d
+			title: "Obtain a Dragon Bone"
+			rewards: [{
+				id: "0D31345FFB427E97"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Obtained by clicking the skeleton of a dead dragon."
+		}
+		{
+			tasks: [{
+				id: "5D1DF756A56DDDDE"
+				type: "item"
+				item: "iceandfire:dragon_flute"
+			}]
+			id: "388074F654362459"
+			x: -16.0d
+			y: -10.5d
+			title: "Craft a Dragon Bone Flute"
+			rewards: [{
+				id: "15E02AFAB991DC12"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "When used, will make certain tamed animals stop flying."
+			dependencies: ["7FA81B28CF9C9D6E"]
+		}
+		{
+			tasks: [{
+				id: "6F0F3458A9C0EBEE"
+				type: "item"
+				item: {
+					id: "iceandfire:siren_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "78AF108A06581B8A"
+			x: -17.5d
+			y: -9.0d
+			title: "Craft a Siren Flute"
+			rewards: [{
+				id: "05ED00F599544E5C"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "When used, will make nearby mobs become passive for 10 seconds."
+			dependencies: [
+				"11D07104D539B59E"
+				"388074F654362459"
+			]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "59FF3B6492640C2F"
+				entity: "iceandfire:siren"
+				icon: "iceandfire:siren_tear"
+				title: "Defeat a Siren"
+			}]
+			subtitle: "Spawns on Siren Islands in Oceans."
+			id: "11D07104D539B59E"
+			y: -10.5d
+			x: -17.5d
+			rewards: [{
+				id: "569B0A146280905D"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "485B4D27826CB6FA"
+				entity: "iceandfire:hippocampus"
+				icon: "iceandfire:hippocampus_fin"
+				title: "Defeat a Hippocampus"
+			}]
+			subtitle: "Spawns in Oceans."
+			id: "22F107BD6518FC72"
+			y: -6.0d
+			x: -10.5d
+			rewards: [{
+				id: "0405BDB325554B11"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			tasks: [{
+				id: "3FA39AC16E288C26"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/tame_hippocampus"
+				criterion: ""
+			}]
+			id: "5F22FE12415AB95D"
+			x: -9.0d
+			y: -6.0d
+			title: "Tame a Hippocampus "
+			rewards: [
+				{
+					id: "63711CE563BBEE7D"
+					type: "item"
+					item: "minecraft:leather_horse_armor"
+				}
+				{
+					id: "36A7B737EB5C0E35"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+			]
+			subtitle: "Tamed using Sponge or Kelp. Can be bred using Prismarine Crystals. Can be given horse armor and a chest. After putting a saddle on a Hippocampus, it can be mounted. WASD to move, space to float upwards, X to sink, and Shift to dismount."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "78E49D65DA2DC9B5"
+				entity: "iceandfire:sea_serpent"
+				icon: "iceandfire:sea_serpent_fang"
+				title: "Defeat a Sea Serpent"
+			}]
+			subtitle: "Spawns in Oceans."
+			id: "6FFE58989CBB2671"
+			y: -7.5d
+			x: -9.0d
+			rewards: [{
+				id: "678E2473FE91D334"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			tasks: [{
+				id: "5A38443A88BBA2D8"
+				type: "item"
+				item: {
+					id: "iceandfire:tide_trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "36B2CCC6F007D418"
+			x: -10.5d
+			y: -7.5d
+			title: "Craft a Tide Trident"
+			rewards: [{
+				id: "224EC01D355984DB"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "A very strong Trident. Capable of piercing through multiple enemies."
+			dependencies: ["6FFE58989CBB2671"]
+		}
+		{
+			tasks: [{
+				id: "412DA97ED983D324"
+				type: "item"
+				title: "Any Dragon Skull"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "iceandfire:dragon_skulls"
+					}
+				}
+			}]
+			id: "2444465D5A673566"
+			x: -9.0d
+			y: -4.5d
+			title: "Obtain a Dragon Skull"
+			rewards: [{
+				id: "0A96261D64A10F0E"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Obtained by interacting with a dead dragon's skeleton."
+		}
+		{
+			tasks: [{
+				id: "7EED52C0E8043CEC"
+				type: "item"
+				item: "iceandfire:dragon_stick"
+			}]
+			id: "25FA51019B4148A4"
+			x: -10.5d
+			y: -4.5d
+			title: "Craft a Dragon Command Staff"
+			rewards: [{
+				id: "62075EE8878E672C"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Used to control tamed Dragons."
+			dependencies: ["2444465D5A673566"]
+		}
+		{
+			tasks: [{
+				id: "4DC2C369FD6934A3"
+				type: "item"
+				item: "iceandfire:dragon_horn"
+			}]
+			id: "34327D1A101D0B6A"
+			x: -17.5d
+			y: -7.5d
+			title: "Craft a Dragon Horn"
+			rewards: [{
+				id: "2A01F1BEC63A8F4D"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Used to store dragons."
+			dependencies: ["7FA81B28CF9C9D6E"]
+		}
+		{
+			tasks: [{
+				id: "76C1A0A1FA15D3C7"
+				type: "item"
+				item: "iceandfire:witherbone"
+			}]
+			id: "040C4726F0D038FC"
+			x: -14.5d
+			y: -6.0d
+			title: "Obtain a Witherbone"
+			rewards: [{
+				id: "5F90D370701B9358"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Dropped by Wither Skeletons and Cockatrices."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "282B7DD70C141508"
+				entity: "iceandfire:cockatrice"
+				title: "Defeat a Cockatrice"
+			}]
+			icon: "iceandfire:spawn_egg_cockatrice"
+			id: "27E285861E711144"
+			x: -14.5d
+			y: -4.5d
+			rewards: [{
+				id: "653C81A069EB6421"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Spawns in Savannahs."
+		}
+		{
+			tasks: [{
+				id: "410F03C224C3250E"
+				type: "item"
+				item: "iceandfire:cockatrice_skull"
+			}]
+			id: "389C55B4AFF74EE2"
+			x: -16.0d
+			y: -4.5d
+			title: "Obtain a Cockatrice Skull"
+			rewards: [{
+				id: "70126FA5656FFA43"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Rare drop from killing Cockatrices. Can be placed on the wall as a trophy."
+			dependencies: ["27E285861E711144"]
+		}
+		{
+			tasks: [{
+				id: "20D31091D8AAC312"
+				type: "item"
+				item: "iceandfire:cockatrice_eye"
+			}]
+			id: "258C78455C763EA7"
+			x: -13.0d
+			y: -4.5d
+			title: "Obtain a Cockatrice Eye"
+			rewards: [{
+				id: "4AEDC1F128135108"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Rare drop from killing Cockatrices."
+			dependencies: ["27E285861E711144"]
+		}
+		{
+			tasks: [{
+				id: "31EF909E6ACC4895"
+				type: "item"
+				item: {
+					id: "iceandfire:cockatrice_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "25BBC91BCA52747E"
+			x: -13.0d
+			y: -6.0d
+			title: "Craft a Cockatrice Scepter"
+			rewards: [{
+				id: "013022458BE35D89"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Withers targets and can attack multiple mobs at once."
+			dependencies: [
+				"258C78455C763EA7"
+				"040C4726F0D038FC"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "104AC3A4BE13E59A"
+					type: "item"
+					item: "iceandfire:fire_dragon_blood"
+				}
+				{
+					id: "6FA408726DC94B85"
+					type: "item"
+					item: "iceandfire:ice_dragon_blood"
+				}
+				{
+					id: "46197F8FDF0860F6"
+					type: "item"
+					item: "iceandfire:lightning_dragon_blood"
+				}
+			]
+			id: "797126755126D991"
+			x: -13.0d
+			y: -7.5d
+			title: "Obtain Dragon Blood"
+			rewards: [{
+				id: "7EC115BE8D8EF2BD"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Can be obtained by using a Glass Bottle on a Dead Dragon's Carcass. "
+		}
+		{
+			tasks: [{
+				id: "531FE1B003D32B19"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "0B83745935E0344E"
+			x: -16.0d
+			y: -7.5d
+			title: "Craft a Dragon Bone Sword"
+			rewards: [{
+				id: "4B400748F42E1F33"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Can be enhanced with Dragon Blood."
+			dependencies: [
+				"7FA81B28CF9C9D6E"
+				"040C4726F0D038FC"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "593C69F22AFFC7EA"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_sword_fire"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0D1251B41BB3BEA1"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_sword_ice"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7145817867D97CD0"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_sword_lightning"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "4D4E2359EDA00669"
+			x: -14.5d
+			y: -7.5d
+			title: "Craft all three Dragon Bone Sword variants"
+			rewards: [
+				{
+					id: "0CCB27CBBFF9388B"
+					type: "random"
+					table_id: 2645938118790146101L
+				}
+				{
+					id: "1799D5B95B3D0CC8"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+			]
+			subtitle: "Different variants have different effects."
+			dependencies: [
+				"797126755126D991"
+				"0B83745935E0344E"
+			]
+		}
+		{
+			tasks: [{
+				id: "63BE090E8DADBC8D"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_forge_brick"
+				criterion: ""
+			}]
+			id: "181D6E46A30C357E"
+			x: -13.0d
+			y: -13.5d
+			title: "Craft Dragon Forge Bricks"
+			rewards: [{
+				id: "670A069740F4F83F"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Crafted with five Dragon Forge blocks and four Stone Bricks in a Crafting Table. Also used to create a Dragonforge Aperture, which is necessary to create a Dragonforge."
+		}
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_forge_core"
+				criterion: ""
+				id: "0B54893957D63C64"
+				title: "Craft a Dragon Forge Core"
+			}]
+			id: "7E0F94706F35BE1D"
+			x: -11.5d
+			y: -13.5d
+			rewards: [{
+				id: "07D2C93C825A21BF"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Crafted with eight Dragon Forge Bricks and a Dragon Heart."
+			dependencies: ["181D6E46A30C357E"]
+		}
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/tame_amphithere"
+				criterion: ""
+				id: "0CAEA0F03C7BD18B"
+				title: "Tame a Amphithere"
+			}]
+			subtitle: "Wild Ampitheres can be mounted by clicking on them with an empty hand. They can also be knocked out of the sky with projectiles. Once mounted, they will repeatedly bite you until they eventually stop and become tamed. Shields will negate this damage. Can be bred with cookies. Uses controls similar to an Elytra. Spacebar to fly, and G to use a strike attack."
+			id: "14C5867FDEF4E654"
+			y: -7.5d
+			x: -3.5d
+			rewards: [{
+				id: "2B825776B29722E6"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			tasks: [{
+				id: "2DECF14F2B1A1615"
+				type: "item"
+				item: "iceandfire:dragon_bone_block"
+				count: 8L
+			}]
+			id: "660C1930FBE26464"
+			x: -14.5d
+			y: -13.5d
+			title: "Craft a Block of Dragon Bones"
+			rewards: [{
+				id: "4399EC415EE9974C"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Used to make the Dragonforge."
+		}
+		{
+			tasks: [{
+				id: "3881C9635DC7A29F"
+				type: "checkmark"
+				title: "Create a Dragonforge"
+			}]
+			id: "432416014A71B013"
+			x: -13.0d
+			y: -11.5d
+			rewards: [{
+				id: "5BAAB322FFC9659E"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Dragonforges should be built far away from your base as they will damage nearby blocks. To create a 3x3 Dragonforge, place five Dragonforge Bricks in the shape of a plus sign. Fill the corners in with Blocks of Dragon Bones. Then, place the Core in the middle of the second layer and the Aperture on top of one of the Dragonforge Bricks from the first layer. Fill the rest of the layer in with Dragonforge Bricks. The third layer is the exact same as the first."
+			dependencies: [
+				"660C1930FBE26464"
+				"7E0F94706F35BE1D"
+				"181D6E46A30C357E"
+			]
+		}
+		{
+			tasks: [{
+				id: "2F5F7DEFEF7F3CA1"
+				type: "item"
+				item: "iceandfire:dragonsteel_fire_ingot"
+			}]
+			id: "196DF27546684090"
+			x: -11.5d
+			y: -9.5d
+			title: "Create a Fire Dragonsteel Ingot"
+			rewards: [{
+				id: "5443076248091605"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Created in a Fire Dragon Forge with Fire Dragon Blood and an Iron Ingot."
+			dependencies: [
+				"797126755126D991"
+				"432416014A71B013"
+			]
+		}
+		{
+			tasks: [{
+				id: "3119434AB6633218"
+				type: "item"
+				item: "iceandfire:dragonsteel_ice_ingot"
+			}]
+			id: "27FCC8C2D9DCCCBD"
+			x: -13.0d
+			y: -9.5d
+			title: "Create an Ice Dragonsteel Ingot"
+			rewards: [{
+				id: "484738277FE4CF74"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Created in an Ice Dragon Forge with Ice Dragon Blood and an Iron Ingot."
+			dependencies: [
+				"797126755126D991"
+				"432416014A71B013"
+			]
+		}
+		{
+			tasks: [{
+				id: "227E9A5EACA8ADF4"
+				type: "item"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+			}]
+			id: "45191757CCF85926"
+			x: -14.5d
+			y: -9.5d
+			title: "Create a Lightning Dragonsteel Ingot"
+			rewards: [{
+				id: "0351BD422BF54F28"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Created in a Lightning Dragon Forge with Lightning Dragon Blood and an Iron Ingot."
+			dependencies: [
+				"797126755126D991"
+				"432416014A71B013"
+			]
+		}
+		{
+			tasks: [{
+				id: "29322C33A3B1B5CC"
+				type: "item"
+				item: "dreadsteel:dreadsteel_ingot"
+			}]
+			id: "2328B30A9905009A"
+			x: -10.0d
+			y: -9.5d
+			title: "Craft a Dreadsteel Ingot"
+			rewards: [{
+				id: "525804EF84DEBCB7"
+				type: "random"
+				table_id: 2645938118790146101L
+			}]
+			subtitle: "Requires all three Dragonsteel variants."
+			dependencies: [
+				"45191757CCF85926"
+				"196DF27546684090"
+				"27FCC8C2D9DCCCBD"
+			]
+		}
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/tame_pixie"
+				criterion: ""
+				id: "4C58E4A72584AFCE"
+				title: "Befriend a Fairy"
+			}]
+			subtitle: "Drop cake near a fairy to befriend them."
+			id: "157C1161DB6E3C5E"
+			y: -3.0d
+			x: -10.5d
+			rewards: [{
+				id: "720AD6436AC01511"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/jar_pixie"
+				criterion: ""
+				id: "5D09B9041FAB7A8D"
+				title: "Put a Fairy in a jar"
+			}]
+			id: "4B10C0DD12423D89"
+			x: -9.0d
+			y: -3.0d
+			rewards: [{
+				id: "7627D2DCCE6ED63B"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Generates Fairy Dust"
+			dependencies: ["157C1161DB6E3C5E"]
+		}
+		{
+			tasks: [{
+				id: "2F7721D193F31492"
+				type: "item"
+				item: {
+					id: "iceandfire:pixie_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "13845E48979B8A46"
+			x: -10.5d
+			y: -1.5d
+			title: "Craft a Pixie Wand"
+			rewards: [{
+				id: "3398185B5D69A5C2"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Shoots a magical charge that does 5 charges and makes the target levitate. Uses Pixie Dust as ammo."
+			dependencies: ["157C1161DB6E3C5E"]
+		}
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				id: "6B20A84DD7346B33"
+				title: "Obtain a Dragon Egg"
+			}]
+			subtitle: "Defeating a Stage 4 or 5 Female Dragon then repeatedly clicking it will give you a Dragon Egg. If you collect too much blood from the dragon before doing this, you will no longer get the egg. Hatched dragons will be tamed."
+			id: "2EF137451968D2AD"
+			y: -6.0d
+			x: -16.0d
+			rewards: [{
+				id: "7012F8DA55749557"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			tasks: [{
+				id: "77E4E99680BD38F2"
+				type: "item"
+				item: "iceandfire:dragon_meal"
+			}]
+			id: "2B16F552649C68E7"
+			x: -17.5d
+			y: -6.0d
+			title: "Craft Dragon Meal"
+			rewards: [{
+				id: "28A5F2C276AF7F0E"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Each Dragon Meal will increase a Dragon's age by one in-game day. "
+			dependencies: ["2EF137451968D2AD"]
+		}
+	]
+}

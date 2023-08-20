@@ -1,0 +1,303 @@
+{
+	default_hide_dependency_lines: false
+	group: "2F85EA47D6AE998C"
+	id: "1AD63122DD47ABE7"
+	filename: "aquamirae"
+	default_quest_shape: ""
+	icon: "aquamirae:ship_graveyard_echo"
+	title: " Aquamirae"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "aquamirae:adventure/find_ice_maze"
+				criterion: ""
+				id: "0D10353AEEB9F202"
+				title: "Locate an Ice Maze"
+			}]
+			id: "0435FFEC49A90ADE"
+			x: -4.5d
+			y: 4.0d
+			title: "Locate an Ice Maze"
+			rewards: [{
+				id: "2BF02DE590626354"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Can be found easier with a Nature's Compass"
+		}
+		{
+			tasks: [{
+				id: "46CDE201CFF4FC77"
+				type: "item"
+				item: "aquamirae:sea_stew"
+			}]
+			id: "4925586FEBD8379B"
+			x: 1.0d
+			y: 4.0d
+			title: "Like a golden apple, but better"
+			rewards: [{
+				id: "7ED8BFFDD664713F"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Craft Sea Stew"
+			dependencies: [
+				"5DA842AB9C97DEC4"
+				"4B151E9B9D335F58"
+				"0F2EFEBD0E38BC33"
+				"151C15C67529323B"
+			]
+		}
+		{
+			tasks: [{
+				id: "32A303D0C2C9035C"
+				type: "item"
+				item: "aquamirae:poseidons_breakfast"
+			}]
+			id: "7B2C8EAB2291E73A"
+			x: 3.0d
+			y: 4.0d
+			title: "Like a golden apple, but better-er"
+			rewards: [{
+				id: "0FFACF5521ABC378"
+				type: "random"
+				table_id: 2645938118790146101L
+			}]
+			subtitle: "Craft Poseidon's Breakfast."
+			dependencies: ["4925586FEBD8379B"]
+		}
+		{
+			tasks: [{
+				id: "7C8889981C247AD8"
+				type: "item"
+				item: "aquamirae:esca"
+			}]
+			id: "0F2EFEBD0E38BC33"
+			x: -1.0d
+			y: 4.5d
+			rewards: [{
+				id: "1B6AF2EE153910AA"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Found in Pillager Ships and Pillager Towers"
+			dependencies: ["0435FFEC49A90ADE"]
+		}
+		{
+			tasks: [{
+				id: "456CF811524C9962"
+				type: "item"
+				item: "aquamirae:cooked_spinefish"
+			}]
+			id: "4B151E9B9D335F58"
+			x: -1.0d
+			y: 3.5d
+			title: "Obtain Cooked Spinefish"
+			rewards: [{
+				id: "0A3BF648AD535503"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Found in Pillager Ships and Pillager Towers"
+			dependencies: ["0435FFEC49A90ADE"]
+		}
+		{
+			tasks: [{
+				id: "4180C367083EB8E0"
+				type: "item"
+				item: "aquamirae:oxygelium"
+			}]
+			id: "5DA842AB9C97DEC4"
+			x: -1.0d
+			y: 2.5d
+			title: "Obtain Oxygelium"
+			rewards: [{
+				id: "4A5E7ECB33C3A430"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Found underwater in Ice Mazes"
+			dependencies: ["0435FFEC49A90ADE"]
+		}
+		{
+			tasks: [{
+				id: "234D5549FE1DF40C"
+				type: "item"
+				item: "aquamirae:fin"
+			}]
+			id: "151C15C67529323B"
+			x: -1.0d
+			y: 5.5d
+			rewards: [{
+				id: "2AE8F845DB970337"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Found in Pillager Ships and dropped by Maws"
+			dependencies: ["0435FFEC49A90ADE"]
+		}
+		{
+			tasks: [{
+				id: "659E91FA5B7E1516"
+				type: "item"
+				item: "aquamirae:shell_horn"
+			}]
+			id: "375556A5B5427F23"
+			x: -6.0d
+			y: 4.0d
+			title: "Obtain a Shell Horn "
+			rewards: [
+				{
+					id: "701AE425EB1AE017"
+					type: "choice"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "625DEEA91A99B962"
+					type: "random"
+					table_id: 9173031481625304501L
+				}
+			]
+			subtitle: "Found in Pillager Ships. Summons the Ghost of Captain Cornelia when clicked on a block of ice"
+			dependencies: ["0435FFEC49A90ADE"]
+		}
+		{
+			tasks: [
+				{
+					id: "4B9026E10AB17564"
+					type: "item"
+					item: {
+						id: "aquamirae:three_bolt_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "52420C92B54C36FE"
+					type: "item"
+					item: {
+						id: "aquamirae:three_bolt_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "08E7499CA9BA51E1"
+					type: "item"
+					item: {
+						id: "aquamirae:three_bolt_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5FEAE468D0CC2B12"
+					type: "item"
+					item: {
+						id: "aquamirae:three_bolt_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "1B46B730BBCA5C50"
+			x: -9.0d
+			y: 4.0d
+			title: "Create a set of Three Bolt armor"
+			rewards: [{
+				id: "206FE737B4AC820F"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Useful for diving deep underwater"
+			dependencies: ["375556A5B5427F23"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "49D0E365583FF8F7"
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					id: "aquamirae:coral_lance"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 4s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+				title: "Defeat The Ghost of Captain Cornelia"
+			}]
+			x: -7.5d
+			id: "58ADADF729514289"
+			disable_toast: true
+			y: 4.0d
+			title: "Defeat The Ghost of Captain Cornelia"
+			subtitle: "Summoned with the Shell Horn"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "1545DA010DB0E92E"
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:sharp_bones"
+				title: "Defeat the Mother of the Maze"
+			}]
+			id: "179D7B104EF48EDB"
+			x: -10.5d
+			y: 4.0d
+			title: "Defeat the Mother of the Maze"
+			rewards: [{
+				id: "2A0753D1DF3B45F8"
+				type: "choice"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Spawns in the water below you when you see the \"You feel the vibrations under the ice\" message in chat."
+			dependencies: ["0435FFEC49A90ADE"]
+		}
+		{
+			tasks: [
+				{
+					id: "7152E105B8409BB4"
+					type: "item"
+					item: "aquamirae:frozen_key"
+				}
+				{
+					type: "observation"
+					id: "093BCD0DCC8FCA5C"
+					observe_type: 0
+					title: "Observe a Frozen Chest"
+					icon: "aquamirae:frozen_chest"
+					to_observe: "aquamirae:frozen_chest"
+					timer: 0L
+				}
+			]
+			x: -7.5d
+			id: "0CD5322B0E413E55"
+			disable_toast: true
+			y: 5.5d
+			title: "Open a Frozen Chest"
+			rewards: [{
+				id: "23CC893E94E893FB"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Frozen Chests are hidden inside of Pillager Shelters. "
+			dependencies: ["58ADADF729514289"]
+		}
+	]
+}

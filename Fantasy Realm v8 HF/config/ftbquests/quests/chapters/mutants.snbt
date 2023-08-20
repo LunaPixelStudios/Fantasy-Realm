@@ -1,0 +1,603 @@
+{
+	default_hide_dependency_lines: false
+	group: "2F85EA47D6AE998C"
+	id: "0EE38DC12ADB16BC"
+	filename: "mutants"
+	default_quest_shape: ""
+	icon: "mutantmore:mutant_blaze_core"
+	title: " Mutants"
+	order_index: 2
+	quests: [
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "0DB56CB7AD3DF086"
+				entity: "mutantbeasts:mutant_zombie"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/zombie/zombie.png"
+					}
+				}
+				title: "Defeat a Mutant Zombie"
+			}]
+			description: [
+				""
+				""
+				"Rarely spawns in place of normal zombies. Slowly heals health during night time. "
+			]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/zombie/zombie.png"
+				}
+			}
+			id: "7766939D461DD187"
+			x: -8.0d
+			y: 0.5d
+			title: "Kill it with fire!"
+			rewards: [{
+				id: "144430C5F13DD6AC"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Defeat a Mutant Zombie"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "42BDBF42D5860A96"
+				entity: "mutantbeasts:mutant_skeleton"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/skeleton/skeleton.png"
+					}
+				}
+				title: "Defeat a Mutant Skeleton"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/skeleton/skeleton.png"
+				}
+			}
+			id: "5885D889533B4538"
+			x: -6.0d
+			y: 0.5d
+			rewards: [{
+				id: "4E3909842B52116B"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Spawns rarely in place of skeletons."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "0BBACED5A35AF48D"
+				entity: "mutantbeasts:mutant_creeper"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/creeper/creeper.png"
+					}
+				}
+				title: "Defeat a Mutant Creeper"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/creeper/creeper.png"
+				}
+			}
+			id: "202D92B5E5A043E3"
+			x: -4.0d
+			y: 0.5d
+			rewards: [{
+				id: "6DB35B7B27B1DBB9"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Spawns rarely in place of creepers."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "76BFB7176CF0BC76"
+				entity: "mutantmore:mutant_husk"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/zombie/husk.png"
+					}
+				}
+				title: "Defeat a Mutant Husk"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/zombie/husk.png"
+				}
+			}
+			id: "625117E3C52E7654"
+			x: -2.0d
+			y: 0.5d
+			rewards: [{
+				id: "6F45A623D4408347"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Spawns rarely in place of husks. "
+		}
+		{
+			tasks: [{
+				id: "001AD154B7576359"
+				type: "item"
+				item: {
+					id: "mutantbeasts:creeper_shard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "401A63ADB2B4AE94"
+			x: -4.0d
+			y: 2.0d
+			title: "Obtain a Creeper Shard"
+			rewards: [{
+				id: "1923F13D6DF2A241"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Rare drop from breaking a mutant creeper egg"
+			dependencies: ["202D92B5E5A043E3"]
+		}
+		{
+			tasks: [{
+				id: "783FEB88071FC136"
+				type: "item"
+				item: "mutantbeasts:creeper_minion_tracker"
+			}]
+			id: "24CDFB6A734953CC"
+			x: -4.0d
+			y: 3.5d
+			title: "Craft a Creeper Minion Tracker"
+			rewards: [{
+				id: "7E3BA3F884D71799"
+				type: "choice"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Waiting for a mutant creeper egg to hatch will spawn a creeper minion. The creeper minion tracker can be used to check its stats. Feeding it gunpowder will increase its health."
+			dependencies: ["401A63ADB2B4AE94"]
+		}
+		{
+			tasks: [{
+				id: "5DFA5868ED278E2E"
+				type: "item"
+				item: "mutantmore:filled_cactus_jug"
+			}]
+			id: "28EF681E92D1FBEF"
+			x: -2.0d
+			y: 2.0d
+			title: "Obtain a Filled Cactus Jug"
+			rewards: [{
+				id: "20877D09A90CB718"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Obtained by clicking an empty jug on a cactus. Clears all potions effects and gives positive ones."
+			dependencies: ["625117E3C52E7654"]
+		}
+		{
+			tasks: [
+				{
+					id: "6112B05919296362"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_skull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5011793F6971A4C6"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A86E065407C278C"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "57D3B0386C341E4C"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "1F7E7221DF44B891"
+			x: -6.0d
+			y: 2.0d
+			title: "Craft a set of Mutant Skeleton armor"
+			rewards: [{
+				id: "770CFFC4F55CEA5D"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Craftable using the body parts the Mutant Skeleton drops when killed."
+			dependencies: ["5885D889533B4538"]
+		}
+		{
+			tasks: [{
+				id: "20ECB53DD083AD77"
+				type: "kill"
+				entity: "mutantmore:mutant_wither_skeleton"
+				value: 1L
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/skeleton/wither_skeleton.png"
+				}
+			}
+			id: "0AA411B97BFBE5AA"
+			x: 0.0d
+			y: 0.5d
+			title: "Defeat a Mutant Wither Skeleton"
+			rewards: [{
+				id: "7F04897783C9CEEF"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Spawns rarely in place of wither skeletons."
+		}
+		{
+			tasks: [
+				{
+					id: "1A17882B5981018A"
+					type: "item"
+					item: {
+						id: "mutantmore:mutant_wither_skeleton_skull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4813854E78FD12B1"
+					type: "item"
+					item: {
+						id: "mutantmore:mutant_wither_skeleton_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7C936EAF512A2AF4"
+					type: "item"
+					item: {
+						id: "mutantmore:mutant_wither_skeleton_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "17BB6847DA20B464"
+					type: "item"
+					item: {
+						id: "mutantmore:mutant_wither_skeleton_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "25E6ACA68DC8EB08"
+					type: "item"
+					item: {
+						id: "mutantmore:withered_claymore"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "72564B019183D11F"
+			x: 0.0d
+			y: 2.0d
+			title: "Craft a set of Mutant Wither Skeleton armor"
+			rewards: [{
+				id: "61E897ADC5D9D9A4"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Craftable using the body parts the Mutant Wither Skeleton drops when killed."
+			dependencies: ["0AA411B97BFBE5AA"]
+		}
+		{
+			tasks: [{
+				id: "40816D95272DF096"
+				type: "item"
+				item: {
+					id: "mutantbeasts:hulk_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "120CA102A693EDBA"
+			x: -8.0d
+			y: 2.0d
+			title: "Obtain a Hulk Hammer"
+			rewards: [{
+				id: "10D873C0D160A59B"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Click on the ground to do a powerful grand-slam attack."
+			dependencies: ["7766939D461DD187"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "4A3DAAEFD98240F8"
+				entity: "mutantbeasts:mutant_enderman"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/enderman/enderman.png"
+					}
+				}
+				title: "Defeat a Mutant Enderman"
+			}]
+			subtitle: "Spawns rarely in place of endermen."
+			id: "38040D302570B310"
+			y: 0.5d
+			x: -10.0d
+			rewards: [{
+				id: "189613DDF5410103"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "mutantmore:mutantmore/make_a_mutant"
+				criterion: ""
+				id: "4BB4BB17644D924F"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/snow_golem.png"
+					}
+				}
+				title: "Create a Mutant Snow Golem"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/snowman.png"
+				}
+			}
+			id: "1CEFF51D5F635D69"
+			x: -8.0d
+			y: 5.0d
+			rewards: [{
+				id: "078A2FCE7C9E6F3B"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Make a snow golem with 2 snow blocks and a carved pumpkin, then click the snow golem with Compound Z during daytime."
+			dependencies: ["4BEE20CCF82F5D62"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "5B0EC25AC067AB1D"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/shulker/shulker.png"
+					}
+				}
+				entity: "mutantmore:mutant_shulker"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/shulker/shulker.png"
+				}
+			}
+			id: "783A574BC61B27DB"
+			x: -2.0d
+			y: 5.0d
+			title: "Defeat a Mutant Shulker"
+			rewards: [{
+				id: "0771B98EBFC68EFA"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Spawns rarely in place of shulkers."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "031209A2EB394838"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/hoglin/hoglin.png"
+					}
+				}
+				entity: "mutantmore:mutant_hoglin"
+			}]
+			id: "7736217362E1899A"
+			x: -6.0d
+			y: 5.0d
+			title: "Defeat a Mutant Hoglin"
+			rewards: [{
+				id: "653C146D6017FECF"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Spawns rarely in place of hoglins."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "4C2A1EF1861BBC46"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/blaze.png"
+					}
+				}
+				entity: "mutantmore:mutant_blaze"
+			}]
+			id: "1990D09091D2BB2C"
+			x: -4.0d
+			y: 5.0d
+			title: "Defeat a Mutant Blaze"
+			rewards: [{
+				id: "0E9FEBDEA5680384"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Spawns rarely in place of blazes."
+		}
+		{
+			tasks: [{
+				id: "0A44B650D6EFB31C"
+				type: "item"
+				item: "mutantmore:compound_z"
+			}]
+			id: "4BEE20CCF82F5D62"
+			x: -8.0d
+			y: 3.5d
+			title: "Create Compound Z"
+			rewards: [{
+				id: "2A83208160221DD9"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Craftable. Turns normal mobs into mutants under certain conditions."
+		}
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "mutantmore:mutantmore/hog_power"
+				criterion: ""
+				id: "033CCDB59DF950ED"
+				icon: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "mutantmore:hog_power"
+					}
+				}
+				title: "Drink a potion of Hog Power"
+			}]
+			id: "5F1EC0F1948CE460"
+			x: -6.0d
+			y: 6.5d
+			rewards: [{
+				id: "3BF3454664E2DD94"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Obtained by brewing a Mutant Hoglin Husk with awkward potions in a brewing stand."
+			dependencies: ["7736217362E1899A"]
+		}
+		{
+			tasks: [{
+				id: "26BDB5004B6C0DE0"
+				type: "item"
+				item: "mutantmore:rodling_checker"
+			}]
+			id: "6C2B97661544BF88"
+			x: -4.0d
+			y: 6.5d
+			title: "Craft a Rodling Checker"
+			rewards: [{
+				id: "5F2D37717E3834DD"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Allows for configuration of several things when used on a rodling."
+			dependencies: ["1990D09091D2BB2C"]
+		}
+		{
+			tasks: [{
+				id: "1C16B30DBBE2E617"
+				type: "item"
+				item: "mutantmore:mutant_shulker_box"
+			}]
+			id: "73546C9DB0EE272C"
+			x: -2.0d
+			y: 6.5d
+			title: "Obtain a Mutant Shulker Box"
+			rewards: [{
+				id: "71D74111F19C96B1"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "When placed, allows for the transportation of mobs that walk into it."
+			dependencies: ["783A574BC61B27DB"]
+		}
+	]
+}

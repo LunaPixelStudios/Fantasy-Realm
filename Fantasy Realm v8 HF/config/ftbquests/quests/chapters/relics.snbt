@@ -1,0 +1,1393 @@
+{
+	default_hide_dependency_lines: false
+	group: "2F85EA47D6AE998C"
+	id: "3F666A429F694E21"
+	filename: "relics"
+	default_quest_shape: ""
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "relics:textures/block/chalk_5.png"
+		}
+	}
+	title: " Relics"
+	order_index: 3
+	quests: [
+		{
+			tasks: [{
+				id: "52CA071635CC8B99"
+				type: "item"
+				item: {
+					id: "relics:arrow_quiver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Fletcher and Butcher villager houses."
+			id: "41DD51248ECFE4C8"
+			y: 0.0d
+			x: -1.0d
+			rewards: [
+				{
+					id: "7CEFA4B62974E3A9"
+					type: "item"
+					item: "minecraft:spectral_arrow"
+					count: 32
+				}
+				{
+					id: "77285D2013393F51"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "72F11E7D8508FF72"
+				type: "item"
+				item: "relics:runic_anvil"
+			}]
+			id: "0B683FD88C9F1F11"
+			x: 2.5d
+			y: -1.0d
+			title: "Craft a Runic Anvil"
+			rewards: [
+				{
+					id: "6A535A1D09650E82"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "79390027288E817C"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "After being placed on the anvil and hit with a Runic Hammer, Relics will be repaired at the cost of XP."
+		}
+		{
+			tasks: [{
+				id: "6318D71A921BEAF3"
+				type: "item"
+				item: {
+					id: "relics:runic_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "128F43AD1ED127D5"
+			x: 2.5d
+			y: -2.0d
+			title: "Craft a Runic Hammer"
+			rewards: [
+				{
+					id: "1431DF8E7BB98C07"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "4AC2BB6933381F32"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Used on a Runic Anvil to repair Relics."
+		}
+		{
+			tasks: [
+				{
+					id: "37BAAC76C5F04857"
+					type: "item"
+					item: {
+						id: "relics:leather_belt"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4C1F750938F4D1CF"
+					type: "item"
+					item: {
+						id: "relics:hunter_belt"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7AA5E50A9590238D"
+					type: "item"
+					item: {
+						id: "relics:drowned_belt"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			description: [
+				"Hunter Belt - Found in butcher villager houses. Has special attributes. Can fit 1 talisman."
+				"Drowned Belt - Found in underwater ruins and shipwrecks. Has special attributes. Can fit 1 talisman."
+				"Leather Belt - Found in village chests. Has no special attributes. Can fit 3 talismans."
+				""
+			]
+			id: "40929E8896937F0D"
+			x: -7.0d
+			y: 0.0d
+			title: "Belts"
+			rewards: [
+				{
+					id: "7F3066D3A72157C9"
+					type: "choice"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "4E646B33CDF4AF3A"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Obtain all three belts."
+		}
+		{
+			tasks: [{
+				id: "5D007636F292BC5D"
+				type: "item"
+				item: {
+					id: "relics:scarab_talisman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "1CFF969A9374AA07"
+			x: -8.5d
+			y: 1.0d
+			rewards: [
+				{
+					id: "5EB383EBF432D131"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "6DCDE994BC5ABC8F"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Found in Desert Pyramids and Desert Villages."
+			dependencies: [
+				"7AA5E50A9590238D"
+				"4C1F750938F4D1CF"
+				"37BAAC76C5F04857"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "322B3C2DEC92E4A7"
+				type: "item"
+				item: {
+					id: "relics:ghost_skin_talisman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "403019CC4E043AE1"
+			x: -8.0d
+			y: -2.0d
+			rewards: [
+				{
+					id: "72613A3C0E939923"
+					type: "choice"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "1B34841202CBE4EF"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Found in Bastions and Ruined Portals."
+			dependencies: [
+				"7AA5E50A9590238D"
+				"4C1F750938F4D1CF"
+				"37BAAC76C5F04857"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "7697A854A0D8F150"
+				type: "item"
+				item: {
+					id: "relics:stellar_catalyst"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "329F360A60FD3B2C"
+			x: -8.5d
+			y: -1.0d
+			rewards: [
+				{
+					id: "278E664A7A10517A"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "472DD459E88DF488"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Found in End Cities."
+			dependencies: [
+				"7AA5E50A9590238D"
+				"4C1F750938F4D1CF"
+				"37BAAC76C5F04857"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "535D466C1E499869"
+				type: "item"
+				item: {
+					id: "relics:chorus_inhibitor"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "7F61E6CBF41959E4"
+			x: -5.5d
+			y: 1.0d
+			rewards: [
+				{
+					id: "6F38E624542C37F8"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "46BE0EB1A96CDC4B"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Found in End Cities."
+			dependencies: [
+				"4C1F750938F4D1CF"
+				"7AA5E50A9590238D"
+				"37BAAC76C5F04857"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "5CFC4E7DBD5981A5"
+				type: "item"
+				item: {
+					id: "relics:lucky_horseshoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "48AFD07F830F43FE"
+			x: -5.5d
+			y: 0.0d
+			rewards: [
+				{
+					id: "17AB00C332D8B42B"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "72F56B804B7C4541"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Found in Shepherd villager houses."
+			dependencies: [
+				"4C1F750938F4D1CF"
+				"7AA5E50A9590238D"
+				"37BAAC76C5F04857"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "44F2FB5D24B4DF68"
+				type: "item"
+				item: {
+					id: "relics:soul_devourer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "7955AAE57489E153"
+			x: -6.0d
+			y: -2.0d
+			rewards: [
+				{
+					id: "77DAFCD56DA7E867"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "4840571B9B77B2FE"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Found in End Cities."
+			dependencies: [
+				"7AA5E50A9590238D"
+				"4C1F750938F4D1CF"
+				"37BAAC76C5F04857"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "4C38F937C7E44E7C"
+				type: "item"
+				item: {
+					id: "relics:blazing_flask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "17CCC01CCBDF5E57"
+			x: -8.5d
+			y: 0.0d
+			rewards: [
+				{
+					id: "013A15F29C0E7C9B"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "702F4FBAAE8750FD"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Found in Bastions and Ruined Portals."
+			dependencies: [
+				"4C1F750938F4D1CF"
+				"7AA5E50A9590238D"
+				"37BAAC76C5F04857"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "2BDA92420B8CB739"
+				type: "item"
+				item: {
+					id: "relics:spore_sack"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "026E757B655DA1C0"
+			x: -5.5d
+			y: -1.0d
+			rewards: [
+				{
+					id: "231D6DF4E58264DD"
+					type: "choice"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "0622E46FC0B8F381"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Found in Jungle Temples."
+			dependencies: [
+				"4C1F750938F4D1CF"
+				"37BAAC76C5F04857"
+				"7AA5E50A9590238D"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "1ECBA169D18A0E61"
+				type: "item"
+				item: {
+					id: "relics:slime_heart"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "0F2CE6F48E9A00EE"
+			x: -7.0d
+			y: -2.0d
+			rewards: [
+				{
+					id: "55F042D630BE63D0"
+					type: "choice"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "2AD586DEFB35A6DE"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Found in Mineshafts."
+			dependencies: [
+				"7AA5E50A9590238D"
+				"4C1F750938F4D1CF"
+				"37BAAC76C5F04857"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "1A470EC453898279"
+				type: "item"
+				item: {
+					id: "relics:amphibian_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Underwater Ruins and Shipwrecks."
+			id: "3720CA699718F38F"
+			y: -1.0d
+			x: -1.0d
+			rewards: [
+				{
+					id: "68C3EACC757F634D"
+					type: "item"
+					item: "minecraft:sponge"
+					count: 10
+				}
+				{
+					id: "67BCB8F4C72606A7"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "32C1094C0969C1E2"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "1C1B337B73CE06DE"
+				type: "item"
+				item: {
+					id: "relics:elytra_booster"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in End Cities."
+			id: "15D341A4611D3C4B"
+			y: -2.0d
+			x: -1.0d
+			rewards: [
+				{
+					id: "33AA5AC0555961B5"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "10B28B27D9AC08A9"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "6DD9456D13AB5AC7"
+				type: "item"
+				item: {
+					id: "relics:amphibian_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Underwater Ruins and Shipwreck Treasures."
+			id: "4856D6053349703B"
+			y: -3.0d
+			x: -1.0d
+			rewards: [
+				{
+					id: "086AE7E656393E98"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "7DD301DF7B8C4631"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water_breathing"
+						}
+					}
+				}
+				{
+					id: "78D85F8275A2DE8E"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "3A412DC1BDF48502"
+				type: "item"
+				item: {
+					id: "relics:bastion_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Bastions and Nether Fortresses."
+			id: "284B4A84F4238EBE"
+			y: 1.0d
+			x: -1.0d
+			rewards: [
+				{
+					id: "61442CF8908FACEB"
+					type: "choice"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "0B10D84F607A4823"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "5A1D51D82B4E6832"
+				type: "item"
+				item: {
+					id: "relics:camouflage_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Jungle Temples."
+			id: "4FB930CC14F0B665"
+			y: 2.0d
+			x: -1.0d
+			rewards: [
+				{
+					id: "4C1BED331F902C01"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "0C68D248E967EE3A"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "1377294EEB0606A5"
+				type: "item"
+				item: {
+					id: "relics:delay_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in End Cities."
+			id: "3B9EF3DEC7CE5F5A"
+			y: 3.0d
+			x: -1.0d
+			rewards: [
+				{
+					id: "21BEB934D03C2EE6"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "4958FAC021901388"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "664C7F759700CC9A"
+				type: "item"
+				item: {
+					id: "relics:enders_hand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in End Cities and Strongholds."
+			id: "7ED4132AEEF53074"
+			y: -3.0d
+			x: -2.0d
+			rewards: [
+				{
+					id: "26132B80A9F77474"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "7A160ABBDAF761C2"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "2494C0C1DFB69485"
+				type: "item"
+				item: {
+					id: "relics:fragrant_flower"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Jungle Temples and Mineshafts."
+			id: "7D416AC815E077EF"
+			y: -2.0d
+			x: -2.0d
+			rewards: [
+				{
+					id: "20C94B999E19B552"
+					type: "random"
+					table_id: 9173031481625304501L
+				}
+				{
+					id: "4A5EF1D5C4EAC5C4"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "06109C2F5487A032"
+				type: "item"
+				item: {
+					id: "relics:holy_locket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Desert Pyramids and Desert Villages."
+			id: "46F5DCDB89822694"
+			y: -1.0d
+			x: -2.0d
+			rewards: [
+				{
+					id: "0718029775B4BB02"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "62252550C61A005E"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "06566A72231713D6"
+				type: "item"
+				item: {
+					id: "relics:ice_breaker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Igloos, Snowy Villages, and Tundra Villages."
+			id: "4D9E1DDF038DBAE7"
+			y: 0.0d
+			x: -2.0d
+			rewards: [
+				{
+					id: "7B7B2784C00630AB"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "43584EDE000C3B9F"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "402579ED5C5CFEF8"
+				type: "item"
+				item: {
+					id: "relics:ice_skates"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Snowy Villages, Taiga Villages, and Igloos."
+			id: "57E93F8CC029EBAA"
+			y: 1.0d
+			x: -2.0d
+			rewards: [
+				{
+					id: "231B9AFC045F9D59"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "270A3D9026FBF81F"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "2E77F0B2C3B9FC34"
+				type: "item"
+				item: {
+					id: "relics:jellyfish_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Underwater Ruins and Shipwreck Treasures."
+			id: "3BE6A431BC290FDA"
+			y: 2.0d
+			x: -2.0d
+			rewards: [
+				{
+					id: "28E52E4256F8E52D"
+					type: "choice"
+					table_id: 9173031481625304501L
+				}
+				{
+					id: "2481EABD57CD6709"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "0A48767E5ADF9870"
+				type: "item"
+				item: {
+					id: "relics:magic_mirror"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Mineshafts and Strongholds."
+			id: "5567E9269DCC71DD"
+			y: 3.0d
+			x: -2.0d
+			rewards: [
+				{
+					id: "1ED55D9EF84851A2"
+					type: "choice"
+					table_id: 9173031481625304501L
+				}
+				{
+					id: "03525C5786FBAEA8"
+					type: "item"
+					item: "minecraft:red_bed"
+				}
+				{
+					id: "103B96D98D649328"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "560759334AECC9EE"
+				type: "item"
+				item: {
+					id: "relics:magma_walker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Bastions, Nether Fortresses, and Ruined Portals."
+			id: "7E0716A1A8DE4CC4"
+			y: -3.0d
+			x: -3.0d
+			rewards: [
+				{
+					id: "44BF32CF8AD34DA5"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "2DEAD7677F26F261"
+					type: "item"
+					item: {
+						id: "minecraft:lingering_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+				}
+				{
+					id: "7ABC8EDF0AD3AD04"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "62A9A3CFC18153A7"
+				type: "item"
+				item: {
+					id: "relics:midnight_robe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in End Cities."
+			id: "2BB0AA0D923A3769"
+			y: -2.0d
+			x: -3.0d
+			rewards: [
+				{
+					id: "798CA61AB746275E"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "168AB0CE9F8577BB"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "14AC939E5D163B4B"
+				type: "item"
+				item: {
+					id: "relics:old_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Obtained by Fishing."
+			id: "2F499F3C99B2A2DC"
+			y: -1.0d
+			x: -3.0d
+			rewards: [
+				{
+					id: "2E2208700DE4E01D"
+					type: "choice"
+					table_id: 9173031481625304501L
+				}
+				{
+					id: "034DBFFE7CB9B38A"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "1CE0EE7CB0F76B43"
+				type: "item"
+				item: {
+					id: "relics:out_runner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Mineshafts and Strongholds."
+			id: "06AFCD6BA2A24FFB"
+			y: 0.0d
+			x: -3.0d
+			rewards: [
+				{
+					id: "6125494F5673277B"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "724C4CDBE3D8E4C8"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "16F0237D8C4267FB"
+				type: "item"
+				item: {
+					id: "relics:rage_glove"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Bastions and Nether Fortresses."
+			id: "09D544A227A6F57F"
+			y: 1.0d
+			x: -3.0d
+			rewards: [
+				{
+					id: "3A2865BBAB4E227A"
+					type: "choice"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "7B91FE8873C34326"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "134AC94754ED99F8"
+				type: "item"
+				item: {
+					id: "relics:reflection_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Bastions and Nether Fortresses."
+			id: "27BB7583398E1A88"
+			y: 2.0d
+			x: -3.0d
+			rewards: [
+				{
+					id: "73AE45C59FAA9A74"
+					type: "choice"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "4560039ECD18157E"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "7394086C9800FF74"
+				type: "item"
+				item: {
+					id: "relics:shadow_glaive"
+					Count: 1b
+					tag: {
+						Damage: 0
+						charges: 8
+					}
+				}
+			}]
+			subtitle: "Found in End Cities."
+			id: "78F0693A84EDA7E5"
+			y: 3.0d
+			x: -3.0d
+			rewards: [
+				{
+					id: "633801AE38C92DF4"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "382D7412866CF093"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "5FC68394E5CA41AB"
+				type: "item"
+				item: {
+					id: "relics:spatial_sign"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Mineshafts and Strongholds."
+			id: "682F52146539FCED"
+			y: 4.0d
+			x: -3.0d
+			rewards: [
+				{
+					id: "22CF6C4571D94D3B"
+					type: "choice"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "5A1E9859F81B59F7"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "197BC2C7C497F1D9"
+				type: "item"
+				item: {
+					id: "relics:space_dissector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in End Cities."
+			id: "2C92BC1B7BD6EF1E"
+			y: 4.0d
+			x: -2.0d
+			rewards: [
+				{
+					id: "553909D3B96B4617"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "5346096FD845785B"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "2657E2EB6BDAA5DD"
+				type: "item"
+				item: {
+					id: "relics:spider_necklace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Mineshafts and Strongholds."
+			id: "12561B0A3756BB21"
+			y: 4.0d
+			x: -1.0d
+			rewards: [
+				{
+					id: "4B4FD3F58A06FB12"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "68A0FA78BE527BA0"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "3912C1B294C9144C"
+				type: "item"
+				item: {
+					id: "relics:wool_mitten"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in villager houses."
+			id: "12333D34809BA97E"
+			y: -4.0d
+			x: -3.0d
+			rewards: [
+				{
+					id: "5C6443A04CA9A724"
+					type: "random"
+					table_id: 9173031481625304501L
+				}
+				{
+					id: "1B9F0BE03B78BD37"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "705A3049CD5D5EC8"
+				type: "item"
+				item: {
+					id: "relics:squire_bag"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in village houses."
+			id: "1081B0F3FE7B62E6"
+			y: -4.0d
+			x: -1.0d
+			rewards: [
+				{
+					id: "3D6B38AAD42C726A"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "3476A47E31D7AFC0"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "7A06D1EAD50AB49F"
+				type: "item"
+				item: "relics:runic_altar"
+			}]
+			id: "35D7E9364684BE79"
+			x: 2.5d
+			y: 0.5d
+			title: "Craft a Runic Altar"
+			rewards: [
+				{
+					id: "74E811971CAECB2B"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+				{
+					id: "020F9A467EF32CBC"
+					type: "choice"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Used alongside Runes to upgrade certain Relics and create new ones."
+		}
+		{
+			tasks: [{
+				id: "03A875559150D619"
+				type: "item"
+				item: "relics:bloody_feather"
+			}]
+			id: "075065CD27152CA7"
+			x: 2.5d
+			y: 2.0d
+			title: "Craft a Bloody Feather"
+			rewards: [
+				{
+					id: "3339DC9C302DC8C2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4FE70F558C2F8BF1"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Used on a Coal Parchment to make a Relic Contract."
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "249B2B45CA3B1A47"
+				type: "item"
+				item: "relics:bloody_lectern"
+			}]
+			id: "126C36639FBA57CD"
+			x: 2.5d
+			y: 4.0d
+			title: "Craft a Bloody Lectern"
+			rewards: [
+				{
+					id: "0F26B02A985827CA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0811320BC04C7BD5"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Where Coal Parchment is placed to create Relic Contracts."
+		}
+		{
+			tasks: [{
+				id: "27173B0CA58D4388"
+				type: "item"
+				item: "relics:coal_parchment"
+			}]
+			x: 2.5d
+			id: "3A3FDDEF516CC368"
+			y: 3.0d
+			shape: "circle"
+			title: "Craft a Coal Parchment"
+			rewards: [
+				{
+					id: "6AEDC82792AA6EEC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "48F61BFFBA619A5B"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "Placed in the Runic Altar to create a Relic Contract."
+		}
+		{
+			tasks: [{
+				id: "0F7E5A9990D58965"
+				type: "item"
+				item: "relics:relic_contract"
+			}]
+			id: "34991EC563F0F5F9"
+			x: 4.0d
+			y: 3.0d
+			title: "Create a Relic Contract"
+			rewards: [
+				{
+					id: "0589EB4F248B1AAF"
+					type: "choice"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "37AC4972DEA84360"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+			subtitle: "When combined with a Relic in a crafting table, the Relic will be soulbound."
+			dependencies: [
+				"075065CD27152CA7"
+				"3A3FDDEF516CC368"
+				"126C36639FBA57CD"
+			]
+		}
+		{
+			tasks: [{
+				id: "613DD6DC28541F9A"
+				type: "item"
+				item: {
+					id: "relics:infinity_ham"
+					Count: 1b
+					tag: {
+						pieces: 3
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Found in Strongholds and Mineshafts."
+			id: "642845359F4827ED"
+			y: -4.0d
+			x: -2.0d
+			rewards: [
+				{
+					id: "2EC53A2CCF887E6F"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "4966AD8442077963"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+			]
+		}
+	]
+}

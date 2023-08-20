@@ -1,0 +1,419 @@
+{
+	default_hide_dependency_lines: false
+	group: "47EF6B1E1AEB6949"
+	id: "492C12C373CA4F86"
+	filename: "atum"
+	default_quest_shape: ""
+	icon: "minecraft:sand"
+	title: " Atum"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				id: "119018F7222C5D79"
+				type: "item"
+				item: "atum:scarab"
+			}]
+			id: "1ABD1D9A5650CBFC"
+			x: 0.0d
+			y: 2.0d
+			title: "Craft a Scarab"
+			rewards: [{
+				id: "79AFCBD03CD44622"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Used to activate the portal to the Atum"
+		}
+		{
+			tasks: [{
+				type: "dimension"
+				id: "0E9B0DD26BC0B497"
+				dimension: "atum:atum"
+				icon: "minecraft:sand"
+				title: "Visit The Atum"
+			}]
+			id: "4AC1783FCD193B21"
+			x: 1.5d
+			y: 2.0d
+			title: "Visit the Atum"
+			rewards: [{
+				id: "5094E98A72EF5903"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "To create the Atum portal, you will first need to create a 5x5 Sandstone platform. Then, build walls around the edges, including the corners. The middle of the platform should now be 3x3. Next, stack 2 blocks on all four corners. Fill the middle with water then drop the Scarab into the water."
+			dependencies: ["1ABD1D9A5650CBFC"]
+		}
+		{
+			tasks: [{
+				id: "25EF64E940D2322B"
+				type: "item"
+				item: "atum:spinning_wheel"
+			}]
+			id: "7331A2EB38F623F5"
+			x: 1.5d
+			y: 3.5d
+			title: "Craft a Spinning Wheel"
+			rewards: [{
+				id: "52790D2F483354D8"
+				type: "item"
+				item: "atum:cloth_scrap"
+				count: 3
+			}]
+			subtitle: "Used to create Linen Thread."
+			dependencies: ["4AC1783FCD193B21"]
+		}
+		{
+			tasks: [
+				{
+					id: "21496B26E30E5A1C"
+					type: "item"
+					item: {
+						id: "atum:wanderer_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "62F1D3CF6854FC5F"
+					type: "item"
+					item: {
+						id: "atum:wanderer_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "435AF41C44608418"
+					type: "item"
+					item: {
+						id: "atum:wanderer_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BD95D47F639279D"
+					type: "item"
+					item: {
+						id: "atum:wanderer_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			icon: {
+				id: "atum:wanderer_chest"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4903C72A44B0AA12"
+			x: 1.5d
+			y: 5.0d
+			title: "Create a set of Wanderer armor"
+			rewards: [
+				{
+					id: "38F7104F722FE0DE"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "68478F1F2BBAC550"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+			]
+			subtitle: "Used to make armor sets, notably Diamond Desert armor which is slightly worse than Netherite."
+			dependencies: ["7331A2EB38F623F5"]
+		}
+		{
+			tasks: [{
+				id: "5B8C45B2ACD2ABDE"
+				type: "item"
+				item: "atum:palm_curio_display"
+			}]
+			id: "073E23CE465F0F8D"
+			x: 3.0d
+			y: 1.0d
+			title: "Craft a Curio Display"
+			rewards: [{
+				id: "686CEA8A2B9801AB"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Used to turn a villager into a Curator. Gives coins in return for clean Relics."
+			dependencies: ["4AC1783FCD193B21"]
+		}
+		{
+			tasks: [{
+				id: "47E6A087AB3B933F"
+				type: "item"
+				item: "atum:relic_dirty_ring"
+			}]
+			id: "0C9B4F6C4828EEA8"
+			x: 3.0d
+			y: 3.0d
+			title: "Obtain a Dirty Ring"
+			rewards: [{
+				id: "395C90905ED5999E"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Like all Dirty items, can be cleaned in water."
+			dependencies: ["4AC1783FCD193B21"]
+		}
+		{
+			tasks: [{
+				id: "0FEFAEAF673AC843"
+				type: "item"
+				item: "atum:coin_gold"
+			}]
+			id: "6A2C76E133DE8091"
+			x: 4.5d
+			y: 2.0d
+			title: "Obtain a Golden Coin"
+			rewards: [{
+				type: "item"
+				count: 4
+				id: "13A676AF54C4B723"
+				item: "atum:coin_gold"
+				title: "4x Golden Coin"
+			}]
+			subtitle: "Used to trade with Atum villagers, who function identically to normal villagers."
+			dependencies: [
+				"073E23CE465F0F8D"
+				"0C9B4F6C4828EEA8"
+			]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "58C4D0EACC6907BB"
+				entity: "atum:pharaoh"
+				title: "Defeat the Pharaoh"
+			}]
+			x: 1.5d
+			id: "7CF822783879FF9C"
+			disable_toast: true
+			y: 0.0d
+			title: "Defeat a Pharaoh"
+			subtitle: "Summoned by opening the Sarcophagus at the bottom of a Pyramid. Drops one random Artifact."
+			dependencies: [
+				"1007343A84889CB7"
+				"4AC1783FCD193B21"
+			]
+		}
+		{
+			tasks: [{
+				id: "7C1F4DE75EB00503"
+				type: "item"
+				item: "atum:nebu_torch"
+			}]
+			id: "3956174FEE7BDBBB"
+			x: -1.5d
+			y: 0.0d
+			title: "Craft a Nebu Torch"
+			rewards: [{
+				id: "37DB6CD5F39F5F5C"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "A Nebu Torch needs to place on all four Quandry Blocks to activate the Sarcophagus."
+			dependencies: ["19067906ADEC9095"]
+		}
+		{
+			tasks: [{
+				type: "structure"
+				structure: "atum:pyramid"
+				id: "47FEA02544C53656"
+				icon: "atum:sarcophagus"
+				title: "Locate a Pyramid"
+			}]
+			id: "1007343A84889CB7"
+			x: 0.0d
+			y: 0.0d
+			title: "Locate a Pyramid"
+			rewards: [{
+				id: "1A33C4E3D8EC68C6"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Traps can be deactivated by clicking them with a pickaxe. Unlit torches can be lit with a torch or a flint and steel."
+			dependencies: ["3956174FEE7BDBBB"]
+		}
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "atum:core/itbelongsinamuseum"
+				criterion: ""
+				id: "6144FE9B12594766"
+				icon: {
+					id: "atum:atems_protection"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Obtain one of 37 Artifacts"
+			}]
+			rewards: [{
+				id: "47A2C4CC0A33E1D2"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			id: "282EE74B411305FF"
+			x: 2.5d
+			y: -1.0d
+			title: "Obtain one of 37 Artifacts"
+			subtitle: "Artifacts can be obtained through several methods. Many Artifacts are very beneficial."
+			dependencies: [
+				"13529EC2BD1596C6"
+				"7CF822783879FF9C"
+				"48ACEC49A6264BB7"
+			]
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "762BAC5616F4C9F8"
+				type: "item"
+				item: "atum:nebu_ore"
+			}]
+			id: "13529EC2BD1596C6"
+			x: 4.0d
+			y: -1.0d
+			title: "Find Relic Ore"
+			rewards: [{
+				id: "4EABA4A2823FB535"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Has a 0.1% chance of dropping an Artifact."
+		}
+		{
+			tasks: [{
+				id: "68E466668571C0B2"
+				type: "item"
+				item: "atum:nebu_ore"
+			}]
+			id: "19067906ADEC9095"
+			x: -2.5d
+			y: -1.0d
+			title: "Mine Nebu Ore"
+			rewards: [{
+				id: "598FC198E677B4DF"
+				type: "item"
+				item: {
+					id: "minecraft:furnace"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							CookTime: 0
+							ForgeCaps: {
+								"polymorph:persistent_selector": { }
+							}
+							id: "minecraft:furnace"
+							Items: [{
+								id: "lava_bucket"
+								Count: 1
+								tag: {
+									display: {
+										Name: "{\"text\":\"§fA Surprise\"}"
+									}
+								}
+							}]
+							CookTimeTotal: 200
+							BurnTime: 0
+							RecipesUsed: { }
+						}
+						display: {
+							Lore: ["{\"text\":\"§dHas a surprise inside :)\"}"]
+						}
+					}
+				}
+			}]
+			subtitle: "A rare ore only found in the Atum. Can spawn in clusters of up to 8. Smelted into Nebu Drops, which are crafted into Nebu Ingots."
+		}
+		{
+			tasks: [{
+				id: "2B2206048678B9B1"
+				type: "item"
+				item: "atum:nebu_hammer"
+			}]
+			id: "48ACEC49A6264BB7"
+			x: 1.5d
+			y: -2.0d
+			title: "Craft a Nebu Hammer"
+			rewards: [{
+				id: "00DE36851BC746FF"
+				type: "item"
+				item: "atum:atem_godforged_block"
+			}]
+			subtitle: "Used to mine Godforged Blocks, which will drop one Artifact when mined."
+			dependencies: ["73F6A3CBFA991FB6"]
+		}
+		{
+			tasks: [{
+				id: "54402F1C2427CA5D"
+				type: "item"
+				item: "atum:godforge"
+			}]
+			id: "1B96B53D52E982A5"
+			x: -1.5d
+			y: -2.0d
+			title: "Craft a Godforge"
+			rewards: [{
+				id: "29E2C1751E454DEC"
+				type: "item"
+				item: {
+					id: "minecraft:lava_bucket"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"§fA Surprise 2: Electric Boogaloo\"}"
+						}
+					}
+				}
+			}]
+			subtitle: "Used to smelt down Artifacts into Godshards."
+			dependencies: ["19067906ADEC9095"]
+		}
+		{
+			tasks: [{
+				id: "0E461D46C1C8C1B1"
+				type: "item"
+				title: "Any Godshards"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "atum:godshards"
+					}
+				}
+			}]
+			id: "73F6A3CBFA991FB6"
+			x: 0.0d
+			y: -2.0d
+			title: "Obtain a Godshard"
+			rewards: [{
+				id: "6E4376CAA142C9AF"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Obtained by smelting an Artifact in a Godforge."
+			dependencies: ["1B96B53D52E982A5"]
+		}
+	]
+}

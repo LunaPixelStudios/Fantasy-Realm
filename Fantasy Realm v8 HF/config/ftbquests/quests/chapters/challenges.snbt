@@ -1,0 +1,635 @@
+{
+	default_hide_dependency_lines: false
+	group: "5A43EA4A3BF38D32"
+	id: "3B11E432B813B930"
+	filename: "challenges"
+	default_quest_shape: ""
+	icon: "minecraft:gold_block"
+	title: " Challenges"
+	order_index: 5
+	quests: [
+		{
+			tasks: [{
+				type: "stat"
+				value: 1000000
+				id: "379DE943BBCB413B"
+				stat: "minecraft:damage_dealt"
+				icon: {
+					id: "forestcraft:space_devastation"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "1,000,000 Damage Dealt"
+			}]
+			id: "2B0F63EE7D333401"
+			x: 1.0d
+			y: -5.5d
+			title: "100,000 Damage Dealt"
+			rewards: [{
+				id: "79E5AB83A4FC7928"
+				type: "random"
+				table_id: 7474746035066092266L
+			}]
+			dependencies: ["6906CA6C9ABB354F"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 10
+				id: "1619B05AEC6EF84C"
+				stat: "minecraft:raid_win"
+				title: "10 Raids Won"
+			}]
+			icon: {
+				id: "minecraft:white_banner"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Pattern: "mr"
+								Color: 9
+							}
+							{
+								Pattern: "bs"
+								Color: 8
+							}
+							{
+								Pattern: "cs"
+								Color: 7
+							}
+							{
+								Pattern: "bo"
+								Color: 8
+							}
+							{
+								Pattern: "ms"
+								Color: 15
+							}
+							{
+								Pattern: "hh"
+								Color: 8
+							}
+							{
+								Pattern: "mc"
+								Color: 8
+							}
+							{
+								Pattern: "bo"
+								Color: 15
+							}
+						]
+					}
+					display: {
+						Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+				}
+			}
+			id: "20ED8543DB3BC55C"
+			x: 2.5d
+			y: -5.5d
+			rewards: [{
+				id: "53CC7F05668430F9"
+				type: "choice"
+				table_id: 2645938118790146101L
+			}]
+			subtitle: "To start a raid, you must defeat a Raid Captain Pillager to obtain the Bad Omen effect."
+			dependencies: ["6D7F20CB5DD3EEDA"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 5L
+				id: "23EC0AAA781445D6"
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/enderdragon/dragon.png"
+					}
+				}
+				title: "Defeat the Ender Dragon 5 times"
+			}]
+			id: "29A7B76E25298C73"
+			x: -0.5d
+			y: -5.5d
+			title: "Defeat the Ender Dragon 5 times"
+			rewards: [{
+				id: "22AA66C366BAA6E9"
+				type: "random"
+				table_id: 7474746035066092266L
+			}]
+			dependencies: ["4669C6442D40A5DD"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 1734000
+				id: "5A6326E717216503"
+				stat: "minecraft:time_since_death"
+				title: "Survive for 24 hours"
+			}]
+			icon: "minecraft:enchanted_golden_apple"
+			x: -2.0d
+			id: "56090EDEF3A288EB"
+			y: -5.5d
+			shape: "heart"
+			rewards: [{
+				id: "327CF962936240B9"
+				type: "choice"
+				table_id: 2645938118790146101L
+			}]
+			dependencies: ["56F211E02993D683"]
+			dependency_requirement: "all_started"
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 864020
+				id: "6DFE2D7F7B631D42"
+				icon: "minecraft:golden_apple"
+				stat: "minecraft:time_since_death"
+			}]
+			x: -2.0d
+			id: "56F211E02993D683"
+			y: -4.0d
+			shape: "heart"
+			title: "Survive for 12 hours"
+			rewards: [{
+				id: "2178A795D5F29627"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			dependencies: ["6AB0C64458778339"]
+			dependency_requirement: "all_started"
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 72020
+				id: "658687475F0A3641"
+				stat: "minecraft:time_since_death"
+				icon: "minecraft:apple"
+				title: "Survive for 1 hour"
+			}]
+			id: "6AB0C64458778339"
+			shape: "heart"
+			y: -2.5d
+			x: -2.0d
+			rewards: [{
+				id: "3102142ED3C36737"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 5
+				id: "62150EB2BAD66836"
+				stat: "minecraft:raid_win"
+				title: "5 Raids Won"
+			}]
+			icon: {
+				id: "minecraft:white_banner"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Pattern: "mr"
+								Color: 9
+							}
+							{
+								Pattern: "bs"
+								Color: 8
+							}
+							{
+								Pattern: "cs"
+								Color: 7
+							}
+							{
+								Pattern: "bo"
+								Color: 8
+							}
+							{
+								Pattern: "ms"
+								Color: 15
+							}
+							{
+								Pattern: "hh"
+								Color: 8
+							}
+							{
+								Pattern: "mc"
+								Color: 8
+							}
+							{
+								Pattern: "bo"
+								Color: 15
+							}
+						]
+					}
+					display: {
+						Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+				}
+			}
+			id: "6D7F20CB5DD3EEDA"
+			x: 2.5d
+			y: -4.0d
+			rewards: [{
+				id: "1AE3EBFFCCB401A7"
+				type: "choice"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "To start a raid, you must defeat a Raid Captain Pillager to obtain the Bad Omen effect."
+			dependencies: ["2165149BD434F0A2"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 2L
+				id: "12E105EE2C1C0EA7"
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				title: "Defeat the Ender Dragon 2 times"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/enderdragon/enderdragon.png"
+				}
+			}
+			id: "2EF616FE00BD0EAD"
+			x: -0.5d
+			y: -2.5d
+			title: "Defeat the Ender Dragon 2 times"
+			rewards: [{
+				id: "17771796B582BE55"
+				type: "random"
+				table_id: 2645938118790146101L
+			}]
+			subtitle: "Place an End Crystal on all four Activation Runes to respawn the Ender Dragon."
+			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 3L
+				id: "54254716D176B6F5"
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				title: "Defeat the Ender Dragon 3 times"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/enderdragon/dragon.png"
+				}
+			}
+			id: "4669C6442D40A5DD"
+			x: -0.5d
+			y: -4.0d
+			title: "Defeat the Ender Dragon 3 times"
+			rewards: [{
+				id: "022A85496FD3ECB7"
+				type: "choice"
+				table_id: 2645938118790146101L
+			}]
+			dependencies: ["2EF616FE00BD0EAD"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 750000
+				id: "1B4D6FDE82CEE901"
+				icon: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:damage_dealt"
+			}]
+			id: "6906CA6C9ABB354F"
+			x: 1.0d
+			y: -4.0d
+			title: "50,000 Damage Dealt"
+			rewards: [{
+				id: "29D232B9F0E5D176"
+				type: "choice"
+				table_id: 2645938118790146101L
+			}]
+			dependencies: ["4A7B8A509BD1BC8C"]
+			dependency_requirement: "one_started"
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 500000
+				id: "32E1C081B028DB83"
+				stat: "minecraft:damage_dealt"
+				title: "500,000 Damage Dealt"
+			}]
+			icon: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4A7B8A509BD1BC8C"
+			x: 1.0d
+			y: -2.5d
+			title: "10,000 Damage Dealt"
+			rewards: [{
+				id: "30DCE9C2FE71D9DA"
+				type: "choice"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			tasks: [{
+				type: "stat"
+				value: 1
+				id: "309028D8AF47EDFD"
+				stat: "minecraft:raid_win"
+				title: "1 Raid Won"
+			}]
+			icon: {
+				id: "minecraft:white_banner"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Pattern: "mr"
+								Color: 9
+							}
+							{
+								Pattern: "bs"
+								Color: 8
+							}
+							{
+								Pattern: "cs"
+								Color: 7
+							}
+							{
+								Pattern: "bo"
+								Color: 8
+							}
+							{
+								Pattern: "ms"
+								Color: 15
+							}
+							{
+								Pattern: "hh"
+								Color: 8
+							}
+							{
+								Pattern: "mc"
+								Color: 8
+							}
+							{
+								Pattern: "bo"
+								Color: 15
+							}
+						]
+					}
+					display: {
+						Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+				}
+			}
+			id: "2165149BD434F0A2"
+			x: 2.5d
+			y: -2.5d
+			rewards: [{
+				id: "180ACBBEFCDA0135"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "To start a raid, you must defeat a Raid Captain Pillager to obtain the Bad Omen effect."
+		}
+		{
+			tasks: [
+				{
+					type: "item"
+					consume_items: true
+					id: "1AA761CFCF9F3EBE"
+					item: "minecraft:music_disc_13"
+					title: "C418 - 13"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "6E62972F99265927"
+					item: "minecraft:music_disc_cat"
+					title: "C418 - blocks"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "6F2791F206E871B3"
+					item: "minecraft:music_disc_blocks"
+					title: "C418 - blocks"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "4F7BDE19D8F236B4"
+					item: "minecraft:music_disc_chirp"
+					title: "C418 - chirp"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "5D978D6A3BE7FDC8"
+					item: "minecraft:music_disc_far"
+					title: "C418 - far"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "425810924A277BC3"
+					item: "minecraft:music_disc_mall"
+					title: "C418 - mall"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "44079DD29846867F"
+					item: "minecraft:music_disc_mellohi"
+					title: "C418 - mellohi"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "568D6612DEBC53AD"
+					item: "minecraft:music_disc_stal"
+					title: "C418 - stal"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "5C9EEA73687AEAF6"
+					item: "minecraft:music_disc_strad"
+					title: "C418 - strad"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "40AE80F951177B3C"
+					item: "minecraft:music_disc_ward"
+					title: "C418 - ward"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "036BC55C3302F8F7"
+					item: "minecraft:music_disc_11"
+					title: "C418 - 11"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "5ABC673097069CCD"
+					item: "minecraft:music_disc_wait"
+					title: "C418 - wait"
+				}
+				{
+					type: "item"
+					consume_items: true
+					id: "2E36CE238619C6FE"
+					item: "minecraft:music_disc_pigstep"
+					title: "Lena Raine - Pigstep"
+				}
+			]
+			description: ["{image:iceandfire:textures/tinkers/weezer.png width:100 height:100 align:1}"]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "iceandfire:textures/tinkers/weezer.png"
+				}
+			}
+			id: "13E633214F4E2339"
+			x: 1.0d
+			y: -7.0d
+			title: "Collect music discs"
+			rewards: [
+				{
+					id: "36F4909158F13BA9"
+					type: "random"
+					table_id: 8035482593293167064L
+				}
+				{
+					id: "31DF9EFA2E66097A"
+					type: "random"
+					table_id: 2479455307777560111L
+				}
+				{
+					id: "0CD43E51A6D17A28"
+					type: "random"
+					table_id: 1414406861838373835L
+				}
+				{
+					id: "23AB27DA668B23E9"
+					type: "random"
+					table_id: 9173031481625304501L
+				}
+				{
+					id: "02F720B764D06D06"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "2C3E2074DC2E5608"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+				{
+					id: "72099B0712E58038"
+					type: "random"
+					table_id: 5645059266537726814L
+				}
+			]
+			subtitle: "Turn in one of every vanilla music disc"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 2L
+				id: "03B4A116A7965880"
+				entity: "forestcraft:cosmic_fiend"
+				icon: "forestcraft:cosmic_fiend_spawn_egg"
+				title: "Defeat the Cosmic Fiend 2 times"
+			}]
+			id: "3325B73C1B5B0B73"
+			x: 4.0d
+			y: -2.5d
+			title: "Defeat the Cosmic Fiend 2 times"
+			rewards: [{
+				id: "1A2810058119BA05"
+				type: "random"
+				table_id: 7474746035066092266L
+			}]
+			subtitle: "Summoned with the Cosmic Beacon"
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 3L
+				id: "341B35E6BD1E2560"
+				entity: "forestcraft:cosmic_fiend"
+				icon: "forestcraft:cosmic_fiend_spawn_egg"
+				title: "Defeat the Cosmic Fiend 3 times"
+			}]
+			icon: "forestcraft:cosmic_fiend_spawn_egg"
+			id: "13F0183A369EDC88"
+			x: 4.0d
+			y: -4.0d
+			title: "Defeat the Cosmic Fiend 3 times"
+			rewards: [{
+				id: "3672360DEA06F71E"
+				type: "random"
+				table_id: 7474746035066092266L
+			}]
+			subtitle: "Summoned with the Cosmic Beacon"
+			dependencies: ["3325B73C1B5B0B73"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 5L
+				id: "54133795720CB925"
+				entity: "forestcraft:cosmic_fiend"
+				icon: "forestcraft:cosmic_fiend_spawn_egg"
+				title: "Defeat the Cosmic Fiend 5 times"
+			}]
+			id: "65DD74EA9F6F6BA2"
+			x: 4.0d
+			y: -5.5d
+			title: "Defeat the Cosmic Fiend 5 times"
+			rewards: [{
+				id: "282A0B4992243EB6"
+				type: "choice"
+				table_id: 7474746035066092266L
+			}]
+			subtitle: "Summoned with the Cosmic Beacon"
+			dependencies: ["13F0183A369EDC88"]
+		}
+	]
+}

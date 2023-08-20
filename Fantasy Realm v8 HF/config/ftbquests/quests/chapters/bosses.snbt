@@ -1,0 +1,660 @@
+{
+	default_hide_dependency_lines: false
+	group: "5A43EA4A3BF38D32"
+	id: "007E5A186A668213"
+	filename: "bosses"
+	default_quest_shape: ""
+	icon: "minecraft:nether_star"
+	title: " Bosses"
+	order_index: 2
+	quests: [
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "5665C2A13A026D9F"
+				entity: "forestcraft:beequeen"
+				icon: "forestcraft:killer_bee"
+				title: "Defeat the Queen Bee"
+			}]
+			subtitle: "Summoned by destroying a Large Hive, found in the wilderness."
+			id: "2CBC508F41B75925"
+			y: -2.5d
+			x: -3.5d
+			rewards: [{
+				id: "77B457EF6C9D7E2B"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "090933F82E209D45"
+				entity: "trouble_rpg:cyclops"
+				title: "Defeat the easier Cyclops"
+			}]
+			id: "73F430830D8157A9"
+			x: -2.0d
+			y: -2.5d
+			title: "The easier Cyclops"
+			rewards: [{
+				id: "753E37F313C2C701"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Defeat a Cyclops that spawns on land."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "31162AA8D8FAFF26"
+				entity: "iceandfire:cyclops"
+				title: "Defeat the harder Cyclops"
+			}]
+			subtitle: "Defeat a Cyclops that spawns in a cave."
+			id: "0587347DEFF8C9D7"
+			y: -2.5d
+			x: -0.5d
+			rewards: [{
+				id: "283D48516A194239"
+				type: "choice"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "mowziesmobs:kill_barako"
+				criterion: ""
+				id: "3A6E54D9087A3B0E"
+				title: "Defeat Barako, the Sun Chief"
+			}]
+			icon: {
+				id: "mowziesmobs:barakoa_mask_fury"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "73159F32CDC23FD9"
+			x: 1.0d
+			y: -2.5d
+			title: "Defeat Barako, the Sun Chief"
+			rewards: [
+				{
+					id: "316A76D402DE13FE"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "351C3FF20CC16913"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+			]
+			subtitle: "Typically found in Savannahs. Kill his minions first."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "2D45C02437D7DA56"
+				entity: "minecraft:wither"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/wither/wither.png"
+					}
+				}
+				title: "Defeat The Wither"
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecraft:textures/entity_icon/wither/wither.png"
+				}
+			}
+			id: "1E7EF04230D1092F"
+			x: -3.5d
+			y: 5.0d
+			title: "Defeat The Wither"
+			rewards: [
+				{
+					id: "74871332F5E6DED9"
+					type: "random"
+					table_id: 2645938118790146101L
+				}
+				{
+					id: "572E4017094027EB"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "1A15BBFE8B040C79"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			subtitle: "Summoned using Soul Stone from the \"Bygone Nether\" mod instead of soul sand. Make sure there are no blocks around it, or it will not spawn."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "5232254372E1C9DE"
+				entity: "forestcraft:cosmic_fiend"
+				icon: "forestcraft:cosmic_fiend_spawn_egg"
+				title: "Defeat the Cosmic Fiend"
+			}]
+			icon: "forestcraft:cosmic_fiend_spawn_egg"
+			id: "3D12F15C4C4A2EA3"
+			x: -3.5d
+			y: 6.5d
+			title: "Defeat The Cosmic Fiend"
+			rewards: [
+				{
+					id: "69A9CEF053300683"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "7520247DCAA538DC"
+					type: "random"
+					table_id: 7474746035066092266L
+				}
+			]
+			subtitle: "Summoned with the Cosmic Beacon"
+			dependencies: ["1E7EF04230D1092F"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "53A550C9B8308970"
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/enderdragon/dragon.png"
+					}
+				}
+				title: "Defeat the Ender Dragon"
+			}]
+			id: "7D59D555F9325A81"
+			x: -2.0d
+			y: 5.0d
+			title: "Defeat the Ender Dragon"
+			rewards: [
+				{
+					id: "73551D3B3B816E2E"
+					type: "random"
+					table_id: 2645938118790146101L
+				}
+				{
+					id: "349DE4DBFBB4A3C6"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "6E4E67713D63E5DE"
+					type: "choice"
+					table_id: 1414406861838373835L
+				}
+				{
+					id: "6CA621F3BA0ED954"
+					type: "item"
+					item: {
+						id: "treasurebags:treasure_bag"
+						Count: 1b
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "treasurebags:bags/ender"
+								BagType: "treasurebags:ender"
+							}
+						}
+					}
+					count: 4
+				}
+			]
+			subtitle: "Entering the End requires twelve special eyes."
+			dependencies: ["1E7EF04230D1092F"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "5D7EA8C30C2AA34F"
+				entity: "forestcraft:iguana_king"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "forestcraft:textures/item/iguana_king_spawn_egg.png"
+					}
+				}
+				title: "Defeat the Iguana King"
+			}]
+			id: "74892D1184D096B7"
+			x: -3.5d
+			y: -1.0d
+			title: "Defeat the Iguana King"
+			rewards: [
+				{
+					id: "52370746EC3E8557"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "2BEE2DB3B4CF7FDE"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+			]
+			subtitle: "Found in Jungle nests. Drops a Block Excavator that destroys blocks in a small area once activated by redstone."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "6867EE89697C6466"
+				entity: "forestcraft:nether_scourge"
+				icon: "forestcraft:demon_food"
+				title: "Defeat the Nether Scourge"
+			}]
+			id: "69641CDAF6EE4C68"
+			x: -2.0d
+			y: 6.5d
+			title: "Defeat the Nether Scourge"
+			rewards: [
+				{
+					id: "7FAD80BFD6834950"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "5A8D2103D1C7F2D6"
+					type: "choice"
+					table_id: 2645938118790146101L
+				}
+			]
+			subtitle: "Summoned using Demon Food."
+			dependencies: ["1E7EF04230D1092F"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "2A58E85D2B182712"
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					id: "aquamirae:three_bolt_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Defeat the Ghost of Captain Corneila"
+			}]
+			id: "71B647609B7686D1"
+			x: 1.0d
+			y: -1.0d
+			title: "Defeat the Ghost of Captain Corneila"
+			rewards: [{
+				id: "3E08FCB71E2C0D11"
+				type: "random"
+				table_id: 2645938118790146101L
+			}]
+			subtitle: "Summoned with the Shell Horn"
+		}
+		{
+			tasks: [{
+				type: "advancement"
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				id: "6BA77BDD53606590"
+				title: "Defeat the Ferrous Wroughtnaut"
+			}]
+			subtitle: "Found randomly underground in all biomes."
+			id: "017A5A989035B4C4"
+			y: -1.0d
+			x: -0.5d
+			rewards: [
+				{
+					id: "749B8E46D3E4E0B7"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "15C7D6CCA196AB9B"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+			]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "299C1B276DE9FB71"
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "minecraft:netherite_block"
+				title: "Defeat the Netherite Monstrosity"
+			}]
+			id: "16814C3135262085"
+			x: -2.0d
+			y: 0.5d
+			title: "Defeat the Netherite Monstrosity"
+			rewards: [
+				{
+					id: "6F121A5E9FCA5303"
+					type: "choice"
+					table_id: 2645938118790146101L
+				}
+				{
+					id: "7AB86DA6017087AA"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+			]
+			subtitle: "Found in Soul Blacksmiths in The Nether."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "5CA7732576E06A09"
+				entity: "blue_skies:summoner"
+				title: "Defeat the Summoner"
+			}]
+			id: "1CA4F0E85EF2E79F"
+			x: -0.5d
+			y: 0.5d
+			title: "Defeat the Summoner"
+			rewards: [{
+				id: "59FD603F3FEF649D"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Found in Blinding Dungeons in the Everbright dimension."
+		}
+		{
+			tasks: [{
+				id: "2FB539A38142B1F5"
+				type: "kill"
+				entity: "blue_skies:starlit_crusher"
+				value: 1L
+			}]
+			id: "4587DB35FD05BC62"
+			x: 1.0d
+			y: 0.5d
+			title: "Defeat the Starlit Crusher"
+			rewards: [{
+				id: "2FB84DE1D93FAEE4"
+				type: "choice"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Found in Nature Dungeons in the Everbright dimension."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "10BB5E309452A862"
+				entity: "iceandfire:gorgon"
+				icon: {
+					id: "iceandfire:gorgon_head"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Defeat the Gorgon"
+			}]
+			subtitle: "Found inside of Gorgon Temples. Drops a one time use Gorgon Head which can be used to turn any mob, except the Ender Dragon, into stone. "
+			id: "52B9D38FD6A5A312"
+			y: -1.0d
+			x: -2.0d
+			rewards: [{
+				id: "6DEF1161FF90F678"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			tasks: [{
+				id: "60273D9A4156D713"
+				type: "kill"
+				entity: "blue_skies:alchemist"
+				value: 1L
+			}]
+			id: "4F89D4C5807E8FF5"
+			x: -2.0d
+			y: 2.0d
+			title: "Defeat the Alchemist"
+			rewards: [{
+				id: "5384967B2AD3BF6B"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Found in Blinding Dungeons in the Everdawn dimension."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "1CC7A3887DF27EE0"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "blue_skies:textures/gui/journal/icons/arachnarch.png"
+					}
+				}
+				entity: "blue_skies:arachnarch"
+			}]
+			id: "7E3B7BA9E4897E8B"
+			x: -3.5d
+			y: 2.0d
+			title: "Defeat the Arachnarch"
+			rewards: [{
+				id: "3F54BE1EA7E61EB6"
+				type: "choice"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Found in Poison Dungeons in the Everdawn dimension."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "2D744B6722584AF6"
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				title: "Defeat the Ender Golem"
+			}]
+			id: "66D7B7D8A4B7A5FD"
+			x: -0.5d
+			y: 5.0d
+			title: "Defeat the Ender Golem"
+			rewards: [{
+				id: "2EE55B560E050E09"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Spawns in the Ruined Citadel."
+			dependencies: [
+				"7D59D555F9325A81"
+				"723F20E7B960E5A8"
+			]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "74670DB112B70CE9"
+				entity: "atum:pharaoh"
+				icon: "atum:sarcophagus"
+				title: "Defeat the Pharaoh"
+			}]
+			subtitle: "Found at the bottom of Pyramids in the Atum Dimension."
+			id: "3F9E3291F08584FA"
+			y: 0.5d
+			x: -3.5d
+			rewards: [{
+				id: "0177CC3817FB48D2"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "051CD6D4C44990F2"
+				entity: "cataclysm:ender_guardian"
+				title: "Defeat the Ender Guardian"
+			}]
+			id: "723F20E7B960E5A8"
+			x: 1.0d
+			y: 5.0d
+			title: "Defeat the Ender Guardian"
+			rewards: [
+				{
+					id: "704E15715D6B44DA"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "3513A816EF4A4049"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+			]
+			subtitle: "Found at the bottom of the Ruined Citadel."
+			dependencies: ["7D59D555F9325A81"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "556840B50A00650E"
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				title: "Defeat the Void Worm"
+			}]
+			id: "6DAA16C90459588C"
+			x: -0.5d
+			y: 6.5d
+			rewards: [
+				{
+					id: "5A5A173E03151C3A"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "22D904E6BCE709D8"
+					type: "random"
+					table_id: 2645938118790146101L
+				}
+			]
+			subtitle: "Summoned by dropping a Mysterious Worm into the void. The Mysterious Worm is obtained by putting a Crimson Mosquito Larva into a Capsid."
+			dependencies: ["7D59D555F9325A81"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "539762B5FCE230F0"
+				entity: "conjurer_illager:conjurer"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "conjurer_illager:textures/painting/theater.png"
+					}
+				}
+				title: "Defeat the Conjurer"
+			}]
+			id: "5FA2EE2F3F419225"
+			x: -0.5d
+			y: 2.0d
+			title: "Defeat the Conjurer"
+			rewards: [{
+				id: "0685F64D2A1B941C"
+				type: "choice"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Spawns in Theaters, which can be found in Roofed Forest biomes. Drops the Conjurer hat which prevents the wearer from getting Bad Omen after killing a Raid Captain."
+		}
+		{
+			tasks: [
+				{
+					type: "kill"
+					value: 1L
+					id: "770D87509AB5576C"
+					icon: "trouble_rpg:storm_shard"
+					entity: "trouble_rpg:divain_raitoningu"
+				}
+				{
+					id: "7A1623749B31933B"
+					type: "item"
+					item: "trouble_rpg:eye_of_the_storm"
+				}
+			]
+			id: "55C8DB181A51A5D2"
+			x: -3.5d
+			y: 3.5d
+			title: "Defeat Divain Raitoningu"
+			rewards: [{
+				id: "28535C387733D60A"
+				type: "choice"
+				table_id: 2645938118790146101L
+			}]
+			subtitle: "Summoned with the Eye of the Storm. Currently only drops loot bags and an item which re-summons the boss."
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "3E8678692E2BEE96"
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:hydra_heart"
+				title: "Defeat the Hydra"
+			}]
+			subtitle: "Spawns in Hydra Lairs in Swamp biomes. Fire damage is necessary to kill the Hydra."
+			id: "1F82DAB6661F56F3"
+			y: 2.0d
+			x: 1.0d
+			rewards: [{
+				id: "73CC5F426EDDBE61"
+				type: "random"
+				table_id: 2645938118790146101L
+			}]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "758C5CEC55E6272F"
+				icon: "ba_bt:monolith_land"
+				entity: "ba_bt:land_golem"
+			}]
+			id: "1C63059A4259EA5F"
+			x: -2.0d
+			y: 3.5d
+			title: "Defeat a Land Golem"
+			rewards: [{
+				id: "02B5FAC7789D9DE1"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Found in Battle Towers"
+		}
+	]
+}

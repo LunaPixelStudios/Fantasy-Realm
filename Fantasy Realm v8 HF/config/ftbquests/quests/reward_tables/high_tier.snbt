@@ -1,0 +1,106 @@
+{
+	rewards: [
+		{
+			item: {
+				id: "atum:short_bow"
+				Count: 1b
+				tag: {
+					Damage: 284
+					AttributeModifiers: [
+						{
+							Amount: 0.05d
+							Name: "ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]"
+							Operation: 0
+							UUID: [I;
+								691072415
+								-1362411370
+								-1145194411
+								1585549893
+							]
+							Slot: "mainhand"
+							AttributeName: "generic.movement_speed"
+						}
+						{
+							Amount: -4.0d
+							Name: "ResourceKey[minecraft:attribute / minecraft:generic.max_health]"
+							Operation: 0
+							UUID: [I;
+								1148409802
+								868499889
+								-1700110158
+								-27261530
+							]
+							Slot: "mainhand"
+							AttributeName: "generic.max_health"
+						}
+					]
+					Enchantments: [
+						{
+							lvl: 8
+							id: "minecraft:power"
+						}
+						{
+							lvl: 1
+							id: "minecraft:infinity"
+						}
+						{
+							lvl: 1
+							id: "minecraft:vanishing_curse"
+						}
+					]
+					display: {
+						Name: "{\"text\":\"§eKraeshi's Shortbow\"}"
+					}
+				}
+			}
+		}
+		{
+			type: "command"
+			command: "/playerex level-add @p 1"
+			player_command: false
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecolonies:textures/entity/skills/small/strength.png"
+				}
+			}
+			title: "+1 Skill Point"
+		}
+		{ item: "waystones:waystone", count: 3, weight: 2 }
+		{ icon: "aquamirae:poseidons_breakfast", item: "aquamirae:poseidons_breakfast", count: 3 }
+		{ item: "forbidden_arcanus:orb_of_temporary_flight", count: 3 }
+		{ item: "iceandfire:dragonbone", count: 8 }
+		{ item: "minecraft:diamond", count: 16 }
+		{
+			xp_levels: 20
+			type: "xp_levels"
+			weight: 3
+		}
+		{
+			xp_levels: 25
+			type: "xp_levels"
+			weight: 2
+		}
+		{
+			xp_levels: 30
+			type: "xp_levels"
+		}
+		{ item: "minecraft:iron_ingot", count: 32, weight: 2 }
+		{ item: "minecraft:oak_log", count: 64, weight: 2 }
+	]
+	loot_size: 1
+	order_index: 2
+	id: "24B842B34426E835"
+	icon: {
+		id: "minecraft:diamond_block"
+		Count: 64b
+		tag: {
+			Enchantments: [{
+				lvl: 1
+				id: "minecraft:projectile_protection"
+			}]
+		}
+	}
+	title: "High Tier"
+}

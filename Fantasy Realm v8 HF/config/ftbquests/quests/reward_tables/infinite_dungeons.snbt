@@ -1,0 +1,26 @@
+{
+	rewards: [
+		{ item: "infinite_dungeons:skeletal_key", weight: 3 }
+		{ item: "infinite_dungeons:nether_key", weight: 3 }
+		{ item: "infinite_dungeons:void_key", weight: 3 }
+		{ title: "8 Skeletal Coins", item: "infinite_dungeons:skeletal_coin", count: 8, weight: 2 }
+		{ title: "8 Nether Coins", item: "infinite_dungeons:nether_coin", count: 8, weight: 2 }
+		{ title: "8 Void Coins", item: "infinite_dungeons:void_coin", count: 8, weight: 2 }
+		{
+			item: {
+				id: "infinite_dungeons:reward_crate"
+				Count: 1b
+				tag: {
+					reward_list: "god_apple_pack"
+				}
+			}
+			count: 3
+			weight: 3
+		}
+	]
+	loot_size: 1
+	order_index: 3
+	id: "13A0FB8C07C053CB"
+	icon: "infinite_dungeons:skeletal_coin"
+	title: "Infinite Dungeons"
+}

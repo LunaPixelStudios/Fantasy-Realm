@@ -1,0 +1,333 @@
+{
+	default_hide_dependency_lines: false
+	group: "5A43EA4A3BF38D32"
+	id: "59530B101C7AA4D1"
+	filename: "quality_of_life"
+	default_quest_shape: ""
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "chipped:textures/block/pumpkin/carved_pumpkin_happy.png"
+		}
+	}
+	title: " Curiosities"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				id: "05CF1F73040EF485"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+			id: "59CB251120618BAA"
+			x: -4.5d
+			y: -1.5d
+			title: "Craft a Link Cable"
+			rewards: [{
+				id: "775344AA86F846D5"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+				count: 2
+			}]
+			subtitle: "Used to link a Request Table to one inventory. Also used frequently to craft other items."
+		}
+		{
+			tasks: [{
+				id: "33BEFA78B73D847D"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+			id: "6671FBB9B8E5D554"
+			x: -5.5d
+			y: 0.0d
+			title: "Craft a Storage Request Table"
+			rewards: [{
+				id: "3D068ECB861B20D2"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Placed above the Network Root. Can be clicked to view the contents of all connected inventories."
+			dependencies: ["59CB251120618BAA"]
+		}
+		{
+			tasks: [{
+				id: "0D8E76A2B823BF00"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+			id: "42404A9B98C40EE2"
+			x: -3.5d
+			y: 0.0d
+			title: "Craft a Storage Network Root"
+			rewards: [{
+				id: "1BEEBE3899AD33D6"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Only one needed per network. This is what you attach cables to."
+			dependencies: ["59CB251120618BAA"]
+		}
+		{
+			tasks: [{
+				id: "68856DF505CDB4C6"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+			id: "56A96F05430F952B"
+			x: -4.5d
+			y: 1.5d
+			title: "Craft a Crafting Remote"
+			rewards: [{
+				id: "02FA23C7B6A3F6CD"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Allows you to access the linked storage network from anywhere, in any dimension. The chunk that has the Network Root must be loaded for this to work. This can be accomplished by clicking the map icon in the top left of your inventory, clicking to claim the chunk, then shift clicking it to forceload. The remote can also be put into a Baubles slot, allowing you to open the remote with the press of a button. This can be found in Controls under \"Open Remote Curio\"."
+			dependencies: [
+				"6671FBB9B8E5D554"
+				"42404A9B98C40EE2"
+			]
+		}
+		{
+			tasks: [{
+				id: "2F95FA4278CA4B7B"
+				type: "item"
+				item: "tradingpost:trading_post"
+			}]
+			id: "3C6E255DDA266E4C"
+			x: -1.5d
+			y: -1.5d
+			title: "Craft a Trading Post"
+			rewards: [{
+				id: "7DBF2EAD1F31123B"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Allows you to trade with multiple nearby villagers at once."
+		}
+		{
+			tasks: [{
+				type: "observation"
+				timer: 0L
+				observe_type: 3
+				id: "63F25F9CEAB099A4"
+				icon: "bountiful:bountyboard"
+				to_observe: "bountiful:bountyboard"
+			}]
+			id: "5B9F490AF84C36D3"
+			x: -1.5d
+			y: 0.0d
+			title: "Find a Bounty Board"
+			rewards: [{
+				id: "71B1E02CA52B0F84"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Typically found in villages."
+		}
+		{
+			tasks: [{
+				id: "69A5B82FC850FE5E"
+				type: "item"
+				item: "simpleshops:simple_shop"
+			}]
+			id: "7DFF330585E9A328"
+			x: -7.5d
+			y: 3.0d
+			title: "Craft a Simple Shop"
+			rewards: [{
+				id: "2B94DB473A45599F"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+			subtitle: "Very useful on Multiplayer servers, allowing you to easily sell items to other players."
+		}
+		{
+			tasks: [{
+				id: "5BCD98CB1D33DDC5"
+				type: "item"
+				item: "druidcraft:white_bedroll"
+			}]
+			id: "009270E82ED95A71"
+			x: -1.5d
+			y: 1.5d
+			title: "Craft a White Bedroll"
+			rewards: [{
+				id: "4A8C8B8CB323FFB7"
+				type: "item"
+				item: "minecraft:clock"
+			}]
+			subtitle: "Allows you to sleep without setting your spawnpoint."
+		}
+		{
+			tasks: [{
+				id: "3C13CB12985AFA32"
+				type: "item"
+				item: "byg:pendorite_ingot"
+			}]
+			id: "50A6F617D0380EAA"
+			x: -7.5d
+			y: 0.0d
+			title: "Make a Pendorite Ingot"
+			rewards: [{
+				id: "49D7B8F76A5C7CDA"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Made out of several rare nether materials. Pendorite ore can only be found in the Embur Bog biome."
+		}
+		{
+			tasks: [{
+				id: "1CD1F64A2397EF67"
+				type: "item"
+				item: {
+					id: "quark:pickarang"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "7E1B22C8B12087DC"
+			x: -7.5d
+			y: 1.5d
+			title: "Craft a Pickarang"
+			rewards: [{
+				id: "5DB0A7B5B3E0679C"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Used to break blocks from a long distance."
+		}
+		{
+			tasks: [{
+				id: "6877029CC4C55E13"
+				type: "item"
+				item: "divine_missions:shrine"
+			}]
+			id: "1CBC3E4CA7F7F5F5"
+			x: -7.5d
+			y: -1.5d
+			title: "Craft a Shrine"
+			rewards: [{
+				id: "4670B9054805DDB6"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Interacting with a Shrine will give you various options for missions. As you complete more missions, your reputation will increase, resulting in better rewards."
+		}
+		{
+			tasks: [{
+				id: "7B037C7307DAB4C0"
+				type: "item"
+				item: "waystones:waystone"
+				only_from_crafting: true
+			}]
+			id: "05618A1C415ECE44"
+			x: -6.0d
+			y: -3.0d
+			title: "Craft a Waystone"
+			rewards: [{
+				id: "15FCFF5F3C73D374"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "You can teleport between waystones. Longer distances may require experience points."
+		}
+		{
+			tasks: [{
+				id: "4A12DB76A35AB658"
+				type: "item"
+				item: "drinkbeer:beer_barrel"
+			}]
+			id: "0A71A0235393CC36"
+			x: -4.5d
+			y: -3.0d
+			title: "Craft a Keg"
+			rewards: [{
+				id: "63157AC1024EFE84"
+				type: "item"
+				item: "drinkbeer:beer_mug_pumpkin_kvass"
+			}]
+			subtitle: "Used to create beer, which can give a variety of potion effects."
+		}
+		{
+			tasks: [{
+				id: "419129ACEDA5C7A2"
+				type: "item"
+				item: "sereneseasons:calendar"
+			}]
+			id: "205B796FCB6C80D2"
+			x: -3.0d
+			y: -3.0d
+			title: "Craft a Calendar"
+			rewards: [{
+				id: "27783E6CABB8E6BE"
+				type: "item"
+				item: {
+					id: "treasurebags:treasure_bag"
+					Count: 1b
+					tag: {
+						silentlib.LootContainer: {
+							LootTable: "treasurebags:bags/nature"
+							BagType: "treasurebags:nature"
+						}
+					}
+				}
+			}]
+			subtitle: "Shows what season it is. Crop growth, among other things, is dependent on the season."
+		}
+		{
+			tasks: [{
+				id: "6BA9CB6E1B1E2CF0"
+				type: "item"
+				item: "druidcraft:crate"
+			}]
+			id: "2F1F11E242DFF2F0"
+			x: -1.5d
+			y: -3.0d
+			title: "Craft a Crate"
+			rewards: [{
+				id: "35D5490B579B3740"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Multiblock. Can be placed in a 2x2x2 shape for a total of 216 slots."
+		}
+		{
+			tasks: [{
+				id: "2BA6B603F90139B9"
+				type: "item"
+				item: "environmental:sawmill"
+			}]
+			id: "3FAB9B606EDA8F54"
+			x: -7.5d
+			y: -3.0d
+			title: "Craft a Sawmill"
+			rewards: [{
+				id: "53E5FBCB4CB5EE00"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Used to turn wooden planks into various other wooden items."
+		}
+		{
+			tasks: [{
+				id: "0B7F86858CDBDAD4"
+				type: "item"
+				item: "dummmmmmy:target_dummy_placer"
+			}]
+			id: "0FD3FF386819743B"
+			x: -1.5d
+			y: 3.0d
+			title: "Craft a Target Dummy"
+			rewards: [{
+				id: "26E4D0AD0E7A64B3"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Shows how much damage your weapons do."
+		}
+	]
+}

@@ -1,0 +1,239 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = fantasyminecraftpanorama
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 66
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 3
+  action = movebutton
+  y = 66
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 66
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 293
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 89aea7eb-672a-441b-b219-b760c08bd7eb1656865132331
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = fab28ae1-17d7-4866-8756-f7f382e1b1301656865132334
+  y = 438
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 625
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 3a2034c8-148c-4d03-b692-89ecbdb0272e1656865132334
+  y = 437
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 530
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = fe4d00e2-47d1-41be-a112-6ab49e63e25b1656865132335
+  y = 220
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 290
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 127c402c-22e4-49ed-938e-1fac0b53a40a1656865132335
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 2309f425-dc05-4fbc-941b-00b3ffeed2ef1656865132335
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Bisect Server Hosting
+  loopbackgroundanimations = true
+  hoverlabel = Get 25% OFF with CODE: LunaPixel
+  x = -99
+  width = 200
+  actionid = efcdf291-4267-4012-bade-9c60c3e28fc71640665065017
+  action = addbutton
+  y = 22
+  value = https://www.bisecthosting.com/LunaPixel
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/forge.png
+  orientation = mid-centered
+  x = 108
+  width = 12
+  action = addtexture
+  actionid = b7be043c-d386-4b92-9d75-661cfb973cc71640665689029
+  y = 24
+  height = 13
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  x = -124
+  width = 20
+  actionid = 43131b3f-0a4e-4775-b99c-7c4dad0bbecb1640665722332
+  action = addbutton
+  y = 22
+  label = 
+  value = https://lunapixel.studio/discord
+  height = 20
+}
+
+customization {
+  path = resourcepacks/Graphics/discord.png
+  orientation = mid-centered
+  x = -120
+  width = 12
+  action = addtexture
+  actionid = fa41fdf5-1a06-4519-bd5b-9add9b01980e1640665746249
+  y = 26
+  height = 11
+}
+
+customization {
+  path = resourcepacks/Graphics/logo.png
+  orientation = mid-centered
+  x = -132
+  width = 265
+  action = addtexture
+  actionid = 506c8570-c02f-415a-b31f-0a33187f5d021653136270666
+  y = -190
+  height = 150
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = A guide on improving your FPS!
+  label = Performance Guide
+  loopbackgroundanimations = true
+  x = 2
+  width = 105
+  actionid = cc100cbb-3b68-4aa1-b3c4-ecbce18ebc4c1682881498154
+  action = addbutton
+  y = -22
+  value = https://github.com/LunaPixelStudios/Medieval-MC/wiki/Performance-Guide
+  height = 20
+}
+

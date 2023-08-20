@@ -1,0 +1,21 @@
+{
+	rewards: [
+		{ item: "relics:rune_of_air" }
+		{ item: "relics:rune_of_earth" }
+		{ item: "relics:rune_of_water" }
+		{ item: "relics:rune_of_fire" }
+		{ item: "relics:rune_of_lightning" }
+		{ item: "relics:rune_of_love" }
+		{ item: "relics:rune_of_sun" }
+		{ item: "relics:rune_of_moon" }
+		{ item: "relics:rune_of_explosion" }
+		{ item: "relics:rune_of_redstone" }
+		{ item: "relics:rune_of_luck" }
+		{ item: "relics:rune_of_cold" }
+	]
+	loot_size: 1
+	order_index: 10
+	id: "379D664FEECA75E7"
+	icon: "relics:blank_rune"
+	title: "Runes"
+}

@@ -1,0 +1,61 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = resourcepacks/Graphics/loading.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  x = 4
+  textcolor = #4568fc
+  action = editforgestatustext
+  y = -1
+}
+
+customization {
+  visible = false
+  action = editprogressbar
+  barcolor = 
+}
+
+customization {
+  orientation = top-left
+  x = 3
+  textcolor = #4568fc
+  action = editforgememoryinfo
+  y = 4
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  width = 480
+  actionid = 30d1c0bb-002d-48aa-8382-51a649e6d36d1652671075496
+  y = 165
+  action = addcustomprogressbar
+  height = 10
+  direction = right
+  barcolor = #4568fc
+  backgroundcolor = #5c5c5c80
+}
+
+customization {
+  path = resourcepacks/Graphics/lps.png
+  orientation = bottom-right
+  x = -7
+  width = 87
+  action = addtexture
+  actionid = f3c34e42-7646-46b3-9531-aea52ff84e701661921104333
+  y = -4
+  height = 16
+}
+

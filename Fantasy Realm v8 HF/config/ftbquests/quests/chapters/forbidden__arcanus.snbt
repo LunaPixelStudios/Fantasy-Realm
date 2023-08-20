@@ -1,0 +1,589 @@
+{
+	default_hide_dependency_lines: false
+	group: "1E5E40F7A856E564"
+	id: "061DC311BAF3A646"
+	filename: "forbidden__arcanus"
+	default_quest_shape: ""
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "forbidden_arcanus:textures/block/black_hole_aura_0.png"
+		}
+	}
+	title: " Forbidden \\& Arcanus"
+	order_index: 0
+	quests: [
+		{
+			tasks: [{
+				id: "7C1B3477C1F0872F"
+				type: "item"
+				title: "Obsidian with Iron"
+				item: "forbidden_arcanus:obsidian_with_iron"
+			}]
+			id: "1B9CD783981512F5"
+			x: -2.5d
+			y: -0.5d
+			title: "Craft an Obsidian with Iron"
+			rewards: [{
+				id: "17CB5FCE85206002"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "One obsidian surrounded by four iron ingots"
+		}
+		{
+			tasks: [{
+				id: "449906D9E5F6E7FC"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_ingot"
+			}]
+			id: "1A1F51AF90AD772D"
+			x: -1.0d
+			y: -0.5d
+			title: "Craft an Obsidian Ingot"
+			rewards: [{
+				id: "25184150BDA742AF"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Smelt an Obsidian with Iron"
+			dependencies: ["1B9CD783981512F5"]
+		}
+		{
+			tasks: [{
+				id: "00F784009784542F"
+				type: "item"
+				item: "forbidden_arcanus:obsidian_skull"
+			}]
+			id: "140EEC4B1B95C41F"
+			x: 0.5d
+			y: -0.5d
+			title: "Craft an Obsidian Skull"
+			rewards: [
+				{
+					id: "75BF9165E8D41CE6"
+					type: "random"
+					table_id: 9173031481625304501L
+				}
+				{
+					id: "3910D6B4ADDEC88B"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+			]
+			subtitle: "Gives temporary fire resistance"
+			dependencies: ["1A1F51AF90AD772D"]
+		}
+		{
+			tasks: [{
+				id: "610E1F24E3CAE6E6"
+				type: "item"
+				item: "forbidden_arcanus:stellarite_piece"
+			}]
+			id: "5CD53D2D51AA5901"
+			x: 0.5d
+			y: -3.5d
+			title: "Be careful..."
+			rewards: [{
+				id: "1638C59E9E155261"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Mine Stellarite ore"
+		}
+		{
+			tasks: [{
+				id: "0D0E304E6B8188E7"
+				type: "item"
+				item: "forbidden_arcanus:xpetrified_orb"
+			}]
+			id: "3677CECD7DDB068E"
+			x: 2.0d
+			y: -4.5d
+			title: "Mine an Xpetrified Ore"
+			rewards: [{
+				id: "2B5B6B9D3CF59E13"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Semi-common at low y levels. Can be found as high as y 35. "
+		}
+		{
+			tasks: [{
+				id: "52253D4E2C969592"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			id: "4FD999236E643AEB"
+			x: 2.0d
+			y: -3.0d
+			title: "Craft an Eternal Stella"
+			rewards: [
+				{
+					id: "14CA425244C32A65"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "2BE1F0A271ED57A2"
+					type: "choice"
+					table_id: 9173031481625304501L
+				}
+			]
+			subtitle: "Can be used in a Smithing Table to make any unenchanted item unbreakable."
+			dependencies: [
+				"5CD53D2D51AA5901"
+				"3677CECD7DDB068E"
+			]
+		}
+		{
+			tasks: [{
+				id: "609A3EE6AF5FFD1D"
+				type: "item"
+				item: "forbidden_arcanus:eternal_obsidian_skull"
+			}]
+			id: "5FCA1E8CFDEB835F"
+			x: 2.0d
+			y: -1.5d
+			title: "Craft an Eternal Obsidian Skull"
+			rewards: [
+				{
+					id: "0D2B3FF72D63F0A0"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "5994F755367484B2"
+					type: "item"
+					item: "infinite_dungeons:nether_key"
+				}
+			]
+			subtitle: "Grants complete immunity from fire damage"
+			dependencies: [
+				"140EEC4B1B95C41F"
+				"4FD999236E643AEB"
+			]
+		}
+		{
+			tasks: [{
+				id: "3FCD377CCA7F1D73"
+				type: "item"
+				item: "forbidden_arcanus:draco_arcanus_staff"
+			}]
+			id: "10E9058DD21ECA75"
+			x: 0.0d
+			y: 1.5d
+			title: "Craft a Draco Arcanus Staff"
+			rewards: [{
+				id: "5946EB9F6EAD3B78"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Used to make Draco Arcanus tools. Can also be used as a wand."
+			dependencies: ["1A1F51AF90AD772D"]
+		}
+		{
+			tasks: [
+				{
+					id: "07601C9BF6FA1795"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "40F5BFBB8B833EC5"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E1A316F49EF2DF4"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44FB6696A5F3FA4D"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "7BAD533207CC5A1F"
+			x: -2.0d
+			y: 2.5d
+			title: "Craft a set of Draco Arcanus armor"
+			rewards: [
+				{
+					id: "73759E6F6AC65D3F"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "73332ED10EDD8254"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "10A167A605820765"
+					type: "choice"
+					table_id: 9173031481625304501L
+				}
+				{
+					id: "3EDD859EFB2A854B"
+					type: "random"
+					table_id: 2645938118790146101L
+				}
+			]
+			subtitle: "30 Armor and 12 Armor Toughness in total"
+			dependencies: [
+				"5F9FBE5A1C6BDE01"
+				"68528E882A581D49"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "36BCD2376DE07158"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "64FDD38111CEDD14"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_shoulder_pads"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "23E4EE84B3C5E47E"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_knee_pads"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1F0E047936B161E3"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:obsidian_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "5F9FBE5A1C6BDE01"
+			x: -2.0d
+			y: 1.0d
+			title: "Craft a set of Obsidian armor"
+			rewards: [{
+				id: "1E885E2C2B7A7394"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "14 Armor and 6 Armor Toughness in total"
+			dependencies: ["1A1F51AF90AD772D"]
+		}
+		{
+			tasks: [{
+				id: "62480F95904522AC"
+				type: "item"
+				item: "forbidden_arcanus:dragon_scale"
+			}]
+			id: "68528E882A581D49"
+			x: -3.5d
+			y: 1.5d
+			title: "Obtain Dragon Scales"
+			rewards: [{
+				id: "1626F96C0273285A"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Craftable. Can also be found in end cities."
+			dependencies: ["2E3E3F0C0D293C3B"]
+		}
+		{
+			tasks: [
+				{
+					id: "6450B958E3DF1565"
+					type: "item"
+					item: "forbidden_arcanus:draco_arcanus_scepter"
+				}
+				{
+					id: "0688562738187958"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5A1447FFD99725FD"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:draco_arcanus_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "2667EA22BD8B0589"
+			x: -2.0d
+			y: 4.0d
+			title: "Craft all Draco Arcanus tools"
+			rewards: [
+				{
+					id: "134F665F5E6BE904"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "52C15144BA261CD9"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "1A03904A391AFD7D"
+					type: "choice"
+					table_id: 9173031481625304501L
+				}
+			]
+			subtitle: "A decent choice for early-late game."
+			dependencies: [
+				"68528E882A581D49"
+				"10E9058DD21ECA75"
+			]
+		}
+		{
+			tasks: [{
+				id: "598BDD0983FAC6ED"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:mystical_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "2E3E3F0C0D293C3B"
+			x: -5.0d
+			y: 1.5d
+			title: "Craft a Mystical Dagger"
+			rewards: [
+				{
+					id: "117D73991DF5AF67"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "411DCBC0173173A1"
+					type: "random"
+					table_id: 9173031481625304501L
+				}
+			]
+			subtitle: "Used to make Dragon Scales from Dragon Heads"
+			dependencies: [
+				"3E02DA351F569692"
+				"743FBFF76EC6917D"
+			]
+		}
+		{
+			tasks: [{
+				id: "7D2D64BA90A80AB0"
+				type: "item"
+				item: "forbidden_arcanus:dark_rune"
+			}]
+			id: "3E02DA351F569692"
+			x: -6.5d
+			y: 0.5d
+			title: "Obtain a Dark Rune"
+			rewards: [{
+				id: "7D02058167593734"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Obtained by mining Dark Runestone Ore, found deep underground."
+		}
+		{
+			tasks: [{
+				id: "736DEC626E8D8E44"
+				type: "item"
+				item: "forbidden_arcanus:arcane_gold_ingot"
+			}]
+			id: "743FBFF76EC6917D"
+			x: -6.5d
+			y: 2.5d
+			title: "Craft an Arcane Gold Ingot"
+			rewards: [{
+				id: "2544F3801FC9CBF4"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Used a substitute for gold. Can also be used to craft the Mystical Dagger."
+			dependencies: [
+				"707158C270C7A98F"
+				"1EADC67CFACC1925"
+			]
+		}
+		{
+			tasks: [{
+				id: "23695D34D0DB194E"
+				type: "item"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+			}]
+			id: "1EADC67CFACC1925"
+			x: -8.0d
+			y: 3.5d
+			title: "Obtain Arcane Crystal Dust"
+			rewards: [{
+				id: "694EC151F40AE68C"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Obtained by smelting Arcane Crystals, found deep underground."
+		}
+		{
+			tasks: [{
+				id: "55B80077FAD3BE69"
+				type: "item"
+				item: "forbidden_arcanus:mundabitur_dust"
+			}]
+			id: "707158C270C7A98F"
+			x: -8.0d
+			y: 1.5d
+			title: "Craft Mundabitur Dust"
+			rewards: [{
+				id: "19C49116C005EEE6"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Used to make Arcane Gold Ingots"
+		}
+		{
+			tasks: [{
+				id: "01A2DE68AE9D3373"
+				type: "item"
+				item: "forbidden_arcanus:quantum_catcher"
+			}]
+			id: "7B4CF8E764E7AE89"
+			x: -4.285714285714285d
+			y: -0.035714285714291805d
+			title: "Craft a Quantum Catcher"
+			rewards: [{
+				id: "42AB91D41D696067"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Allows you to pick up ANY mob except the Ender Dragon and Wither. Spawner scraps are obtained by breaking spawners without Silk Touch."
+		}
+		{
+			tasks: [{
+				id: "4FCB44DD2531EED4"
+				type: "item"
+				item: "forbidden_arcanus:sanity_meter"
+			}]
+			id: "7CE71D55A626278C"
+			x: -8.0d
+			y: 5.0d
+			title: "Craft a Sanity Meter"
+			rewards: [{
+				id: "646796520B68038D"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Corruption is increased by killing friendly mobs. Every 5 minutes, Corruption decreases by 1 point. Breeding or using soap will decrease Corruption. Consequences such as negative potion effects, scary sounds, and bad weather will occur with high Corruption."
+			dependencies: ["1EADC67CFACC1925"]
+		}
+		{
+			tasks: [{
+				id: "18BE7BB3085EB81A"
+				type: "item"
+				item: "forbidden_arcanus:wet_purifying_soap"
+				consume_items: true
+			}]
+			id: "4A36A36820CA9955"
+			x: -9.5d
+			y: 4.5d
+			title: "Obtain Wet Purifying Soap"
+			rewards: [{
+				id: "47831B6920E2DBBB"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Obtained by putting Purifying Soap in water. Decreases Corruption by 20 points."
+			dependencies: ["1EADC67CFACC1925"]
+		}
+		{
+			tasks: [{
+				id: "4B99B81060FFEBBC"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:spectral_eye_amulet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			id: "190C8BDED9A9D6DF"
+			x: -6.5d
+			y: 4.0d
+			title: "Craft a Spectral Eye Amulet"
+			rewards: [{
+				id: "316D4E47EE2CFAAF"
+				type: "random"
+				table_id: 2645938118790146101L
+			}]
+			subtitle: "Allows you to see mobs through walls when used. Has a very large radius."
+			dependencies: [
+				"743FBFF76EC6917D"
+				"1E7EF04230D1092F"
+			]
+		}
+	]
+}

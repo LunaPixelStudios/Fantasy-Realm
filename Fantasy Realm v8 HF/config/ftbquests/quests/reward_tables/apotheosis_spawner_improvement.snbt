@@ -1,0 +1,25 @@
+{
+	rewards: [
+		{ item: "minecraft:fermented_spider_eye", count: 4, weight: 4 }
+		{ item: "minecraft:sugar", count: 8, weight: 5 }
+		{ item: "minecraft:prismarine_crystals", count: 4, weight: 4 }
+		{
+			item: {
+				id: "minecraft:clock"
+				Count: 1b
+				tag: {
+					"quark:clock_calculated": 1b
+				}
+			}
+			count: 2
+			weight: 3
+		}
+		{ item: "minecraft:ghast_tear", weight: 2 }
+		{ item: "apotheosis:boss_summoner" }
+	]
+	loot_size: 1
+	order_index: 9
+	id: "2268CB773889CE2F"
+	icon: "apotheosis:boss_summoner"
+	title: "Apotheosis Spawner Improvement"
+}

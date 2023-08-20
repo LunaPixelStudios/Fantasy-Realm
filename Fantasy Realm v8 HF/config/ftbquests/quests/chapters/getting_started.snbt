@@ -1,0 +1,276 @@
+{
+	default_hide_dependency_lines: false
+	group: ""
+	id: "1962507DEBE689FD"
+	filename: "getting_started"
+	default_quest_shape: ""
+	icon: "minecraft:oak_log"
+	title: " Getting Started"
+	order_index: 1
+	quests: [
+		{
+			tasks: [{
+				type: "observation"
+				id: "32C1F62A85E49D7F"
+				observe_type: 5
+				title: "Encounter a Goblin Trader"
+				icon: "goblintraders:goblin_trader_spawn_egg"
+				to_observe: "goblintraders:goblin_trader"
+				timer: 0L
+			}]
+			id: "0A68D0EB8AC77DA7"
+			x: -3.0d
+			y: -1.0d
+			title: "Where did you come from?"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					id: "63D86CF256EB9EBD"
+					item: "minecraft:emerald"
+					title: "8x Emerald"
+				}
+				{
+					id: "34689417450CBA0C"
+					type: "loot"
+					title: "Random Reward"
+					table_id: 2198154992902025748L
+				}
+			]
+			subtitle: "Encounter a Goblin Trader"
+			dependencies: ["7944A3DD37CF9502"]
+		}
+		{
+			tasks: [{
+				type: "observation"
+				id: "212F86E9F7AC02B2"
+				observe_type: 0
+				title: "Find diamond ore"
+				icon: "minecraft:diamond_ore"
+				to_observe: "minecraft:diamond_ore"
+				timer: 0L
+			}]
+			icon: "minecraft:diamond"
+			id: "37EAD5B72C1121ED"
+			x: -4.5d
+			y: -2.5d
+			title: "DIAMONDS!"
+			rewards: [{
+				id: "7E5173E91172B538"
+				type: "item"
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 249
+						Enchantments: [
+							{
+								lvl: 2
+								id: "minecraft:fortune"
+							}
+							{
+								lvl: 1
+								id: "minecraft:vanishing_curse"
+							}
+						]
+						display: {
+							Name: "{\"text\":\"§fDead Miner's Pickaxe\"}"
+						}
+					}
+				}
+			}]
+			subtitle: "Find Diamond Ore"
+			dependencies: ["7944A3DD37CF9502"]
+		}
+		{
+			tasks: [{
+				id: "60073349D5369C58"
+				type: "checkmark"
+				title: "Pick a class"
+			}]
+			icon: "minecraft:grass_block"
+			id: "7944A3DD37CF9502"
+			x: -4.5d
+			y: -1.0d
+			title: "Pick a Class"
+			rewards: [{
+				type: "choice"
+				table_id: 7247764239724262278L
+				id: "701C07E954BCC8A3"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "apotheosis:textures/gui/book/question_mark.png"
+					}
+				}
+				title: "Class Picker"
+			}]
+			subtitle: "Classes do not affect gameplay in any way, they are simply starting items."
+		}
+		{
+			tasks: [{
+				id: "18AB7949503682D9"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			id: "745233F49640DA8A"
+			x: -3.5d
+			y: 0.0d
+			title: "Biome Locator"
+			rewards: [
+				{
+					id: "5BC5CA5F5425B39D"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "404F08B84D2A0F71"
+					type: "item"
+					item: "minecraft:rabbit_hide"
+					count: 3
+				}
+			]
+			subtitle: "Craft a Nature's Compass"
+			dependencies: ["7944A3DD37CF9502"]
+		}
+		{
+			tasks: [{
+				id: "464889C58AD48569"
+				type: "item"
+				item: {
+					id: "trouble_rpg:divine_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "57BD58F8A2095744"
+			x: -5.5d
+			y: -2.0d
+			title: "A Powerful Weapon"
+			rewards: [{
+				id: "745DD739AE5AEA1B"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Craft the Divine Sword with two Divine Stones"
+			dependencies: ["7944A3DD37CF9502"]
+		}
+		{
+			tasks: [{
+				id: "2CDECC6C34DD50D6"
+				type: "item"
+				item: {
+					id: "backpacked:backpack"
+					Count: 1b
+					tag: {
+						display: { }
+					}
+				}
+			}]
+			id: "7BD9F3A654922398"
+			x: -4.5d
+			y: 0.5d
+			title: "Enchantable, Portable Storage"
+			rewards: [{
+				id: "5A82A77D6D6DDC04"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Craft a Backpack"
+			dependencies: ["7944A3DD37CF9502"]
+		}
+		{
+			tasks: [
+				{
+					id: "798BBD5D2E6F0D4C"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "6DBFE080514944FF"
+					type: "item"
+					item: "minecraft:blast_furnace"
+				}
+				{
+					id: "091A28AD76422B32"
+					type: "item"
+					item: "minecraft:smoker"
+				}
+			]
+			id: "2EFE060F57ADCDD1"
+			x: -5.5d
+			y: 0.0d
+			title: "Faster Smelting"
+			rewards: [
+				{
+					id: "5A1D16689B3C327F"
+					type: "item"
+					item: "minecraft:coal"
+					count: 32
+				}
+				{
+					id: "756954A1D1A6AA02"
+					type: "item"
+					item: "minecraft:rabbit_hide"
+					count: 3
+				}
+			]
+			subtitle: "Obtain all three furnace variants"
+			dependencies: ["7944A3DD37CF9502"]
+		}
+		{
+			tasks: [{
+				id: "4C3F067E5E16D7B2"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "7CFF557379BE1384"
+			x: -6.0d
+			y: -1.0d
+			title: "Not Today, Thank You"
+			rewards: [{
+				id: "72993C459D66D087"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Craft a Shield"
+			dependencies: ["7944A3DD37CF9502"]
+		}
+		{
+			tasks: [{
+				id: "0DCEE52894208D31"
+				type: "item"
+				item: {
+					id: "xpbook:xp_tome"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			id: "60F95DDDB186A589"
+			x: -3.5d
+			y: -2.0d
+			title: "Craft an XP Tome"
+			rewards: [{
+				id: "6E131606CD6C9456"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Can store up to 100 levels of experience points."
+			dependencies: ["7944A3DD37CF9502"]
+		}
+	]
+}

@@ -1,0 +1,387 @@
+{
+	rewards: [
+		{ item: "dreadsteel:dreadsteel_ingot", weight: 2 }
+		{
+			xp_levels: 100
+			type: "xp_levels"
+			weight: 3
+		}
+		{
+			type: "command"
+			command: "/playerex level-add @p 3"
+			player_command: false
+			weight: 2
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "minecolonies:textures/entity/skills/small/strength.png"
+				}
+			}
+			title: "+3 Skill Points"
+		}
+		{ item: "minecraft:nether_star", weight: 2 }
+		{ item: "forbidden_arcanus:orb_of_temporary_flight", count: 6, weight: 3 }
+		{
+			item: {
+				id: "betterendforge:dragon_tree_barrel"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								id: "tetra:geode"
+								Count: 1
+							}
+							{
+								Slot: 1
+								id: "tetra:rack"
+								Count: 1
+							}
+							{
+								Slot: 2
+								id: "tetra:rack"
+								Count: 1
+							}
+							{
+								Slot: 3
+								id: "tetra:combustion_chamber"
+								Count: 1
+							}
+							{
+								Slot: 4
+								id: "tetra:hammer_base"
+								Count: 1
+							}
+							{
+								Slot: 5
+								id: "tetra:combustion_chamber"
+								Count: 1
+							}
+							{
+								Slot: 6
+								id: "tetra:rack"
+								Count: 1
+							}
+							{
+								Slot: 7
+								id: "tetra:rack"
+								Count: 1
+							}
+							{
+								Slot: 8
+								id: "tetra:geode"
+								Count: 1
+							}
+							{
+								Slot: 9
+								id: "stone"
+								Count: 1
+							}
+							{
+								Slot: 10
+								id: "tetra:geode"
+								Count: 1
+							}
+							{
+								Slot: 11
+								id: "druidcraft:fiery_torch"
+								Count: 5
+							}
+							{
+								Slot: 12
+								id: "druidcraft:fiery_torch"
+								Count: 6
+							}
+							{
+								Slot: 13
+								id: "tetra:chthonic_extractor"
+								Count: 1
+								tag: {
+									Enchantments: [{
+										lvl: 1
+										id: "forbidden_arcanus:indestructible"
+									}]
+								}
+							}
+							{
+								Slot: 14
+								id: "druidcraft:fiery_torch"
+								Count: 6
+							}
+							{
+								Slot: 15
+								id: "druidcraft:fiery_torch"
+								Count: 5
+							}
+							{
+								Slot: 16
+								id: "tetra:geode"
+								Count: 1
+							}
+							{
+								Slot: 17
+								id: "stone"
+								Count: 1
+							}
+							{
+								Slot: 18
+								id: "tetra:geode"
+								Count: 1
+							}
+							{
+								Slot: 19
+								id: "druidcraft:fiery_torch"
+								Count: 6
+							}
+							{
+								Slot: 20
+								id: "druidcraft:fiery_torch"
+								Count: 6
+							}
+							{
+								Slot: 21
+								id: "druidcraft:fiery_torch"
+								Count: 6
+							}
+							{
+								Slot: 22
+								id: "druidcraft:fiery_torch"
+								Count: 6
+							}
+							{
+								Slot: 23
+								id: "druidcraft:fiery_torch"
+								Count: 6
+							}
+							{
+								Slot: 24
+								id: "druidcraft:fiery_torch"
+								Count: 6
+							}
+							{
+								Slot: 25
+								id: "druidcraft:fiery_torch"
+								Count: 6
+							}
+							{
+								Slot: 26
+								id: "tetra:geode"
+								Count: 1
+							}
+						]
+						id: "betterendforge:barrel"
+					}
+					display: {
+						Lore: ["{\"text\":\"§c§dOpen me!\"}"]
+						Name: "{\"text\":\"§7Tetra Kit\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:spawner"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						MaxNearbyEntities: 32s
+						ignore_conditions: 0b
+						SpawnData: {
+							id: "minecraft:slime"
+						}
+						MaxSpawnDelay: 20s
+						SpawnCount: 16s
+						RequiredPlayerRange: 48s
+						ignore_players: 0b
+						id: "minecraft:mob_spawner"
+						SpawnPotentials: [{
+							Entity: {
+								id: "minecraft:slime"
+							}
+							Weight: 1
+						}]
+						SpawnRange: 4s
+						ignore_light: 1b
+						redstone_control: 0b
+						silent: 1b
+						no_ai: 1b
+						MinSpawnDelay: 20s
+						Delay: 20s
+					}
+					display: {
+						Lore: ["{\"text\":\"§fClick me with any spawn egg!\"}"]
+					}
+				}
+			}
+		}
+		{ item: "waystones:waystone", count: 12, weight: 2 }
+		{
+			item: {
+				id: "atum:deadwood_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								id: "apotheosis:pearl_endshelf"
+								Count: 2
+							}
+							{
+								Slot: 1
+								id: "fermented_spider_eye"
+								Count: 2
+							}
+							{
+								Slot: 2
+								id: "fermented_spider_eye"
+								Count: 2
+							}
+							{
+								Slot: 3
+								id: "fermented_spider_eye"
+								Count: 2
+							}
+							{
+								Slot: 4
+								id: "chorus_fruit"
+								Count: 8
+							}
+							{
+								Slot: 5
+								id: "fermented_spider_eye"
+								Count: 2
+							}
+							{
+								Slot: 6
+								id: "fermented_spider_eye"
+								Count: 2
+							}
+							{
+								Slot: 7
+								id: "fermented_spider_eye"
+								Count: 2
+							}
+							{
+								Slot: 8
+								id: "apotheosis:pearl_endshelf"
+								Count: 2
+							}
+							{
+								Slot: 9
+								id: "apotheosis:boss_summoner"
+								Count: 1
+							}
+							{
+								Slot: 10
+								id: "ghast_tear"
+								Count: 3
+							}
+							{
+								Slot: 11
+								id: "ghast_tear"
+								Count: 3
+							}
+							{
+								Slot: 12
+								id: "ghast_tear"
+								Count: 3
+							}
+							{
+								Slot: 13
+								id: "apotheosis:boss_summoner"
+								Count: 1
+							}
+							{
+								Slot: 14
+								id: "ghast_tear"
+								Count: 3
+							}
+							{
+								Slot: 15
+								id: "ghast_tear"
+								Count: 3
+							}
+							{
+								Slot: 16
+								id: "ghast_tear"
+								Count: 3
+							}
+							{
+								Slot: 17
+								id: "apotheosis:boss_summoner"
+								Count: 1
+							}
+							{
+								Slot: 18
+								id: "apotheosis:pearl_endshelf"
+								Count: 2
+							}
+							{
+								Slot: 19
+								id: "blaze_rod"
+								Count: 6
+							}
+							{
+								Slot: 20
+								id: "sugar"
+								Count: 8
+							}
+							{
+								Slot: 21
+								id: "apotheosis:boss_summoner"
+								Count: 1
+							}
+							{
+								Slot: 22
+								id: "fermented_spider_eye"
+								Count: 8
+							}
+							{
+								Slot: 23
+								id: "apotheosis:boss_summoner"
+								Count: 1
+							}
+							{
+								Slot: 24
+								id: "sugar"
+								Count: 8
+							}
+							{
+								Slot: 25
+								id: "blaze_rod"
+								Count: 6
+							}
+							{
+								Slot: 26
+								id: "apotheosis:pearl_endshelf"
+								Count: 2
+							}
+						]
+						id: "atum:crate"
+					}
+					display: {
+						Lore: ["{\"text\":\"§dOpen me!\"}"]
+						Name: "{\"text\":\"§7Apotheosis Kit\"}"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:dragon_egg" }
+		{ item: "aquamirae:poseidons_breakfast", count: 3, weight: 2 }
+	]
+	loot_size: 1
+	order_index: 6
+	id: "67BBA1EA7E5FBAEA"
+	icon: {
+		id: "minecraft:netherite_block"
+		Count: 64b
+		tag: {
+			Enchantments: [{
+				lvl: 3
+				id: "farmersdelight:backstabbing"
+			}]
+		}
+	}
+	title: "Extreme Tier"
+}

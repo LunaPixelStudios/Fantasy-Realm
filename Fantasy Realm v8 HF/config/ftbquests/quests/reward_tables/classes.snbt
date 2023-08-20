@@ -1,0 +1,1463 @@
+{
+	rewards: [
+		{
+			icon: {
+				id: "minecraft:crossbow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			item: {
+				id: "atum:palm_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								id: "cobblestone"
+								Count: 1
+							}
+							{
+								Slot: 1
+								id: "crossbow"
+								Count: 1
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											lvl: 1
+											id: "minecraft:quick_charge"
+										}
+										{
+											lvl: 1
+											id: "apotheosis:crescendo"
+										}
+									]
+									display: {
+										Name: "{\"text\":\"§9Archer's Crossbow\"}"
+									}
+								}
+							}
+							{
+								Slot: 2
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 3
+								id: "arrow"
+								Count: 1
+							}
+							{
+								Slot: 4
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 5
+								id: "arrow"
+								Count: 1
+							}
+							{
+								Slot: 6
+								id: "chainmail_helmet"
+								Count: 1
+								tag: {
+									Damage: 0
+									display: {
+										Name: "{\"text\":\"§9Archer's Cap\"}"
+									}
+								}
+							}
+							{
+								Slot: 7
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 8
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 9
+								id: "wooden_sword"
+								Count: 1
+								tag: {
+									Damage: 0
+									display: {
+										Name: "{\"text\":\"§9Archer's Sword\"}"
+									}
+								}
+							}
+							{
+								Slot: 10
+								id: "arrow"
+								Count: 1
+							}
+							{
+								Slot: 11
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 12
+								id: "arrow"
+								Count: 1
+							}
+							{
+								Slot: 13
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 14
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 15
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 16
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 17
+								id: "arrow"
+								Count: 1
+							}
+							{
+								Slot: 18
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 19
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 20
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 21
+								id: "arrow"
+								Count: 1
+							}
+							{
+								Slot: 22
+								id: "arrow"
+								Count: 1
+							}
+							{
+								Slot: 23
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 24
+								id: "arrow"
+								Count: 1
+							}
+							{
+								Slot: 25
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 26
+								id: "cobblestone"
+								Count: 1
+							}
+						]
+						id: "atum:crate"
+						CustomName: "{\"text\":\"§9Scout\"}"
+					}
+					display: {
+						Lore: ["{\"text\":\"§dOpen me!\"}"]
+						Name: "{\"text\":\"§9Archer\"}"
+					}
+				}
+			}
+		}
+		{
+			icon: "minecraft:feather"
+			item: {
+				id: "atum:palm_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								id: "cobblestone"
+								Count: 1
+							}
+							{
+								Slot: 1
+								id: "stone_sword"
+								Count: 1
+								tag: {
+									Damage: 0
+									display: {
+										Name: "{\"text\":\"§b§a§a§b§aScout Sword\"}"
+									}
+								}
+							}
+							{
+								Slot: 2
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 3
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 4
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 5
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 6
+								id: "leather_chestplate"
+								Count: 1
+								tag: {
+									Damage: 0
+									display: {
+										Name: "{\"text\":\"§aScout Tunic\"}"
+									}
+								}
+							}
+							{
+								Slot: 7
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 8
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 9
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 10
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 11
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 12
+								id: "leather_boots"
+								Count: 1
+								tag: {
+									Damage: 0
+									AttributeModifiers: [{
+										Amount: 0.05d
+										Name: "ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]"
+										Operation: 0
+										UUID: [I;
+											1255597174
+											2121941679
+											-1100363676
+											-363761530
+										]
+										Slot: "feet"
+										AttributeName: "generic.movement_speed"
+									}]
+									display: {
+										Name: "{\"text\":\"§aScout Boots\"}"
+									}
+								}
+							}
+							{
+								Slot: 13
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 14
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 15
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 16
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 17
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 18
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 19
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 20
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 21
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 22
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 23
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 24
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 25
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 26
+								id: "cobblestone"
+								Count: 1
+							}
+						]
+						id: "atum:crate"
+					}
+					display: {
+						Lore: ["{\"text\":\"§dOpen me!\"}"]
+						Name: "{\"text\":\"§aScout\"}"
+					}
+				}
+			}
+		}
+		{
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			item: {
+				id: "atum:palm_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								id: "iron_ore"
+								Count: 1
+							}
+							{
+								Slot: 1
+								id: "druidcraft:fiery_torch"
+								Count: 1
+							}
+							{
+								Slot: 2
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 3
+								id: "druidcraft:fiery_torch"
+								Count: 1
+							}
+							{
+								Slot: 4
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 5
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 6
+								id: "druidcraft:fiery_torch"
+								Count: 1
+							}
+							{
+								Slot: 7
+								id: "iron_ore"
+								Count: 1
+							}
+							{
+								Slot: 8
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 9
+								id: "druidcraft:fiery_torch"
+								Count: 1
+							}
+							{
+								Slot: 10
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 11
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 12
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 13
+								id: "iron_pickaxe"
+								Count: 1
+								tag: {
+									Enchantments: [{
+										lvl: 1
+										id: "minecraft:efficiency"
+									}]
+									display: {
+										Name: "{\"text\":\"§8Miner's Pickaxe\"}"
+									}
+								}
+							}
+							{
+								Slot: 14
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 15
+								id: "coal"
+								Count: 1
+							}
+							{
+								Slot: 16
+								id: "druidcraft:fiery_torch"
+								Count: 1
+							}
+							{
+								Slot: 17
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 18
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 19
+								id: "druidcraft:fiery_torch"
+								Count: 1
+							}
+							{
+								Slot: 20
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 21
+								id: "iron_ore"
+								Count: 1
+							}
+							{
+								Slot: 22
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 23
+								id: "druidcraft:fiery_torch"
+								Count: 1
+							}
+							{
+								Slot: 24
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 25
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 26
+								id: "druidcraft:fiery_torch"
+								Count: 1
+							}
+						]
+						id: "atum:crate"
+					}
+					display: {
+						Lore: ["{\"text\":\"§dOpen me!\"}"]
+						Name: "{\"text\":\"§8Miner\"}"
+					}
+				}
+			}
+		}
+		{
+			icon: {
+				id: "minecraft:wooden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			item: {
+				id: "atum:palm_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								id: "leather_boots"
+								Count: 1
+								tag: {
+									display: {
+										Name: "{\"text\":\"§7Peasant Sandals\"}"
+									}
+								}
+							}
+							{
+								Slot: 1
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 2
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 3
+								id: "bread"
+								Count: 1
+							}
+							{
+								Slot: 4
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 5
+								id: "bread"
+								Count: 1
+							}
+							{
+								Slot: 6
+								id: "leather_chestplate"
+								Count: 1
+								tag: {
+									display: {
+										Name: "{\"text\":\"§7Peasant Shirt\"}"
+									}
+								}
+							}
+							{
+								Slot: 7
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 8
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 9
+								id: "bread"
+								Count: 1
+							}
+							{
+								Slot: 10
+								id: "bread"
+								Count: 1
+							}
+							{
+								Slot: 11
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 12
+								id: "leather_helmet"
+								Count: 1
+								tag: {
+									display: {
+										Name: "{\"text\":\"§9§7Peasant Cap\"}"
+									}
+								}
+							}
+							{
+								Slot: 13
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 14
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 15
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 16
+								id: "wooden_sword"
+								Count: 1
+								tag: {
+									display: {
+										Name: "{\"text\":\"§7Peasant Sword\"}"
+									}
+								}
+							}
+							{
+								Slot: 17
+								id: "bread"
+								Count: 1
+							}
+							{
+								Slot: 18
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 19
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 20
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 21
+								id: "bread"
+								Count: 1
+							}
+							{
+								Slot: 22
+								id: "bread"
+								Count: 1
+							}
+							{
+								Slot: 23
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 24
+								id: "bread"
+								Count: 1
+							}
+							{
+								Slot: 25
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 26
+								id: "leather_leggings"
+								Count: 1
+								tag: {
+									display: {
+										Name: "{\"text\":\"§7Peasant Pants\"}"
+									}
+								}
+							}
+						]
+						id: "atum:crate"
+						CustomName: "{\"text\":\"§aScout\"}"
+					}
+					display: {
+						Lore: ["{\"text\":\"§dOpen me!\"}"]
+						Name: "{\"text\":\"§7Peasant\"}"
+					}
+				}
+			}
+		}
+		{
+			icon: {
+				id: "forestcraft:spore_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			item: {
+				id: "atum:palm_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								id: "cobblestone"
+								Count: 1
+							}
+							{
+								Slot: 1
+								id: "eidolon:basic_belt"
+								Count: 1
+								tag: {
+									display: {
+										Name: "{\"text\":\"§2Assassin's Belt\"}"
+									}
+								}
+							}
+							{
+								Slot: 2
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 3
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 4
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 5
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 6
+								id: "forestcraft:spore_dagger"
+								Count: 1
+								tag: {
+									display: {
+										Name: "{\"text\":\"§2Assassin's Dagger\"}"
+									}
+								}
+							}
+							{
+								Slot: 7
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 8
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 9
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 10
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 11
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 12
+								id: "chainmail_boots"
+								Count: 1
+								tag: {
+									display: {
+										Name: "{\"text\":\"§2Assassin's Boots\"}"
+									}
+								}
+							}
+							{
+								Slot: 13
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 14
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 15
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 16
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 17
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 18
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 19
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 20
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 21
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 22
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 23
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 24
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 25
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 26
+								id: "cobblestone"
+								Count: 1
+							}
+						]
+						id: "atum:crate"
+						CustomName: "{\"text\":\"§aScout\"}"
+					}
+					display: {
+						Lore: ["{\"text\":\"§dOpen me!\"}"]
+						Name: "{\"text\":\"§2Assassin\"}"
+					}
+				}
+			}
+		}
+		{
+			icon: {
+				id: "minecraft:golden_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			item: {
+				id: "atum:palm_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 1
+								id: "gold_ingot"
+								Count: 1
+							}
+							{
+								Slot: 2
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 3
+								id: "gold_ingot"
+								Count: 1
+							}
+							{
+								Slot: 4
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 5
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 6
+								id: "gold_ingot"
+								Count: 1
+							}
+							{
+								Slot: 7
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 8
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 9
+								id: "gold_ingot"
+								Count: 1
+							}
+							{
+								Slot: 10
+								id: "saddle"
+								Count: 1
+							}
+							{
+								Slot: 11
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 12
+								id: "gold_ingot"
+								Count: 1
+							}
+							{
+								Slot: 13
+								id: "golden_helmet"
+								Count: 1
+								tag: {
+									Enchantments: [
+										{
+											lvl: 2
+											id: "minecraft:thorns"
+										}
+										{
+											lvl: 2
+											id: "minecraft:unbreaking"
+										}
+									]
+									display: {
+										Name: "{\"text\":\"§6Lord's Crown\"}"
+									}
+								}
+							}
+							{
+								Slot: 14
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 15
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 16
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 17
+								id: "gold_ingot"
+								Count: 1
+							}
+							{
+								Slot: 18
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 19
+								id: "golden_sword"
+								Count: 1
+								tag: {
+									Enchantments: [
+										{
+											lvl: 1
+											id: "minecolonies:raider_damage_enchant"
+										}
+										{
+											lvl: 1
+											id: "apotheosis:knowledge"
+										}
+									]
+									display: {
+										Name: "{\"text\":\"§6Lord's Sword\"}"
+									}
+								}
+							}
+							{
+								Slot: 20
+								id: "gold_ingot"
+								Count: 1
+							}
+							{
+								Slot: 21
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 22
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 23
+								id: "gold_ingot"
+								Count: 1
+							}
+							{
+								Slot: 24
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 25
+								id: "golden_horse_armor"
+								Count: 1
+							}
+							{
+								Slot: 26
+								id: "stick"
+								Count: 1
+							}
+						]
+						id: "atum:crate"
+						CustomName: "{\"text\":\"§aScout\"}"
+					}
+					display: {
+						Lore: ["{\"text\":\"§dOpen me!\"}"]
+						Name: "{\"text\":\"§6Lord\"}"
+					}
+				}
+			}
+		}
+		{
+			icon: {
+				id: "minecraft:shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			item: {
+				id: "atum:palm_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								id: "cobblestone"
+								Count: 1
+							}
+							{
+								Slot: 1
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 2
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 3
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 4
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 5
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 6
+								id: "shield"
+								Count: 1
+								tag: {
+									Enchantments: [
+										{
+											lvl: 2
+											id: "apotheosis:reflective"
+										}
+										{
+											lvl: 2
+											id: "apotheosis:shield_bash"
+										}
+										{
+											lvl: 1
+											id: "minecraft:unbreaking"
+										}
+									]
+									display: {
+										Name: "{\"text\":\"§4Hoplite's Shield\"}"
+									}
+								}
+							}
+							{
+								Slot: 7
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 8
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 9
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 10
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 11
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 12
+								id: "minecolonies:spear"
+								Count: 1
+								tag: {
+									AttributeModifiers: [{
+										Amount: 3.0d
+										Name: "ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]"
+										Operation: 0
+										UUID: [I;
+											-1245967076
+											-951040559
+											-1337286179
+											-248871812
+										]
+										Slot: "mainhand"
+										AttributeName: "generic.attack_damage"
+									}]
+									display: {
+										Name: "{\"text\":\"§4Hoplite's Spear\"}"
+									}
+								}
+							}
+							{
+								Slot: 13
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 14
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 15
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 16
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 17
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 18
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 19
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 20
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 21
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 22
+								id: "torch"
+								Count: 1
+							}
+							{
+								Slot: 23
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 24
+								id: "iron_ingot"
+								Count: 1
+							}
+							{
+								Slot: 25
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 26
+								id: "cobblestone"
+								Count: 1
+							}
+						]
+						id: "atum:crate"
+						CustomName: "{\"text\":\"§aScout\"}"
+					}
+					display: {
+						Lore: ["{\"text\":\"§dOpen me!\"}"]
+						Name: "{\"text\":\"§4Hoplite\"}"
+					}
+				}
+			}
+		}
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			item: {
+				id: "atum:palm_crate"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Items: [
+							{
+								id: "cobblestone"
+								Count: 1
+							}
+							{
+								Slot: 1
+								id: "beef"
+								Count: 1
+							}
+							{
+								Slot: 2
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 3
+								id: "chicken"
+								Count: 1
+							}
+							{
+								Slot: 4
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 5
+								id: "chicken"
+								Count: 1
+							}
+							{
+								Slot: 6
+								id: "leather"
+								Count: 1
+							}
+							{
+								Slot: 7
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 8
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 9
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 10
+								id: "chicken"
+								Count: 1
+							}
+							{
+								Slot: 11
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 12
+								id: "beef"
+								Count: 1
+							}
+							{
+								Slot: 13
+								id: "iron_sword"
+								Count: 1
+								tag: {
+									Damage: 0
+									Enchantments: [
+										{
+											lvl: 2
+											id: "minecraft:smite"
+										}
+										{
+											lvl: 2
+											id: "minecraft:bane_of_arthropods"
+										}
+									]
+									display: {
+										Name: "{\"text\":\"§eSwordsman's Sword\"}"
+									}
+								}
+							}
+							{
+								Slot: 14
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 15
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 16
+								id: "oak_sapling"
+								Count: 1
+							}
+							{
+								Slot: 17
+								id: "chicken"
+								Count: 1
+							}
+							{
+								Slot: 18
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 19
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 20
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 21
+								id: "chicken"
+								Count: 1
+							}
+							{
+								Slot: 22
+								id: "leather"
+								Count: 1
+							}
+							{
+								Slot: 23
+								id: "oak_log"
+								Count: 1
+							}
+							{
+								Slot: 24
+								id: "chicken"
+								Count: 1
+							}
+							{
+								Slot: 25
+								id: "stick"
+								Count: 1
+							}
+							{
+								Slot: 26
+								id: "cobblestone"
+								Count: 1
+							}
+						]
+						id: "atum:crate"
+						CustomName: "{\"text\":\"§eSwordsman\"}"
+					}
+					display: {
+						Lore: ["{\"text\":\"§dOpen me!\"}"]
+						Name: "{\"text\":\"§eSwordsman\"}"
+					}
+				}
+			}
+		}
+	]
+	loot_size: 1
+	order_index: 5
+	id: "64953B2CFC8B3386"
+	title: "Classes"
+}

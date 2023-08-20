@@ -1,0 +1,909 @@
+{
+	default_hide_dependency_lines: false
+	group: "5A43EA4A3BF38D32"
+	id: "45F7413F3674787E"
+	filename: "mine_colonies"
+	default_quest_shape: ""
+	icon: {
+		id: "minecolonies:resourcescroll"
+		Count: 1b
+		tag: { }
+	}
+	title: " Mine Colonies"
+	order_index: 3
+	quests: [
+		{
+			tasks: [{
+				id: "10782E0804CDF27E"
+				type: "item"
+				item: {
+					id: "minecolonies:resourcescroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			id: "0CB059C87EB97BA3"
+			x: -8.0d
+			y: 2.5d
+			title: "Remote Progress Checker"
+			rewards: [
+				{
+					id: "77901B8B809CCF87"
+					type: "item"
+					item: "structurize:sceptergold"
+				}
+				{
+					id: "0F4DB132353CF912"
+					type: "item"
+					item: "minecolonies:scroll_buff"
+				}
+			]
+			subtitle: "Craft a Resource Scroll"
+		}
+		{
+			tasks: [{
+				id: "78E3B306790CEC98"
+				type: "item"
+				item: "minecolonies:blockhuttownhall"
+			}]
+			id: "43C6147E5634BD0C"
+			x: -8.0d
+			y: 0.5d
+			title: "Create a Town Hall"
+			rewards: [{
+				id: "471789ABBB2592F0"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "The \"center\" of your colony. Required to actually create the colony, but not much else. Place somewhere with lots of space that is safe from hostiles."
+		}
+		{
+			tasks: [{
+				id: "671313154160B76C"
+				type: "item"
+				item: "minecolonies:blockhutbuilder"
+			}]
+			id: "394CAA0F8F8D0006"
+			x: -5.0d
+			y: 1.5d
+			title: "Create a Builder's Hut"
+			rewards: [{
+				id: "1AFA9A2E7C167F34"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Necessary for the creation of buildings. "
+			dependencies: [
+				"0CB059C87EB97BA3"
+				"43C6147E5634BD0C"
+			]
+		}
+		{
+			tasks: [{
+				id: "5F6211F7E68B3220"
+				type: "item"
+				item: "minecolonies:blockhuttavern"
+			}]
+			id: "787C3B1B2A01D44A"
+			x: -5.0d
+			y: 3.5d
+			title: "Create a Tavern"
+			rewards: [{
+				id: "348A4018BDDB5199"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "One per colony. Houses 4 colonists."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "7D737437FC230B83"
+				type: "item"
+				item: "minecolonies:blockhutguardtower"
+			}]
+			id: "5CAB0F7B68C2C33A"
+			x: -4.0d
+			y: 3.5d
+			title: "Create a Guard Tower"
+			rewards: [{
+				id: "13E9C550B77F7468"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Guard, who will patrol the colony and kill hostiles."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "6D4A51C80001C1CF"
+				type: "item"
+				item: "minecolonies:blockhutfarmer"
+			}]
+			id: "0877A906DEA0F17A"
+			x: -5.0d
+			y: -0.5d
+			title: "Create a Farm"
+			rewards: [{
+				id: "0E7E1A4535465942"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Farmer, who will provide food for your colonists. Can also craft farming-related items for you."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "3ED99D615F95B91E"
+				type: "item"
+				item: "minecolonies:blockhutfield"
+			}]
+			id: "63B8FD833124A73D"
+			x: -5.0d
+			y: -2.5d
+			title: "Create a Field"
+			rewards: [{
+				id: "23B1C40818864670"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Necessary for a Farmer to plant seeds. Should be placed near water."
+			dependencies: ["0877A906DEA0F17A"]
+		}
+		{
+			tasks: [{
+				id: "2F1C987CF044A87B"
+				type: "item"
+				item: "minecolonies:blockhutuniversity"
+			}]
+			id: "2500C0A3F1CF4CE5"
+			x: 1.0d
+			y: 1.5d
+			title: "Create a University"
+			rewards: [{
+				id: "2F723DCA987914C5"
+				type: "choice"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Researcher. Necessary for further progression. Can be upgraded to allow for offline progress."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "137AA1D963659893"
+				type: "item"
+				item: "minecolonies:blockhuthospital"
+			}]
+			id: "01BD9E807C1234AC"
+			x: 1.0d
+			y: -0.5d
+			title: "Create a Hospital"
+			rewards: [{
+				id: "6F03A5199C3CF6FB"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Healer, who will heal injured colonists with various items. The number of beds increases per level."
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "7581D67519F98C28"
+				type: "item"
+				item: "minecolonies:blockhutlibrary"
+			}]
+			id: "14E834E168E38384"
+			x: 0.0d
+			y: -0.5d
+			title: "Create a Library"
+			rewards: [{
+				id: "0AD59EC522450CC6"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Increases the Intelligence of adult colonists. Two colonists can study per building level. Paper and books increases leveling speed."
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "3D49B540B6C21E53"
+				type: "item"
+				item: "minecolonies:blockhutschool"
+			}]
+			id: "554C05DB5A3689E1"
+			x: -1.0d
+			y: -0.5d
+			title: "Create a School"
+			rewards: [{
+				id: "36352A8F8F5750E8"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Teacher, who will increases the Intelligence of child colonists. Paper increases leveling speed."
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "7D89D073B72D37BC"
+				type: "item"
+				item: "minecolonies:blockhutmysticalsite"
+			}]
+			id: "1498CDC1230442C6"
+			x: 2.0d
+			y: -0.5d
+			title: "Create a Mystical Site"
+			rewards: [{
+				id: "1272DAB28CAEE11B"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Increases the overall happiness level of the colony. The Undertaker uses the Mystical Site to increase their Mana skill."
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "24679629C1E671E1"
+				type: "item"
+				item: "minecolonies:blockhutgraveyard"
+			}]
+			id: "03079B0C0F4B0086"
+			x: 3.0d
+			y: -0.5d
+			title: "Create a Graveyard"
+			rewards: [{
+				id: "2A8A3F6C78DBCFE0"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as an Undertaker, who will attempt to revive deceased colonists. Under optimal conditions, there is a 12.5% chance of success."
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "65520609F1DEBA18"
+				type: "item"
+				item: "minecolonies:blockhutbarracks"
+			}]
+			id: "195215080596FF9F"
+			x: 4.0d
+			y: 0.5d
+			title: "Create a Barracks"
+			rewards: [{
+				id: "4D9716FF6C1EC842"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Holds 1 additional Barracks Tower per level until level 4. Allows Barracks Towers to be upgraded one additional level per Barracks level. Barracks Towers will employ and house one guard per level."
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "7CC49B99D2674382"
+				type: "item"
+				item: "minecolonies:blockhutcombatacademy"
+			}]
+			id: "7A31D4A4B8607F76"
+			x: 5.0d
+			y: -0.5d
+			title: "Create a Combat Academy"
+			rewards: [{
+				id: "048A99378CDB3C81"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Trains one Knight in Training per level to a Knight. Knights will sleep in the Combat Academy and will level up while at the Academy. Knights do not defend your colony while at the Academy."
+			dependencies: ["195215080596FF9F"]
+		}
+		{
+			tasks: [{
+				id: "74B58318637991A5"
+				type: "item"
+				item: "minecolonies:blockhutarchery"
+			}]
+			id: "0EFF98CA90DEC6C5"
+			x: 5.5d
+			y: 0.5d
+			title: "Create an Archery"
+			rewards: [{
+				id: "7F8131AFDC1A516C"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Trains one Archer in Training per level into an Archer. Archers will sleep in the Archery and will level up while at the Archery. Archers do not defend your colony while at the Archery."
+			dependencies: ["195215080596FF9F"]
+		}
+		{
+			tasks: [{
+				id: "12AC3C1749271AFD"
+				type: "item"
+				item: "minecolonies:blockhutcomposter"
+			}]
+			id: "7F75A287F50DF3A2"
+			x: 4.0d
+			y: 2.5d
+			title: "Create a Composter's Hut"
+			rewards: [{
+				id: "0E064954373BDDF9"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Composter, who will turn items into compost used by the farmer and florist. "
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "02E88623D457C602"
+				type: "item"
+				item: "minecolonies:blockhutflorist"
+			}]
+			id: "3706DF23EC965DC0"
+			x: 4.0d
+			y: 3.5d
+			title: "Create a Flower Shop"
+			rewards: [{
+				id: "3C1EAF7579669A99"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Florist, who will grow 4 flowers per building level."
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "0FB7E976A591CE1B"
+				type: "item"
+				item: "minecolonies:blockhutdyer"
+			}]
+			id: "7269C87B8458B6BF"
+			x: 5.5d
+			y: 3.5d
+			title: "Create a Dyer's Hut"
+			rewards: [{
+				id: "2D1EFF6A72673C4B"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Dyer, who will craft dyes and dye blocks like nether bricks and prismarine."
+			dependencies: ["3706DF23EC965DC0"]
+		}
+		{
+			tasks: [{
+				id: "3678CD913D31DA9A"
+				type: "item"
+				icon: "minecolonies:blockhutplantation"
+				item: "minecolonies:blockhutplantation"
+			}]
+			id: "1ABA3773D4427019"
+			x: 3.0d
+			y: 4.0d
+			title: "Create a Plantation"
+			rewards: [{
+				id: "3B8946F04417E2A6"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Planter, who will grow 4 sugar cane, bamboo, or cactus per building level. Can also craft paper, books, and sugar when taught the recipe."
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "5249AFA24AC4B3FD"
+				type: "item"
+				item: "minecolonies:blockhutnetherworker"
+			}]
+			id: "35C4B12435DC3F03"
+			x: 4.0d
+			y: 1.5d
+			title: "Create a Nether Mine"
+			rewards: [{
+				id: "3D8CDD94B06EEDEE"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Nether Miner, who will find various items from the nether. Level 5 allows Ancient Debris to be found. "
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "02A26A496D37664E"
+				type: "item"
+				item: "minecolonies:blockhutalchemist"
+			}]
+			id: "1C4C7223B83EAEDA"
+			x: 5.5d
+			y: 1.5d
+			title: "Create an Alchemist Tower"
+			rewards: [{
+				id: "38E74136C2D8AF90"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as an Alchemist, who will brew potions and harvests netherwart. Can learn 160 recipes at level 5. "
+			dependencies: ["35C4B12435DC3F03"]
+		}
+		{
+			tasks: [{
+				id: "23D243BFC3F901CC"
+				type: "item"
+				item: "minecolonies:blockhutstonemason"
+			}]
+			id: "09B90C6720089894"
+			x: 1.0d
+			y: 4.0d
+			title: "Create a Stonemason's Hut"
+			rewards: [{
+				id: "568FA5D5C3D024B1"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Stonemason, who will craft items from cobblestone, stone, purpur, prismarine, and more. "
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "759423B9AE0408D2"
+				type: "item"
+				item: "minecolonies:blockhutcrusher"
+			}]
+			id: "4FCF2A6BCD9D9D07"
+			x: 1.0d
+			y: 5.5d
+			title: "Create a Crusher"
+			rewards: [{
+				id: "732CFD4619D20A7F"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Crusher, who will crush cobblestone into gravel, gravel into sand, and sand into clay. "
+			dependencies: ["09B90C6720089894"]
+		}
+		{
+			tasks: [{
+				id: "1CF5CD2DD0EAC4F7"
+				type: "item"
+				item: "minecolonies:blockhutconcretemixer"
+			}]
+			id: "56A84C0F43E44FF0"
+			x: 1.0d
+			y: 7.0d
+			title: "Create a Concrete Mixer's Hut"
+			rewards: [{
+				id: "7C644E22F09B506E"
+				type: "choice"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Concrete Mixer, who will mix concrete powders into concrete."
+			dependencies: ["4FCF2A6BCD9D9D07"]
+		}
+		{
+			tasks: [{
+				id: "7B4DE570B3951C3A"
+				type: "item"
+				item: "minecolonies:blockhutsawmill"
+			}]
+			id: "7D9F7C270AA404A7"
+			x: 0.0d
+			y: 4.0d
+			title: "Create a Sawmill"
+			rewards: [{
+				id: "032B4AEAF93FDE49"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Carpenter, who will craft items made of at least 75% wood. "
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "44D81BADA5C10B0C"
+				type: "item"
+				item: "minecolonies:blockhutfletcher"
+			}]
+			id: "67999FB09B096D08"
+			x: 0.0d
+			y: 5.5d
+			title: "Create a Fletcher's Hut"
+			rewards: [{
+				id: "50FB8375D8A06EEE"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Fletcher, who will craft arrows, alongside other items made of string or wool. "
+			dependencies: ["7D9F7C270AA404A7"]
+		}
+		{
+			tasks: [{
+				id: "02D969F6EA016C7C"
+				type: "item"
+				item: "minecolonies:blockhutsifter"
+			}]
+			id: "65C64C6D9B0AA640"
+			x: 0.0d
+			y: 7.0d
+			title: "Create a Sifter"
+			rewards: [{
+				id: "0EC8630D45100583"
+				type: "choice"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Sifter, who will use gravel, dirt, sand, and souls and to find loot - including emeralds, diamonds, sugarcane, and saplings. Higher building levels will allow for better meshes, which give better loot. Building level 5 allows for unlimited blocks to be sifted per day."
+			dependencies: ["67999FB09B096D08"]
+		}
+		{
+			tasks: [{
+				id: "41199674C9C94C9C"
+				type: "item"
+				item: "minecolonies:blockhutsmeltery"
+			}]
+			id: "0CFC15A6CBA3637F"
+			x: -1.0d
+			y: 4.0d
+			title: "Create a Smeltery"
+			rewards: [{
+				id: "3F0999D3B283D1A6"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Smelter, who will smelt ores into ingots. Higher level smelteries have a chance to double and triple ingot output."
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "7F60BF31AAD7EBB6"
+				type: "item"
+				item: "minecolonies:blockhutstonesmeltery"
+			}]
+			id: "6F3511EA2719C7A3"
+			x: -1.0d
+			y: 5.5d
+			title: "Create a Stone Smeltery"
+			rewards: [{
+				id: "0AA7A639C34D8109"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Stone Smelter, who will smelt stones, clay, logs, and terracotta. Can also pop chorus fruits. With a high Dexterity level, Stone Smelters can smelt much faster than the player."
+			dependencies: ["0CFC15A6CBA3637F"]
+		}
+		{
+			tasks: [{
+				id: "16C90F1AB316B193"
+				type: "item"
+				item: "minecolonies:blockhutglassblower"
+			}]
+			id: "6CE81A1E58A5548F"
+			x: -1.0d
+			y: 7.0d
+			title: "Create a Glassblower's Hut"
+			rewards: [{
+				id: "10F8D4D0EC6061E5"
+				type: "choice"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Glassblower, who smelts sand into glass and makes glass panes. "
+			dependencies: ["6F3511EA2719C7A3"]
+		}
+		{
+			tasks: [{
+				id: "2701400545F43148"
+				type: "item"
+				item: "minecolonies:blockhutblacksmith"
+			}]
+			id: "4FB52A1A9BCA344A"
+			x: 2.0d
+			y: 4.0d
+			title: "Create a Blacksmith's Hut"
+			rewards: [{
+				id: "3169844A608A2D99"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Blacksmith, who can craft vanilla tools, armor, swords, and shields when requested by colonists. Learns netherite recipes at level 5."
+			dependencies: ["2500C0A3F1CF4CE5"]
+		}
+		{
+			tasks: [{
+				id: "372929CA47D2EF78"
+				type: "item"
+				item: "minecolonies:blockhutmechanic"
+			}]
+			id: "6C9D69E38A45E074"
+			x: 2.0d
+			y: 5.5d
+			title: "Create a Mechanic's Hut"
+			rewards: [{
+				id: "339312754313FF54"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Mechanic, who will craft redstone items, torches, blue ice, and much more."
+			dependencies: ["4FB52A1A9BCA344A"]
+		}
+		{
+			tasks: [
+				{
+					id: "5D63576871398F37"
+					type: "item"
+					item: "minecolonies:blockhutdeliveryman"
+				}
+				{
+					id: "39DB4B0F76F59CEC"
+					type: "item"
+					item: "minecolonies:blockhutwarehouse"
+				}
+			]
+			id: "7D0190B89B19ECB8"
+			x: -3.0d
+			y: 3.5d
+			title: "Create a Courier's Hut and Warehouse"
+			rewards: [{
+				id: "0A6AA407113772A4"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Courier, who will deliver Warehouse supplies to colonists."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "18C33D893BCA4769"
+				type: "item"
+				item: "minecolonies:blockhutminer"
+			}]
+			id: "61CB65AE618598D5"
+			x: -6.0d
+			y: 3.5d
+			title: "Create a Mine"
+			rewards: [{
+				id: "23359A1543A6A6C4"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Miner, who will strip mine underground."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "4D60062F946DD56E"
+				type: "item"
+				item: "minecolonies:simplequarry"
+			}]
+			id: "05D6F90B198B42EA"
+			x: -6.0d
+			y: 5.0d
+			title: "Create a Simple Quarry"
+			rewards: [{
+				id: "63DDE70110F64D00"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Allows you to turn a Miner into a Quarrier. Digs out one full chunk."
+			dependencies: ["61CB65AE618598D5"]
+		}
+		{
+			tasks: [{
+				id: "519599249C210AFE"
+				type: "item"
+				item: "minecolonies:mediumquarry"
+			}]
+			id: "4055DD7E1D49E754"
+			x: -6.0d
+			y: 6.5d
+			title: "Create a Medium Quarry"
+			rewards: [
+				{
+					id: "43921C2D8EE073B7"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+				{
+					id: "620DA64E146B22CC"
+					type: "choice"
+					table_id: 5645059266537726814L
+				}
+			]
+			subtitle: "Allows you to turn a Miner into a Quarrier. Digs out four full chunks."
+			dependencies: ["05D6F90B198B42EA"]
+		}
+		{
+			tasks: [{
+				id: "6F432EF09C12FF3C"
+				type: "item"
+				item: "minecolonies:blockhutcitizen"
+			}]
+			id: "21B1DA4530F7A83F"
+			x: -6.0d
+			y: -0.5d
+			title: "Create a House"
+			rewards: [{
+				id: "5097241266C9ED71"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Houses one colonist per building level."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "43C5B41AA69A8DF0"
+				type: "item"
+				item: "minecolonies:blockhutlumberjack"
+			}]
+			id: "14D9874CD9AC8EB0"
+			x: -3.0d
+			y: -0.5d
+			title: "Create a Forester's Hut"
+			rewards: [{
+				id: "06E3E3CAB0797585"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Forester, who will chop down trees within a 150 block area."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "1F88F8CCE2D91100"
+				type: "item"
+				item: "minecolonies:blockhutcook"
+			}]
+			id: "5ED802D9BDF952E7"
+			x: -4.0d
+			y: -0.5d
+			title: "Create a Restaurant"
+			rewards: [{
+				id: "37A4DB413B7F4AB2"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Cook, who will cook food for your colony when supplied with ingredients and fuel."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "679E8B73128A8579"
+				type: "item"
+				item: "minecolonies:blockhutfisherman"
+			}]
+			id: "0DD93164579646FE"
+			x: -7.0d
+			y: -0.5d
+			title: "Create a Fisher's Hut"
+			rewards: [{
+				id: "793989139FFBAB0C"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Fisherman, who will catch fish. Needs a body of water at least 7 blocks wide and 7 blocks long. Can catch treasure in ocean biomes."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "3C40364366DD44AD"
+				type: "item"
+				item: "minecolonies:blockhutbaker"
+			}]
+			id: "365833C8BF74F023"
+			x: -7.0d
+			y: 3.5d
+			rewards: [{
+				id: "12F8FE5EF9CC5B89"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Baker, who will make various baked goods like bread and cookies, as well as several new foods with special properties."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "5A8C7469B3E03DE0"
+				type: "item"
+				item: "minecolonies:blockhutswineherder"
+			}]
+			id: "3C90D9698F90E056"
+			x: -2.0d
+			y: 1.0d
+			rewards: [{
+				id: "52F6D63F5DF180FB"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Swineherd, who will breed and butcher pigs for food. Keeps two pigs alives per building level. The first 2 pigs need to be manually supplied."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "79FD08DFE370A185"
+				type: "item"
+				item: "minecolonies:blockhutenchanter"
+			}]
+			id: "560CF1C214A93147"
+			x: -8.0d
+			y: -0.5d
+			rewards: [{
+				id: "407737588314B7EB"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as an Enchanter, who will use XP from other colonists to create enchanted books. Higher levels will allow for higher levels. Can also create magical scrolls."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "58721766B34E58DD"
+				type: "item"
+				item: "minecolonies:blockhutbeekeeper"
+			}]
+			id: "72AC34088E271E47"
+			x: -8.0d
+			y: 3.5d
+			rewards: [{
+				id: "1919539C31CDB844"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Beekeeper, who will breed bees and harvest your choice of honeycombs or honey bottles. Takes care of 2 more hives per building level."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "39EF87C724FD86DA"
+				type: "item"
+				item: "minecolonies:blockhutchickenherder"
+			}]
+			id: "345BFA90E07CBA51"
+			x: -2.0d
+			y: 2.0d
+			rewards: [{
+				id: "4945ABF371CE4D71"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Chicken Farmer, who will collect eggs and kill chickens. Keeps two chickens alive per building level. The first 2 chickens need to be manually supplied."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "60CD51A2F6102E3F"
+				type: "item"
+				item: "minecolonies:blockhutrabbithutch"
+			}]
+			id: "407CE8901B64EF2D"
+			x: -2.0d
+			y: 0.0d
+			rewards: [{
+				id: "02DA8F61116CD5C3"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Rabbit Herder, who will breed and butcher rabbits for items. Keeps two rabbits alives per building level. The first 2 rabbits need to be manually supplied."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+		{
+			tasks: [{
+				id: "33E4911475FF9887"
+				type: "item"
+				item: "minecolonies:blockhutcowboy"
+			}]
+			id: "17C0F3C47FDBB562"
+			x: -2.0d
+			y: 3.0d
+			rewards: [{
+				id: "7664F790AEE6DC8D"
+				type: "random"
+				table_id: 5645059266537726814L
+			}]
+			subtitle: "Assigns a colonist as a Cowhand, who will breed, butcher and milk cows. Keeps two cows alives per building level. The first 2 cows need to be manually supplied."
+			dependencies: ["394CAA0F8F8D0006"]
+		}
+	]
+}

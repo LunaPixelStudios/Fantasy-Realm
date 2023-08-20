@@ -1,0 +1,150 @@
+{
+	rewards: [
+		{ item: "minecraft:diamond", count: 4, weight: 2 }
+		{ item: "minecraft:diamond", count: 2, weight: 3 }
+		{ item: "minecraft:diamond", count: 8 }
+		{
+			title: "+10 XP Levels"
+			xp_levels: 10
+			type: "xp_levels"
+			weight: 3
+		}
+		{
+			title: "+15 XP Levels"
+			xp_levels: 15
+			type: "xp_levels"
+			weight: 2
+		}
+		{
+			title: "+20 XP Levels"
+			xp_levels: 20
+			type: "xp_levels"
+		}
+		{ item: "minecraft:golden_apple", count: 3, weight: 2 }
+		{ item: "minecraft:coal", count: 64, weight: 2 }
+		{
+			item: {
+				id: "forestcraft:ancient_iron_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+					AttributeModifiers: [
+						{
+							Amount: 2.0d
+							Name: "ResourceKey[minecraft:attribute / minecraft:generic.attack_knockback]"
+							Operation: 0
+							UUID: [I;
+								-1025663423
+								1165443169
+								-1655245686
+								1822661062
+							]
+							Slot: "mainhand"
+							AttributeName: "generic.attack_knockback"
+						}
+						{
+							Amount: -0.05d
+							Name: "ResourceKey[minecraft:attribute / minecraft:generic.movement_speed]"
+							Operation: 0
+							UUID: [I;
+								-1528730981
+								417089252
+								-2046371502
+								-1501581502
+							]
+							Slot: "mainhand"
+							AttributeName: "generic.movement_speed"
+						}
+						{
+							Amount: 1.0d
+							Name: "ResourceKey[minecraft:attribute / apotheosis:piercing_damage]"
+							Operation: 0
+							UUID: [I;
+								-184321391
+								-1151449363
+								-1798638827
+								-204729936
+							]
+							Slot: "mainhand"
+							AttributeName: "apotheosis:piercing_damage"
+						}
+						{
+							Amount: 1.0d
+							Name: "ResourceKey[minecraft:attribute / minecraft:generic.armor]"
+							Operation: 0
+							UUID: [I;
+								-754165478
+								770786716
+								-1631726692
+								-1108742943
+							]
+							Slot: "mainhand"
+							AttributeName: "generic.armor"
+						}
+						{
+							Amount: -3.0d
+							Name: "ResourceKey[minecraft:attribute / minecraft:generic.attack_speed]"
+							Operation: 0
+							UUID: [I;
+								980537004
+								-851361469
+								-1192267817
+								1039661816
+							]
+							Slot: "mainhand"
+							AttributeName: "generic.attack_speed"
+						}
+						{
+							Amount: 7.0d
+							Name: "ResourceKey[minecraft:attribute / minecraft:generic.attack_damage]"
+							Operation: 0
+							UUID: [I;
+								-246968889
+								1328038889
+								-1881612204
+								-301040916
+							]
+							Slot: "mainhand"
+							AttributeName: "generic.attack_damage"
+						}
+					]
+					Enchantments: [
+						{
+							lvl: 1
+							id: "forbidden_arcanus:indestructible"
+						}
+						{
+							lvl: 3s
+							id: "minecraft:sweeping"
+						}
+					]
+					display: {
+						Name: "{\"text\":\"§eBrohc's Greatsword\"}"
+					}
+				}
+			}
+		}
+		{ item: "infinite_dungeons:skeletal_key", count: 2 }
+		{ item: "waystones:waystone", weight: 2 }
+		{ item: "minecraft:iron_ingot", count: 8, weight: 3 }
+		{ item: "minecraft:iron_ingot", count: 16, weight: 2 }
+		{ item: "druidcraft:fiery_torch", count: 48 }
+		{ item: "minecraft:oak_log", count: 32, weight: 2 }
+		{ item: "buzzier_bees:honey_bread", count: 32 }
+		{ item: "aquamirae:poseidons_breakfast", weight: 2 }
+	]
+	loot_size: 1
+	order_index: 1
+	id: "6A529AE3C5542E75"
+	icon: {
+		id: "minecraft:gold_block"
+		Count: 64b
+		tag: {
+			Enchantments: [{
+				lvl: 3
+				id: "apotheosis:crescendo"
+			}]
+		}
+	}
+	title: "Medium Tier"
+}

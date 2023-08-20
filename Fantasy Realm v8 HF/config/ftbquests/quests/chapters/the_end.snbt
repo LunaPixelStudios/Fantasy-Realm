@@ -1,0 +1,740 @@
+{
+	default_hide_dependency_lines: false
+	group: "47EF6B1E1AEB6949"
+	id: "2BB71B2D3A05A053"
+	filename: "the_end"
+	default_quest_shape: ""
+	icon: "minecraft:end_stone"
+	title: " The End"
+	order_index: 2
+	quests: [
+		{
+			tasks: [{
+				id: "14BDC1C810474D13"
+				type: "item"
+				item: {
+					id: "endrem:witch_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "4CDDBF47260A90FB"
+			x: -2.0d
+			y: -5.0d
+			title: "Obtain the Witch Eye"
+			rewards: [{
+				id: "4C06CBAFAC03D0F1"
+				type: "random"
+				table_id: 7661356219169517173L
+			}]
+			subtitle: "Craftable"
+		}
+		{
+			tasks: [{
+				id: "3F212533D062E350"
+				type: "item"
+				item: {
+					id: "endrem:end_crystal_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "5F804F6F536F697F"
+			x: -2.0d
+			y: -4.0d
+			title: "Obtain the End Crystal Eye"
+			rewards: [
+				{
+					id: "5723041E98F6A50F"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 16
+				}
+				{
+					id: "240DF7F8E3718543"
+					type: "random"
+					table_id: 7661356219169517173L
+				}
+			]
+			subtitle: "Craftable with End Crystal Fragments, an ore found in Nether Bastions."
+		}
+		{
+			tasks: [{
+				id: "023E9945AB0DFC8D"
+				type: "item"
+				item: {
+					id: "endrem:lost_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "776A70EB046AF156"
+			x: -2.0d
+			y: -1.0d
+			title: "Obtain the Lost Eye"
+			rewards: [
+				{
+					id: "7242E4DACF5FC215"
+					type: "item"
+					item: "druidcraft:fiery_torch"
+					count: 64
+				}
+				{
+					id: "467615CCE38EF2BB"
+					type: "choice"
+					table_id: 2198154992902025748L
+				}
+			]
+			subtitle: "Found in Mineshafts"
+		}
+		{
+			tasks: [{
+				id: "641B0530AC06B707"
+				type: "item"
+				item: {
+					id: "endrem:black_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "4D14F335B0861604"
+			x: -2.0d
+			y: 2.0d
+			title: "Obtain the Black Eye"
+			rewards: [{
+				id: "4B88EAEC6768F50D"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Found in Buried Treasure chests"
+		}
+		{
+			tasks: [{
+				id: "03E791C4DD868EA1"
+				type: "item"
+				item: {
+					id: "endrem:corrupted_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "699DE7CF5BFCB0E6"
+			x: -2.0d
+			y: 3.0d
+			title: "Obtain the Corrupted Eye"
+			rewards: [
+				{
+					id: "7505AF4762548E5A"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+				{
+					id: "66B352A5442CE98D"
+					type: "random"
+					table_id: 9173031481625304501L
+				}
+			]
+			subtitle: "Found in Pillager Outposts"
+		}
+		{
+			tasks: [{
+				id: "189789FAACB52179"
+				type: "item"
+				item: {
+					id: "endrem:cold_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "3CBFA86FE37B5A3D"
+			x: -2.0d
+			y: -2.0d
+			title: "Obtain the Cold Eye"
+			rewards: [
+				{
+					id: "141C90BFBA280304"
+					type: "choice"
+					table_id: 9173031481625304501L
+				}
+				{
+					id: "3318B68E3278982C"
+					type: "choice"
+					table_id: 9173031481625304501L
+				}
+			]
+			subtitle: "Found in Igloos"
+		}
+		{
+			tasks: [{
+				id: "07138394313FED24"
+				type: "item"
+				item: {
+					id: "endrem:nether_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "4A0184E39A3D7A79"
+			x: -2.0d
+			y: -3.0d
+			title: "Obtain the Nether Eye"
+			rewards: [{
+				id: "0D77AF3DEF3C00AC"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "goblintraders:extended_fire_resistance"
+					}
+				}
+			}]
+			subtitle: "Found in Nether Fortresses"
+		}
+		{
+			tasks: [{
+				id: "2DED3B98D6B685B1"
+				type: "item"
+				item: {
+					id: "endrem:rogue_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "090CE90AEEEA06E4"
+			x: -2.0d
+			y: 0.0d
+			title: "Obtain the Rogue Eye"
+			rewards: [{
+				id: "4A4CE0B5558C0288"
+				type: "choice"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "Found in Jungle Pyramids"
+		}
+		{
+			tasks: [{
+				id: "17470A2B36302B86"
+				type: "item"
+				item: {
+					id: "endrem:old_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "10400E64866EE3B3"
+			x: -2.0d
+			y: 1.0d
+			title: "Obtain the Old Eye"
+			rewards: [{
+				id: "4A697E09FF0D692D"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Found in Desert Pyramids"
+		}
+		{
+			tasks: [{
+				id: "683B470802B762F9"
+				type: "item"
+				item: {
+					id: "endrem:guardian_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "309E772F7DC294AC"
+			x: -2.0d
+			y: 4.0d
+			title: "Obtain the Guardian Eye"
+			rewards: [
+				{
+					id: "365A4D3B11B3A096"
+					type: "item"
+					item: "minecraft:sponge"
+					count: 4
+				}
+				{
+					id: "41AFFB0DCB04EA94"
+					type: "random"
+					table_id: 2198154992902025748L
+				}
+			]
+			subtitle: "Dropped by the Elder Guardian"
+		}
+		{
+			tasks: [{
+				id: "7EE61523C37E1652"
+				type: "item"
+				item: {
+					id: "endrem:wither_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			subtitle: "Dropped by The Wither"
+			id: "5ED78D3225DB6663"
+			y: 6.0d
+			x: -2.0d
+			title: "Obtain the Wither Eye"
+		}
+		{
+			tasks: [{
+				id: "0D6B794D4B8525B4"
+				type: "item"
+				item: {
+					id: "endrem:magical_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "3811E1E4138320DC"
+			x: -2.0d
+			y: 5.0d
+			title: "Obtain the Magical Eye"
+			rewards: [
+				{
+					id: "73662E0ADAB8E6F1"
+					type: "random"
+					table_id: 4007471736924304871L
+				}
+				{
+					id: "2C4179768967DBC2"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+			]
+			subtitle: "Dropped by Evokers (found during village raids and inside Woodland Mansions)"
+		}
+		{
+			tasks: [{
+				id: "117169B67AD06D8D"
+				type: "dimension"
+				title: "Enter The End"
+				dimension: "minecraft:the_end"
+			}]
+			id: "7F41D75D67DA0940"
+			x: 2.0d
+			y: 0.5d
+			rewards: [
+				{
+					id: "1761825ADDF06F35"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+				{
+					id: "72BBE4646CADBE1F"
+					type: "choice"
+					table_id: 7661356219169517173L
+				}
+				{
+					id: "6F0CFAF5CC436101"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+			]
+			subtitle: "Requires all twelve eyes in the end portal frames."
+			dependencies: [
+				"4D14F335B0861604"
+				"3CBFA86FE37B5A3D"
+				"699DE7CF5BFCB0E6"
+				"5F804F6F536F697F"
+				"309E772F7DC294AC"
+				"776A70EB046AF156"
+				"3811E1E4138320DC"
+				"4A0184E39A3D7A79"
+				"10400E64866EE3B3"
+				"090CE90AEEEA06E4"
+				"5ED78D3225DB6663"
+				"4CDDBF47260A90FB"
+			]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "68D81B344D4A02F0"
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				title: "Defeat the Ender Golem"
+			}]
+			x: 3.0d
+			id: "3AB097DD4D4F1074"
+			disable_toast: true
+			y: -3.5d
+			title: "Defeat the Ender Golem"
+			subtitle: "Spawns in the Ruined Citadel."
+			dependencies: ["596B416B113E0576"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "581C16CA43756A1A"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "minecraft:textures/entity_icon/enderdragon/dragon.png"
+					}
+				}
+				entity: "minecraft:ender_dragon"
+			}]
+			x: 2.0d
+			id: "596B416B113E0576"
+			disable_toast: true
+			y: -2.5d
+			title: "Defeat the Ender Dragon"
+			rewards: [
+				{
+					id: "625A695966E44301"
+					type: "item"
+					item: "alexsmobs:capsid"
+				}
+				{
+					id: "77C1F7BE21804D4C"
+					type: "item"
+					item: "alexsmobs:mosquito_larva"
+				}
+			]
+			subtitle: "Found on the main End island."
+			dependencies: ["7F41D75D67DA0940"]
+		}
+		{
+			tasks: [{
+				id: "2E5D93DB86202F77"
+				type: "item"
+				item: "betterendforge:infusion_pedestal"
+			}]
+			id: "11289BA21BCA2153"
+			x: 4.5d
+			y: 3.5d
+			title: "Craft an Infusion Pedestal"
+			rewards: [{
+				id: "1DF7F82277FE35A4"
+				type: "item"
+				item: "betterendforge:crystal_shards"
+				count: 4
+			}]
+			subtitle: "Eight pedestals (not Infusion) in a specific order around the Infusion Pedestal are required to do Infusion crafting. This order can be found by typing \"Infusion Pedestal\" into the searchbar in your inventory and right clicking the pedestal that appears to the right."
+		}
+		{
+			tasks: [
+				{
+					id: "42BC4C3D83A642C6"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "54F872BFE4AA00ED"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "402270DFA7BA693A"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "516D47186DD80CA0"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "3EBD9819458D2D9B"
+			x: 3.5d
+			y: 2.0d
+			title: "Craft a set of Crystalite armor"
+			rewards: [
+				{
+					id: "08BDAE5467005912"
+					type: "choice"
+					table_id: 823528550893493875L
+				}
+				{
+					id: "3D39A0E4692F1BDA"
+					type: "random"
+					table_id: 823528550893493875L
+				}
+			]
+			subtitle: "Slightly worse than Netherite."
+			dependencies: [
+				"7DAB2CBE480A41C5"
+				"39AFFB12A993C369"
+				"5C77D4C3F5D4E757"
+				"11289BA21BCA2153"
+			]
+		}
+		{
+			tasks: [{
+				id: "3296E2DD74B15871"
+				type: "item"
+				item: "betterendforge:crystal_shards"
+			}]
+			id: "5C77D4C3F5D4E757"
+			x: 2.5d
+			y: 3.5d
+			title: "Obtain Crystal Shards"
+			rewards: [{
+				id: "76B1C05D5738BE80"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Obtained by mining Aurora Blocks, which can be found in large pillars in any End biome. They are very common in the Crystal Mountains biome."
+		}
+		{
+			tasks: [{
+				id: "575D4558F28B7B50"
+				type: "item"
+				item: "betterendforge:amber_gem"
+			}]
+			id: "39AFFB12A993C369"
+			x: 3.5d
+			y: 3.5d
+			title: "Craft an Amber Gem"
+			rewards: [{
+				id: "754C678EA5D4B7BC"
+				type: "random"
+				table_id: 9173031481625304501L
+			}]
+			subtitle: "Raw Amber is dropped by mining Amber Ore in the Amberland End biome. Typically found underground, or at the bottom of end islands."
+		}
+		{
+			tasks: [
+				{
+					id: "637986E9A2CFB4D6"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "33F0921957193147"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "721F66549155F5C9"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4A45479604343CDA"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "7DAB2CBE480A41C5"
+			x: 3.5d
+			y: 0.5d
+			title: "Craft a set of Terminite armor"
+			rewards: [{
+				id: "54F79FD17F5DB87D"
+				type: "random"
+				table_id: 823528550893493875L
+			}]
+			subtitle: "Terminite is created by putting Thallasium and End Dust in an End Stone Smelter with Charcoal Blocks as fuel."
+			dependencies: [
+				"47BE94E97EC32DC3"
+				"44B321EEC67074B1"
+			]
+		}
+		{
+			tasks: [{
+				id: "05DE2E2FF7091A87"
+				type: "item"
+				item: "betterendforge:end_stone_smelter"
+			}]
+			id: "47BE94E97EC32DC3"
+			x: 5.0d
+			y: 0.5d
+			title: "Craft an End Stone Smelter"
+			rewards: [{
+				id: "2797B7351A3923D7"
+				type: "item"
+				item: "betterendforge:charcoal_block"
+				count: 3
+			}]
+			subtitle: "Can smelt multiple things at once and turn 2 of some ores into 3. "
+			dependencies: ["71AA38EB4D40FD67"]
+		}
+		{
+			tasks: [{
+				id: "5DA3CC1EA394EE93"
+				type: "item"
+				item: "betterendforge:thallasium_ore"
+			}]
+			id: "71AA38EB4D40FD67"
+			x: 6.5d
+			y: 0.5d
+			rewards: [{
+				id: "734F86FBE23DFE6D"
+				type: "random"
+				table_id: 2198154992902025748L
+			}]
+			subtitle: "An ore found only in The End."
+			dependencies: ["596B416B113E0576"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "04B0E557D8961710"
+				type: "item"
+				item: "betterendforge:ender_dust"
+			}]
+			id: "44B321EEC67074B1"
+			x: 3.5d
+			y: -1.0d
+			title: "Craft Ender Dust"
+			rewards: [{
+				id: "21F1AEEF70EB3450"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+			subtitle: "Created by putting a Smith Hammer and an Ender Pearl in an anvil."
+			dependencies: ["596B416B113E0576"]
+		}
+		{
+			tasks: [{
+				id: "480B8A5936E72757"
+				type: "item"
+				item: "betterendforge:eternal_crystal"
+			}]
+			id: "282292545EBEF0E3"
+			x: 3.5d
+			y: 5.0d
+			title: "Craft Eternal Crystals"
+			rewards: [{
+				id: "40C96CFE741BCDB1"
+				type: "item"
+				item: "betterendforge:crystal_shards"
+				count: 3
+			}]
+			subtitle: "Created in an Infusion Table. Ender Shards are obtained by mining Ender Ore."
+			dependencies: [
+				"5C77D4C3F5D4E757"
+				"11289BA21BCA2153"
+			]
+		}
+		{
+			tasks: [{
+				id: "17273DA398FDD0FD"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+			x: 3.5d
+			id: "7BCE68D5DBFE1B1D"
+			disable_toast: true
+			y: -2.5d
+			title: "Defeat the Ender Guardian"
+			subtitle: "Found at the bottom of the Ruined Citadel."
+			dependencies: ["596B416B113E0576"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "13B0B8ABB8C746F6"
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_eye"
+				title: "Defeat the Void Worm"
+			}]
+			id: "36E9FDF55975F42B"
+			x: 2.0d
+			y: -4.0d
+			title: "Defeat the Void Worm"
+			rewards: [
+				{
+					id: "5F1086C0ACD9A047"
+					type: "item"
+					item: "theabyss:unstable_obsidian"
+					count: 12
+				}
+				{
+					id: "0512B2547308F2E9"
+					type: "item"
+					item: {
+						id: "theabyss:the_abyss"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			subtitle: "Summoned by dropping a Mysterious Worm into the void. The Mysterious Worm is obtained by putting a Crimson Mosquito Larva into a Capsid."
+			dependencies: ["596B416B113E0576"]
+		}
+	]
+}
