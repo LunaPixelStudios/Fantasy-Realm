@@ -1,0 +1,18 @@
+type = hud
+
+customization-meta {
+  renderorder = foreground
+}
+
+customization {
+  visible = false
+  x = 6
+  action = editbosshealth
+  y = 66
+}
+
+customization {
+  action = editselecteditemname
+  y = -61
+}
+

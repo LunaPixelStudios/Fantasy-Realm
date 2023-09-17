@@ -1,0 +1,5 @@
+
+[logbegone]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Empty height range: triangle (-12 absolute--58 absolute)"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "Empty height range: triangle (-12 absolute--58 absolute)"]
+
