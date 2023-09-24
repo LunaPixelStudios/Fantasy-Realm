@@ -1,12 +1,9 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screen.IngameMenuScreen {
-}
-
 com.swdteam.panorama.ui.GuiPanoramaSelector {
 }
 
-net.minecraft.client.gui.screen.MainMenuScreen {
+net.minecraft.client.gui.screens.TitleScreen {
 }
 
 com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen {
@@ -16,5 +13,14 @@ net.minecraft.client.gui.screen.ShareToLanScreen {
 }
 
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.ShareToLanScreen {
 }
 
